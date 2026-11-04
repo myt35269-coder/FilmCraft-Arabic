@@ -1,0 +1,84 @@
+# Arabic (ar) catalog for FilmCraft.
+# Columns are TAB-separated: context<TAB>English source<TAB>Arabic translation.
+# This is an original translation draft; untranslated strings fall back to English.
+# Keep {name}-style placeholders unchanged. Preserve trailing ellipses and punctuation.
+
+	About	حول البرنامج
+	Add	إضافة
+	Add Tracks	إضافة مسارات
+	Audio	الصوت
+	Audio Gain	كسب الصوت
+	Audio Tracks	مسارات الصوت
+	Audio Waveform	الموجة الصوتية
+	Auto Save…	حفظ تلقائي…
+	Cancel	إلغاء
+	Captions	الترجمة النصية
+	Close	إغلاق
+	Close Project	إغلاق المشروع
+	Color	اللون
+	Copy	نسخ
+	Cut	قص
+	Delete	حذف
+	Delete Tracks…	حذف المسارات…
+	Done	تم
+	Edit	تحرير
+	Effects	المؤثرات
+	Export	تصدير
+	Export…	تصدير…
+	File	ملف
+	Find…	بحث…
+	Help	مساعدة
+	Import	استيراد
+	Import…	استيراد…
+	Language	اللغة
+	Left	يسار
+	Media	الوسائط
+	New	جديد
+	New Project	مشروع جديد
+	OK	موافق
+	Open	فتح
+	Open Project…	فتح مشروع…
+	Paste	لصق
+	Pause	إيقاف مؤقت
+	Play	تشغيل
+	Preferences	التفضيلات
+	Preview	معاينة
+	Project	المشروع
+	Project Settings	إعدادات المشروع
+	Redo	إعادة
+	Remove	إزالة
+	Rename…	إعادة تسمية…
+	Right	يمين
+	Save	حفظ
+	Save All	حفظ الكل
+	Save As…	حفظ باسم…
+	Search	بحث
+	Sequence	التسلسل
+	Sequence Settings…	إعدادات التسلسل…
+	Settings	الإعدادات
+	Timeline	الخط الزمني
+	Tools	الأدوات
+	Undo	تراجع
+	View	عرض
+	Video	الفيديو
+	Video Tracks	مسارات الفيديو
+	Window	نافذة
+	Zoom In	تكبير
+	Zoom Out	تصغير
+	{name} - Edited	{name} - تم التعديل
+	Full screen	ملء الشاشة
+	Volume	مستوى الصوت
+	Master volume: use the Audio Track Mixer	مستوى الصوت الرئيسي: استخدم خلاط المسارات الصوتية
+	Quick Export	تصدير سريع
+	No events.	لا توجد أحداث.
+	Warnings and Errors	تحذيرات وأخطاء
+	Errors Only	الأخطاء فقط
+	Clear All	مسح الكل
+	Show finished jobs	إظهار المهام المكتملة
+	Failed: {e}	فشل: {e}
+	No background jobs.	لا توجد مهام في الخلفية.
+	Untitled	بلا عنوان
+	Recover	استعادة
+	Discard	تجاهل
+	Not Now	ليس الآن
+	Replace File	استبدال الملف
