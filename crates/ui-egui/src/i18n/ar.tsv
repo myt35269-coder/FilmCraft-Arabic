@@ -82,3 +82,185 @@
 	Discard	تجاهل
 	Not Now	ليس الآن
 	Replace File	استبدال الملف
+	About FilmCraft	حول FilmCraft
+	Add Audio Submix Track	إضافة مسار مزج فرعي للصوت
+	Add Caption at Playhead	إضافة ترجمة نصية عند مؤشر التشغيل
+	Add Chapter Marker…	إضافة علامة فصل…
+	Add Edit	إضافة نقطة قص
+	Add Edit to All Tracks	إضافة نقطة قص إلى جميع المسارات
+	Add Flash Cue Marker…	إضافة علامة إشارة فلاش…
+	Add Frame Hold	تثبيت الإطار
+	Add Guide…	إضافة دليل…
+	Add Marker	إضافة علامة
+	Add New Caption Track…	إضافة مسار ترجمة نصية جديد…
+	Add Range Marker	إضافة علامة نطاق
+	Add Range Marker to In and Out	إضافة علامة نطاق من نقطة الدخول إلى نقطة الخروج
+	Adjustment Layer…	طبقة ضبط…
+	Align to Selection	محاذاة مع التحديد
+	Align to Video Frame	محاذاة مع إطار الفيديو
+	Align to Video Frame as Group	محاذاة مع إطار الفيديو كمجموعة
+	All Panels	جميع اللوحات
+	Alpha	ألفا
+	Appearance	المظهر
+	Appearance…	المظهر…
+	Apply Audio Transition	تطبيق انتقال صوتي
+	Apply Default Transitions to Selection	تطبيق الانتقالات الافتراضية على التحديد
+	Apply Video Transition	تطبيق انتقال فيديو
+	Arrange	ترتيب
+	ArtCraft Website	موقع ArtCraft
+	Assembly	التجميع
+	Attach Proxies…	إرفاق ملفات البروكسي…
+	Audio Channels…	قنوات الصوت…
+	Audio Clip Mixer	خلاط مقاطع الصوت
+	Audio Gain…	كسب الصوت…
+	Audio Hardware…	أجهزة الصوت…
+	Audio In	إدخال الصوت
+	Audio Meters	مقاييس الصوت
+	Audio Options	خيارات الصوت
+	Audio Out	إخراج الصوت
+	Audio Track Mixer	خلاط المسارات الصوتية
+	Automate to Sequence…	أتمتة إلى التسلسل…
+	Bars and Tone…	أشرطة ونغمة…
+	Bin	حاوية الوسائط
+	Bin From Selection	إنشاء حاوية من التحديد
+	Black Video…	فيديو أسود…
+	Blue	أزرق
+	Bottom	أسفل
+	Breakout to Mono	فصل إلى قنوات أحادية
+	Bring Forward	إحضار إلى الأمام
+	Bring to Front	إحضار إلى المقدمة
+	Brown	بني
+	Captions and Graphics	الترجمات النصية والرسومات
+	Captions…	الترجمات النصية…
+	Caribbean	كاريبي
+	Center at Cut	توسيط عند نقطة القص
+	Start at Cut	البدء عند نقطة القص
+	End at Cut	الانتهاء عند نقطة القص
+	Custom Start	بداية مخصصة
+	Center Horizontally	توسيط أفقي
+	Center Vertically	توسيط عمودي
+	Cerulean	أزرق سماوي
+	Clear	مسح
+	Clear Guides	مسح الأدلة
+	Clear In	مسح نقطة الدخول
+	Clear In and Out	مسح نقطتي الدخول والخروج
+	Clear Markers	مسح العلامات
+	Clear Out	مسح نقطة الخروج
+	Clear Selected Marker	مسح العلامة المحددة
+	Close All Other Projects	إغلاق جميع المشاريع الأخرى
+	Close All Projects	إغلاق جميع المشاريع
+	Close Gap	إغلاق الفجوة
+	Color Management…	إدارة الألوان…
+	Color Matte…	خلفية لونية…
+	Comparison View	عرض المقارنة
+	Composite Video	فيديو مركّب
+	Consolidate Duplicates	دمج العناصر المكررة
+	Copy Paste Includes Sequence Markers	يتضمن النسخ واللصق علامات التسلسل
+	Create Captions from Transcript…	إنشاء ترجمات نصية من التفريغ…
+	Create Multi-Camera Source Sequence…	إنشاء تسلسل مصدر متعدد الكاميرات…
+	Create Proxies…	إنشاء ملفات بروكسي…
+	Darkest	الأغمق
+	Delete Render Files	حذف ملفات المعالجة
+	Delete Render Files In to Out	حذف ملفات المعالجة من نقطة الدخول إلى نقطة الخروج
+	Delete Transcript	حذف التفريغ النصي
+	Demo Footage	لقطات تجريبية
+	Demo Project	مشروع تجريبي
+	Deselect All	إلغاء تحديد الكل
+	Detach Proxies	فصل ملفات البروكسي
+	Display Mode	وضع العرض
+	Distribute	توزيع
+	Distribute Horizontally	توزيع أفقي
+	Distribute Space Horizontally	توزيع المسافات أفقيًا
+	Distribute Space Vertically	توزيع المسافات عموديًا
+	Distribute Vertically	توزيع عمودي
+	Duplicate	تكرار
+	Dynamic Audio Waveforms	موجات صوتية ديناميكية
+	Edit Offline…	تحرير دون اتصال…
+	Edit Original	تحرير الأصل
+	Edit Subclip…	تحرير المقطع الفرعي…
+	Editing	التحرير
+	Effect Controls	عناصر التحكم في التأثيرات
+	Ellipse	قطع ناقص
+	Enable	تفعيل
+	Enable Remix	تفعيل إعادة المزج
+	Essential Graphics	الرسومات الأساسية
+	Essential Sound	الصوت الأساسي
+	Events	الأحداث
+	Export As Motion Graphics Template…	تصدير كقالب رسومات متحركة…
+	Extract	استخراج
+	Extract Audio	استخراج الصوت
+	Field Options…	خيارات الحقل…
+	File…	ملف…
+	Fill frame	ملء الإطار
+	FilmCraft Help…	مساعدة FilmCraft…
+	FilmCraft on GitHub	FilmCraft على GitHub
+	FilmCraft on getartcraft.com	FilmCraft على getartcraft.com
+	Find Next	بحث عن التالي
+	Fit	ملاءمة
+	Fit to frame	ملاءمة مع الإطار
+	Flatten	تسطيح
+	Forest	أخضر غابي
+	Frame Blending	مزج الإطارات
+	Frame Hold Options…	خيارات تثبيت الإطار…
+	Frame Sampling	أخذ عينات الإطارات
+	From Bin	من حاوية الوسائط
+	From Source Monitor	من شاشة المصدر
+	From Source Monitor, Match Frame	من شاشة المصدر، مطابقة الإطار
+	From file…	من ملف…
+	Full	كامل
+	Generate Audio Waveform	إنشاء الموجة الصوتية
+	Get Media File Properties for	الحصول على خصائص ملف الوسائط لـ
+	Go to Gap	الانتقال إلى الفجوة
+	Go to In	الانتقال إلى نقطة الدخول
+	Go to Next Caption Segment	الانتقال إلى مقطع الترجمة النصية التالي
+	Go to Next Marker	الانتقال إلى العلامة التالية
+	Go to Out	الانتقال إلى نقطة الخروج
+	Go to Previous Caption Segment	الانتقال إلى مقطع الترجمة النصية السابق
+	Go to Previous Marker	الانتقال إلى العلامة السابقة
+	Go to Split	الانتقال إلى موضع الفصل
+	Graphics and Titles	الرسومات والعناوين
+	Graphics…	الرسومات…
+	Green	أخضر
+	Group	تجميع
+	Guide Templates	قوالب الأدلة
+	Hide All Caption Tracks	إخفاء جميع مسارات الترجمة النصية
+	High Quality Playback	تشغيل بجودة عالية
+	History	السجل
+	Delete Redoable Actions	حذف الإجراءات القابلة لإعادة التنفيذ
+	Clear History	مسح السجل
+	Delete the dimmed actions after the current state? They cannot be redone.	هل تريد حذف الإجراءات الباهتة بعد الحالة الحالية؟ لن يمكن إعادة تنفيذها.
+	Import From	استيراد من
+	Import Image Sequence…	استيراد تسلسل صور…
+	Import from Media Browser	استيراد من متصفح الوسائط
+	Info	معلومات
+	Ingest Settings…	إعدادات إدخال الوسائط…
+	Insert	إدراج
+	Insert Frame Hold Segment	إدراج مقطع إطار ثابت
+	Install Motion Graphics Template…	تثبيت قالب رسومات متحركة…
+	Interpret Footage…	تفسير اللقطات…
+	Join the ArtCraft Discord…	انضم إلى Discord الخاص بـ ArtCraft…
+	Keyboard Shortcuts…	اختصارات لوحة المفاتيح…
+	Label	تسمية
+	Labels…	التسميات…
+	Lavender	لافندر
+	Learning	التعلّم
+	Libraries	المكتبات
+	Lift	رفع
+	Light	فاتح
+	Link	ربط
+	Link Media…	ربط الوسائط…
+	Refresh Changed Media	تحديث الوسائط التي تغيّرت
+	Linked Selection	تحديد مترابط
+	Lock Guides	قفل الأدلة
+	Lumetri Color	ألوان Lumetri
+	Lumetri Scopes	نطاقات Lumetri
+	Magnification	التكبير
+	Make Offline…	جعل الملف غير متصل…
+	Make Subclip…	إنشاء مقطع فرعي…
+	Make Subsequence	إنشاء تسلسل فرعي
+	Manage Guides…	إدارة الأدلة…
+	Mark Clip	تحديد المقطع
+	Mark In	تحديد نقطة الدخول
+	Mark Out	تحديد نقطة الخروج
+	Mark Selection	تحديد النطاق المختار
+	Mark Split	تحديد موضع الفصل
