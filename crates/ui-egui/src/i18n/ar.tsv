@@ -429,3 +429,103 @@
 	Video and Waveform	الفيديو والموجة الصوتية
 	Remove Media Cache Files	إزالة ملفات ذاكرة التخزين المؤقت للوسائط
 	Reset…	إعادة ضبط…
+	Markers	العلامات
+	Merge Clips…	دمج المقاطع…
+	Nest…	إنشاء تسلسل متداخل…
+	Paste Attributes…	لصق الخصائص…
+	Paste Insert	لصق مع إزاحة المقاطع
+	Replace With Clip	استبدال بالمقطع
+	Ripple Delete	حذف مع إغلاق الفجوة
+	Save a Copy…	حفظ نسخة…
+	Select Label Group	تحديد مجموعة التسميات
+	Selection Follows Playhead	يتبع التحديد مؤشر التشغيل
+	Trim Edit	تحرير نقطة القص
+	Trim…	قص…
+	Ungroup	إلغاء التجميع
+	Delete Tracks	حذف المسارات
+	All Empty Tracks	جميع المسارات الفارغة
+	Clip: {name}	المقطع: {name}
+	No markers. Press M to add one.	لا توجد علامات. اضغط M لإضافة علامة.
+	Playhead:	مؤشر التشغيل:
+	Anchor to In Point	تثبيت عند نقطة الدخول
+	Anchor to Out Point	تثبيت عند نقطة الخروج
+	{mode} · no clip	{mode} · لا يوجد مقطع
+	Clip Keyframes	الإطارات المفتاحية للمقطع
+	Apply to Selected Clips	تطبيق على المقاطع المحددة
+	Default clip size:	حجم المقطع الافتراضي:
+	Snap to grid	الالتقاط إلى الشبكة
+	Align left	محاذاة إلى اليسار
+	Align center	محاذاة إلى الوسط
+	Align right	محاذاة إلى اليمين
+	(gap)	(فجوة)
+	Trim Backward	قص للخلف
+	Trim Forward	قص للأمام
+	Exit Trim Mode	الخروج من وضع القص
+	Post-roll	الجزء اللاحق
+	Pre-roll:	الجزء السابق:
+	Post-roll:	الجزء اللاحق:
+	Clip Fx Editor	محرر مؤثرات المقطع
+	Link Channels	ربط القنوات
+	Soft Clip	قص ناعم
+	(no clips)	(لا توجد مقاطع)
+	Merge Clips	دمج المقاطع
+	Synchronize Clips	مزامنة المقاطع
+	Clip Name:	اسم المقطع:
+	Clip Names	أسماء المقاطع
+	In Point	نقطة الدخول
+	Out Point	نقطة الخروج
+	Playhead	مؤشر التشغيل
+	Convert to Master Clip	تحويل إلى مقطع رئيسي
+	Clip Channel Format:	تنسيق قنوات المقطع:
+	Clip Name	اسم المقطع
+	Clip ID (fingerprint)	معرّف المقطع (البصمة)
+	Multiple Clips Selected	تم تحديد عدة مقاطع
+	Delete Preset	حذف الإعداد المسبق
+	Save Preset	حفظ الإعداد المسبق
+	Search effects	البحث عن المؤثرات
+	Effect	مؤثر
+	Colour Space	مساحة الألوان
+	Opacity	العتامة
+	No effects	لا توجد مؤثرات
+	Preset:	الإعداد المسبق:
+	Preset name	اسم الإعداد المسبق
+	Reduce Noise	تقليل التشويش
+	Saturation	التشبع
+	Exposure	التعريض
+	Contrast	التباين
+	Sharpen	زيادة الحدة
+	Hue	درجة اللون
+	Hue Range	نطاق درجة اللون
+	Blur	تمويه
+	Hue Shift	إزاحة درجة اللون
+	Color Match	مطابقة الألوان
+	Delete Mask	حذف القناع
+	Reset Effect	إعادة ضبط المؤثر
+	Add/Remove Keyframe	إضافة/إزالة إطار مفتاحي
+	Remove Effect	إزالة المؤثر
+	Blend	مزج
+	Blend Mode	وضع المزج
+	Blur Amount	مقدار التمويه
+	Brightness & Contrast	السطوع والتباين
+	Audio Effects	مؤثرات صوتية
+	Closed Captions	التعليقات النصية المغلقة
+	Constant Gain	كسب ثابت
+	Fade	تلاشي
+	Fade Out	تلاشي تدريجي للخارج
+	Enhance Speech	تحسين الكلام
+	Master Gain	الكسب الرئيسي
+	Gain	الكسب
+	Output Gain	كسب الإخراج
+	Audio Codec	ترميز الصوت
+	Audio Duration	مدة الصوت
+	Audio Hardware	أجهزة الصوت
+	Audio In Point	نقطة دخول الصوت
+	Audio Info	معلومات الصوت
+	Audio Out Point	نقطة خروج الصوت
+	Audio Samples	عينات صوتية
+	Audio Transitions	انتقالات صوتية
+	Audio Usage	استخدام الصوت
+	Automatically transcribe clips	تفريغ المقاطع إلى نص تلقائيًا
+	Balanced Voice	صوت متوازن
+	Channel	قناة
+	Include captions on import	تضمين الترجمة النصية عند الاستيراد
