@@ -29,7 +29,16 @@ p = "crates/ui-egui/src/i18n.rs"
 sub(p, "    Tr,\n}\n\nstatic JAPANESE", "    Tr,\n    /// Arabic interface, persisted as ar.\n    Ar,\n}\n\nstatic ARABIC: OnceLock<Catalog> = OnceLock::new();\nstatic JAPANESE")
 sub(p, "pub const ALL: [Self; 17] = [", "pub const ALL: [Self; 18] = [")
 sub(p, "        Self::Bs,\n    ];\n\n    /// BCP 47", "        Self::Bs,\n        Self::Ar,\n    ];\n\n    /// BCP 47")
-sub(p, '            Self::Tr => "tr",\n        }\n    }\n\n    pub fn name', '            Self::Tr => "tr",\n            Self::Ar => "ar",\n        }\n    }\n\n    pub fn name')
+sub(p, """            Self::Tr => "tr",
+        }
+    }
+
+    /// The language's catalog""", """            Self::Tr => "tr",
+            Self::Ar => "ar",
+        }
+    }
+
+    /// The language's catalog""")
 sub(p, '            Self::Tr => "Türkçe",\n        }\n    }\n\n    pub fn parse', '            Self::Tr => "Türkçe",\n            Self::Ar => "العربية",\n        }\n    }\n\n    pub fn parse')
 sub(p, '            "tr" => Some(Self::Tr),\n            _ => None,', '            "tr" => Some(Self::Tr),\n            "ar" => Some(Self::Ar),\n            _ => None,')
 sub(p, "const PRIMARY: [(&str, Language); 17] = [", "const PRIMARY: [(&str, Language); 18] = [")
