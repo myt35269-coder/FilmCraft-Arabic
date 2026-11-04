@@ -11,13 +11,19 @@ FILES = ["crates/ui-egui/src/i18n.rs", "crates/ui-egui/src/menus.rs",
 if any(not (ROOT / p).is_file() for p in FILES):
     raise SystemExit("Run from the FilmCraft v0.17.0 source checkout; required files are missing.")
 
+# Stage every edit in memory. No source file is written unless every anchor in every
+# target file has passed its exact-count check.
+STAGED = {}
+
 def sub(rel, old, new):
     p = ROOT / rel
-    s = p.read_text(encoding="utf-8")
+    s = STAGED.get(rel)
+    if s is None:
+        s = p.read_text(encoding="utf-8")
     n = s.count(old)
     if n != 1:
-        raise SystemExit(f"Refusing to patch {rel}: expected one exact anchor, found {n}.")
-    p.write_text(s.replace(old, new, 1), encoding="utf-8", newline="\n")
+        raise SystemExit(f"Preflight failed for {rel}: expected one exact anchor, found {n}. No files changed.")
+    STAGED[rel] = s.replace(old, new, 1)
 
 p = "crates/ui-egui/src/i18n.rs"
 sub(p, "    Tr,\n}\n\nstatic JAPANESE", "    Tr,\n    /// Arabic interface, persisted as ar.\n    Ar,\n}\n\nstatic ARABIC: OnceLock<Catalog> = OnceLock::new();\nstatic JAPANESE")
@@ -44,6 +50,10 @@ p = "crates/ui-egui/src/i18n/tests.rs"
 sub(p, '        Language::En => None,\n        Language::Ja => Some(include_str!("ja.tsv")),', '        Language::En => None,\n        Language::Ar => Some(include_str!("ar.tsv")),\n        Language::Ja => Some(include_str!("ja.tsv")),')
 sub(p, '        (Language::PtBr, "Português (Brasil)"),', '        (Language::Ar, "العربية"),\n        (Language::PtBr, "Português (Brasil)"),')
 sub(p, '    assert_eq!(Language::En.tr("File"), "File");', '    assert_eq!(Language::En.tr("File"), "File");\n    assert_eq!(Language::Ar.bcp47(), "ar");\n    assert_eq!(Language::from_locales(&["ar-LY".to_string()]), Language::Ar);')
+
+# Commit staged edits only after all substitutions have succeeded.
+for rel, content in STAGED.items():
+    (ROOT / rel).write_text(content, encoding="utf-8", newline="\n")
 
 print("Arabic integration patch applied. Run cargo fmt and focused i18n tests next.")
 print("No build or installation was performed.")
