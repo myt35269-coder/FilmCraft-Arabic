@@ -28,7 +28,8 @@ jobs:
       - name: Apply Arabic integration
         shell: pwsh
         run: |
-          Copy-Item crates/ui-egui/src/i18n/ar.tsv filmcraft/crates/ui-egui/src/i18n/ar.tsv
+          New-Item -ItemType Directory -Force -Path filmcraft/patches | Out-Null
+          Copy-Item crates/ui-egui/src/i18n/ar.tsv filmcraft/crates/ui-egui/src/i18n/ar.tsv -Force
           Copy-Item patches/apply-arabic-localization.py filmcraft/patches/apply-arabic-localization.py -Force
           python filmcraft/patches/apply-arabic-localization.py
       - name: Install Rust toolchain
@@ -40,7 +41,31 @@ jobs:
         run: cargo fmt --all -- --check
       - name: Arabic localization tests
         working-directory: filmcraft
-        run: cargo test -p filmcraft-ui-egui i18n -- --nocapture
+        run: cargo test --locked -p filmcraft-ui-egui --lib
       - name: Workspace compile check
         working-directory: filmcraft
-        run: cargo check --workspace
+        run: cargo check --locked --workspace
+      - name: Build Windows preview
+        working-directory: filmcraft
+        run: cargo build --locked --release -p filmcraft
+      - name: Package portable preview
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist/FilmCraft-Arabic | Out-Null
+          Copy-Item filmcraft/target/release/filmcraft.exe dist/FilmCraft-Arabic/FilmCraft-Arabic.exe
+          @'
+          FilmCraft Arabic Preview (Windows x64)
+
+          This is an isolated preview build of FilmCraft 0.17.0 with the Arabic interface catalog.
+          It does not replace or modify an existing FilmCraft installation.
+          Extract the ZIP and run FilmCraft-Arabic.exe.
+          This preview is not digitally signed and has not yet received full manual RTL/UI testing.
+          '@ | Set-Content -Encoding utf8 dist/FilmCraft-Arabic/README.txt
+          Compress-Archive -Path dist/FilmCraft-Arabic/* -DestinationPath dist/FilmCraft-Arabic-Windows-x64-preview.zip -Force
+      - name: Upload Windows preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FilmCraft-Arabic-Windows-x64-preview
+          path: dist/FilmCraft-Arabic-Windows-x64-preview.zip
+          if-no-files-found: error
+          retention-days: 14
