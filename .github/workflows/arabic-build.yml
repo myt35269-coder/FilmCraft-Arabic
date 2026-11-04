@@ -1,0 +1,46 @@
+name: Arabic localization build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [arabic-localization]
+    paths:
+      - 'crates/ui-egui/src/i18n/ar.tsv'
+      - 'patches/**'
+      - '.github/workflows/arabic-build.yml'
+      - 'PATCH-0.17.0.md'
+
+permissions:
+  contents: read
+
+jobs:
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout localization project
+        uses: actions/checkout@v4
+      - name: Checkout pinned FilmCraft source
+        uses: actions/checkout@v4
+        with:
+          repository: storytold/filmcraft
+          ref: eb59ec09daaea519c9c8fffa404a594ae50d00e0
+          path: filmcraft
+      - name: Apply Arabic integration
+        shell: pwsh
+        run: |
+          Copy-Item crates/ui-egui/src/i18n/ar.tsv filmcraft/crates/ui-egui/src/i18n/ar.tsv
+          Copy-Item patches/apply-arabic-localization.py filmcraft/patches/apply-arabic-localization.py -Force
+          python filmcraft/patches/apply-arabic-localization.py
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@1.95.0
+        with:
+          components: rustfmt
+      - name: Rust formatting
+        working-directory: filmcraft
+        run: cargo fmt --all -- --check
+      - name: Arabic localization tests
+        working-directory: filmcraft
+        run: cargo test -p filmcraft-ui-egui i18n -- --nocapture
+      - name: Workspace compile check
+        working-directory: filmcraft
+        run: cargo check --workspace
