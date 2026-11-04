@@ -4,13 +4,13 @@
 
 This repository is an Arabic localization work area, not a complete FilmCraft source checkout. It currently contains an original Arabic catalog draft and project documentation; it cannot produce a FilmCraft application binary by itself.
 
-The upstream project is [storytold/filmcraft](https://github.com/storytold/filmcraft). Before porting any code, identify the exact upstream tag or commit corresponding to the installed FilmCraft version **0.14.0**. Do not assume that the current upstream default branch matches that release.
+The upstream project is [storytold/filmcraft](https://github.com/storytold/filmcraft). The user has confirmed that FilmCraft was updated today to **0.17.0**. Use the official upstream release tag [v0.17.0](https://github.com/storytold/filmcraft/releases/tag/v0.17.0), pinned to commit `eb59ec09daaea519c9c8fffa404a594ae50d00e0`, as the initial source baseline. Re-check the installed app's About/version screen before building or installing anything; do not assume the release tag still matches a later update.
 
 ## Localization work
 
 The current draft catalog is `crates/ui-egui/src/i18n/ar.tsv`. It is an original translation draft; untranslated strings may continue to fall back to English.
 
-On the compatible upstream source revision, review and update these areas:
+On upstream tag `v0.17.0` (commit `eb59ec09daaea519c9c8fffa404a594ae50d00e0`), review and update these areas:
 
 - `crates/ui-egui/src/i18n.rs`: add `Language::Ar`; include it in `Language::ALL`; implement its `code()`, `bcp47()`, `name()`, `parse()`, `from_locales()`, and catalog selection. Use `ar` for the language code and BCP-47 tag, and `العربية` as the display name. Ensure locale variants such as `ar-LY`, `ar-EG`, and `ar-SA` resolve to Arabic.
 - Catalog loading: add the Arabic `OnceLock<Catalog>` and `include_str!("i18n/ar.tsv")` mapping in the same pattern as existing languages.
