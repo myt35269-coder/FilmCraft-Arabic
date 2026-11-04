@@ -41,6 +41,7 @@ sub(p, """            Self::Tr => "tr",
     /// The language's catalog""")
 sub(p, '            Self::Tr => "Türkçe",\n        }\n    }\n\n    pub fn parse', '            Self::Tr => "Türkçe",\n            Self::Ar => "العربية",\n        }\n    }\n\n    pub fn parse')
 sub(p, '            "tr" => Some(Self::Tr),\n            _ => None,', '            "tr" => Some(Self::Tr),\n            "ar" => Some(Self::Ar),\n            _ => None,')
+sub(p, '            Self::Tr => "tr",\n        }\n    }\n\n    /// The language\'s catalog', '            Self::Tr => "tr",\n            Self::Ar => "ar",\n        }\n    }\n\n    /// The language\'s catalog')
 sub(p, "const PRIMARY: [(&str, Language); 17] = [", "const PRIMARY: [(&str, Language); 18] = [")
 sub(p, '            ("tr", Language::Tr),\n        ];', '            ("tr", Language::Tr),\n            ("ar", Language::Ar),\n        ];')
 sub(p, '            Self::En => None,\n            Self::Ja => Some(JAPANESE', '            Self::En => None,\n            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(include_str!("i18n/ar.tsv")))),\n            Self::Ja => Some(JAPANESE')
