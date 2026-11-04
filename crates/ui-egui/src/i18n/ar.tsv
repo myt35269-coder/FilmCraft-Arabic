@@ -264,3 +264,168 @@
 	Mark Out	تحديد نقطة الخروج
 	Mark Selection	تحديد النطاق المختار
 	Mark Split	تحديد موضع الفصل
+	Media Analysis & Transcription…	تحليل الوسائط وتفريغ الكلام…
+	Media Browser	متصفح الوسائط
+	Media Cache…	ذاكرة التخزين المؤقت للوسائط…
+	Multi-Camera View	عرض متعدد الكاميرات
+	New Project Panel	لوحة مشروع جديدة
+	Normalize Mix Track…	توحيد مستوى مسار المزيج…
+	Paused Resolution	دقة العرض عند الإيقاف المؤقت
+	Playback Resolution	دقة التشغيل
+	Playback…	التشغيل…
+	Project Manager…	مدير المشاريع…
+	Project…	المشروع…
+	Reconnect Full Resolution Media…	إعادة ربط الوسائط كاملة الدقة…
+	Reference Monitor	شاشة المعاينة المرجعية
+	Render Audio	معالجة الصوت
+	Render Effects In to Out	معالجة المؤثرات من نقطة الدخول إلى نقطة الخروج
+	Render In to Out	معالجة النطاق من نقطة الدخول إلى نقطة الخروج
+	Render Selection	معالجة التحديد
+	Reset All Parameters	إعادة ضبط جميع المعلمات
+	Reset Duration	إعادة ضبط المدة
+	Reset to Saved Layout	استعادة التخطيط المحفوظ
+	Scale to Frame Size	ملاءمة لحجم الإطار
+	Sequence From Clip	إنشاء تسلسل من المقطع
+	Sequence…	التسلسل…
+	Show Active Caption Tracks Only	إظهار مسارات الترجمة النشطة فقط
+	Show All Caption Tracks	إظهار جميع مسارات الترجمة
+	Show All Marker Colors	إظهار جميع ألوان العلامات
+	Show Duplicate Frame Markers	إظهار علامات الإطارات المكررة
+	Show Guides	إظهار الأدلة
+	Show Rulers	إظهار المساطر
+	Show Through Edits	إظهار نقاط التحرير المتصلة
+	Simplify Sequence…	تبسيط التسلسل…
+	Snap in Program Monitor	الالتقاط في شاشة البرنامج
+	Snap in Timeline	الالتقاط في الخط الزمني
+	Source	المصدر
+	Source Settings…	إعدادات المصدر…
+	Timecode	الرمز الزمني
+	Timecode…	الرمز الزمني…
+	Timeline…	الخط الزمني…
+	Transcribe Sequence…	تفريغ صوت التسلسل إلى نص…
+	Transparent Video…	فيديو شفاف…
+	Zoom to Sequence	ملاءمة التسلسل في العرض
+	Media colour space (from file metadata): {detected}	مساحة ألوان الوسائط (من بيانات الملف): {detected}
+	Override media colour space:	تجاوز مساحة ألوان الوسائط:
+	Sequence Color Management	إدارة ألوان التسلسل
+	Auto tone map media (HDR and log into SDR)	ضبط درجات ألوان الوسائط تلقائيًا (من HDR وLog إلى SDR)
+	Track type	نوع المسار
+	Add video tracks	إضافة مسارات فيديو
+	Add audio tracks	إضافة مسارات صوت
+	Add audio submix tracks	إضافة مسارات مزج صوتي فرعية
+	Before First Track	قبل المسار الأول
+	Delete Video Tracks	حذف مسارات الفيديو
+	Delete Audio Tracks	حذف مسارات الصوت
+	Caption Tracks	مسارات الترجمة النصية
+	Delete Caption Tracks	حذف مسارات الترجمة النصية
+	Delete Caption Track	حذف مسار الترجمة النصية
+	Delete Empty Caption Tracks	حذف مسارات الترجمة النصية الفارغة
+	Show or hide {color} markers	إظهار علامات {color} أو إخفاؤها
+	Video:	الفيديو:
+	Audio:	الصوت:
+	Settings:	الإعدادات:
+	Video {n}:	الفيديو {n}:
+	Audio {n}:	الصوت {n}:
+	{panel} — coming in a later milestone	{panel} — ستتوفر في مرحلة لاحقة
+	Close Panel	إغلاق اللوحة
+	Close Other Timeline Panels	إغلاق لوحات الخط الزمني الأخرى
+	Maximize Frame	تكبير الإطار
+	Restore Frame	استعادة حجم الإطار
+	Restore Workspace	استعادة مساحة العمل
+	Reveal Sequence in Project	إظهار التسلسل في المشروع
+	Video Thumbnails	صور مصغرة للفيديو
+	Audio Waveforms	الموجات الصوتية
+	Export Preset…	إعداد تصدير مسبق…
+	Import Presets…	استيراد إعدادات مسبقة…
+	Effect presets	إعدادات المؤثرات المسبقة
+	{mode} · no sequence	{mode} · لا يوجد تسلسل
+	Add a timecode row	إضافة صف للرمز الزمني
+	Mute	كتم الصوت
+	Show Keyframes	إظهار الإطارات المفتاحية
+	Track Keyframes	الإطارات المفتاحية للمسار
+	Untitled Workspace	مساحة عمل بلا عنوان
+	New Workspace	مساحة عمل جديدة
+	Metadata Display	عرض البيانات الوصفية
+	Save As New View Preset	حفظ كإعداد عرض جديد
+	Manage Saved View Presets	إدارة إعدادات العرض المحفوظة
+	Freeform View Options	خيارات العرض الحر
+	Saves the view, columns, sort, thumbnail and font size.	يحفظ طريقة العرض والأعمدة والترتيب والصورة المصغرة وحجم الخط.
+	Show clip names	إظهار أسماء المقاطع
+	Show durations	إظهار المدد
+	Show:	إظهار:
+	Project Metadata	البيانات الوصفية للمشروع
+	Overwrite with Current View	استبدالها بطريقة العرض الحالية
+	Open a sequence to work with captions	افتح تسلسلًا للعمل على الترجمة النصية
+	Create a caption track or import a caption file.	أنشئ مسار ترجمة نصية أو استورد ملف ترجمة.
+	Create new caption track	إنشاء مسار ترجمة نصية جديد
+	Import captions file…	استيراد ملف ترجمة نصية…
+	New {format} track	مسار {format} جديد
+	Add caption at playhead	إضافة ترجمة نصية عند مؤشر التشغيل
+	Split caption at playhead	تقسيم الترجمة النصية عند مؤشر التشغيل
+	No captions on this track. Press + to add one at the playhead.	لا توجد ترجمات نصية في هذا المسار. اضغط + لإضافة ترجمة عند مؤشر التشغيل.
+	Open a sequence to see its transcript	افتح تسلسلًا لعرض التفريغ النصي
+	Transcribe sequence	تفريغ صوت التسلسل إلى نص
+	This build has no speech-to-text; import a transcript with transcript.set.	هذا الإصدار لا يدعم تحويل الكلام إلى نص؛ استورد نصًا مفرغًا باستخدام transcript.set.
+	Voice-over record (right-click: Voice-Over Record Settings…)	تسجيل التعليق الصوتي (انقر بزر الفأرة الأيمن لفتح إعدادات التسجيل…)
+	Voice-Over Record Settings…	إعدادات تسجيل التعليق الصوتي…
+	Voice-Over Record Settings	إعدادات تسجيل التعليق الصوتي
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	يبدأ التشغيل التمهيدي قبل مؤشر التشغيل (أو نقطة الدخول)؛ وعند تحديد نقطتي الدخول والخروج، يبدأ التسجيل ويتوقف عندهما.
+	Track Fx Editor	محرر مؤثرات المسار
+	Reset	إعادة ضبط
+	Solo	عزل المسار الصوتي
+	Show Transport Controls	إظهار عناصر التحكم في التشغيل
+	Loop	تكرار التشغيل
+	Multi-Camera Audio Follows Video	يتبع صوت الكاميرا المتعددة الكاميرا المعروضة
+	Show Multi-Camera Preview Monitor	إظهار شاشة معاينة الكاميرات المتعددة
+	Auto-Adjust Multi-Camera Playback Quality	ضبط جودة تشغيل الكاميرات المتعددة تلقائيًا
+	Transmit Multi-Camera View	إرسال عرض الكاميرات المتعددة
+	Multi-Camera Layout	تخطيط الكاميرات المتعددة
+	Clip Marker	علامة المقطع
+	Create Multi-Camera Source Sequence	إنشاء تسلسل مصدر متعدد الكاميرات
+	Sequence Name:	اسم التسلسل:
+	Offset Audio by:	إزاحة الصوت بمقدار:
+	Reference track:	المسار المرجعي:
+	Remove Audio from AV Clip	فصل الصوت عن مقطع الفيديو والصوت
+	Switch Audio	تبديل الصوت
+	Move source clips to Processed Clips bin	نقل المقاطع المصدر إلى مجلد المقاطع المعالجة
+	Nested Sequence Name	اسم التسلسل المتداخل
+	Modify Clip: Audio Channels	تعديل المقطع: قنوات الصوت
+	Modify Clip: Timecode	تعديل المقطع: الرمز الزمني
+	Frame Hold Options	خيارات تثبيت الإطار
+	Save Project	حفظ المشروع
+	Channel Volume	مستوى صوت القناة
+	Source Timecode	الرمز الزمني للمصدر
+	Sequence Time	زمن التسلسل
+	Video Attributes	خصائص الفيديو
+	Audio Attributes	خصائص الصوت
+	Frame Rate:	معدل الإطارات:
+	Media Start:	بداية الوسائط:
+	Number of Audio Clips:	عدد مقاطع الصوت:
+	Media Source Channels	قنوات مصدر الوسائط
+	Source channels the selected audio clips play:	قنوات المصدر التي تُشغّل منها المقاطع الصوتية المحددة:
+	Set Timecode:	تعيين الرمز الزمني:
+	Use the file's timecode	استخدام الرمز الزمني للملف
+	Timecode:	الرمز الزمني:
+	All media is online.	جميع الوسائط متصلة ومتاحة.
+	Link Media	ربط الوسائط
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	تعذّر العثور على ملفات الوسائط الخاصة بـ {n} مقطعًا. حدّد مواقعها أو ابحث في مجلد أو اتركها غير متصلة.
+	Media Start	بداية الوسائط
+	Frame Size / Rate	حجم الإطار / معدل الإطارات
+	Align Timecode	محاذاة الرمز الزمني
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	اجعل المقاطع المحددة وعددها {n} غير متصلة. ستظهر عليها شاشة الوسائط غير المتاحة حتى تعيد ربطها.
+	Media files remain on disk	ستبقى ملفات الوسائط على القرص
+	Media files are deleted	سيتم حذف ملفات الوسائط
+	Next to the original media, in a Proxies folder	بجوار الوسائط الأصلية، داخل مجلد Proxies
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	تُنشأ ملفات البروكسي في الخلفية وتُرفق عند اكتمالها. يستخدم التصدير دائمًا الوسائط كاملة الدقة.
+	Creating {n} proxy file(s)…	جارٍ إنشاء {n} من ملفات البروكسي…
+	Project Manager	مدير المشاريع
+	Resulting Project	المشروع الناتج
+	Timeline: (no sequences)	الخط الزمني: (لا توجد تسلسلات)
+	Select audio clips, then click a preset to apply it.	حدّد مقاطع الصوت، ثم انقر إعدادًا مسبقًا لتطبيقه.
+	Select audio clips to edit them here	حدّد مقاطع الصوت لتحريرها هنا
+	Assign an audio type to the selection:	تعيين نوع صوت للتحديد:
+	Clear Audio Type	مسح نوع الصوت
+	Clip Volume	مستوى صوت المقطع
+	Video and Waveform	الفيديو والموجة الصوتية
+	Remove Media Cache Files	إزالة ملفات ذاكرة التخزين المؤقت للوسائط
+	Reset…	إعادة ضبط…
