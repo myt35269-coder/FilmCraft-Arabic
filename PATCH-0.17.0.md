@@ -14,6 +14,8 @@ The source's language menu is in `crates/ui-egui/src/menus.rs`. The settings cho
 
 ## Source files to change
 
+The exact settings-choice source has been verified at `crates/engine/src/settings/schema.rs` (the `general.interfaceLanguage` `Kind::Choice` block). Do **not** add Arabic to `crates/engine/src/settings.rs` `LANGUAGES`: that list is for media/transcription content, not the interface. The existing settings test validates the accepted interface-language preference against the choices in this schema.
+
 ### 1. `crates/ui-egui/src/i18n.rs`
 
 - Add `Ar` to `Language` (serde's lowercase representation is `ar`).
@@ -30,9 +32,9 @@ The source's language menu is in `crates/ui-egui/src/menus.rs`. The settings cho
 
 Add `app.language.arabic` with the self-name `العربية` to the language menu. Add the ID to the language-command whitelist, map it to `Language::Ar`, and add its checked-state arm. Keep the menu ordering consistent with the settings choice list; the existing test compares both lists.
 
-### 3. Engine settings choices
+### 3. Engine settings choices — `crates/engine/src/settings/schema.rs`
 
-Trace the actual `general.interfaceLanguage` field in the 0.17.0 engine settings source. Add the `ar` option with label `العربية` in the same relative position as the menu. Do not add Arabic to unrelated content-language or transcription-language lists. Confirm that preference validation accepts `ar` and that `system` remains the default.
+In the `general.interfaceLanguage` `Kind::Choice` list, add `("ar", "العربية")` in the same relative position as the menu. Keep `("system", "System Language")` as the default option. Do not add Arabic to `crates/engine/src/settings.rs` `LANGUAGES`: that is an unrelated content/transcription-language list. Run the engine settings tests to confirm preference validation accepts `ar`.
 
 ### 4. `crates/ui-egui/src/i18n/tests.rs`
 
@@ -44,6 +46,8 @@ Trace the actual `general.interfaceLanguage` field in the 0.17.0 engine settings
 - Add a bundled-font coverage test for the Arabic alphabet and every Arabic letter/mark used in `ar.tsv`, following the existing `assert_bundled_fonts_cover` tests. If the build does not bundle an Arabic face, test the supported system fallback path on Windows rather than claiming a bundled font exists.
 
 ## RTL verification
+
+The source-level inspection confirms `crates/ui-egui/src/theme.rs` calls `crate::rtl::install(&mut fonts)`, and `rtl.rs` already lists Windows Arabic-capable fallback families including Segoe UI, Tahoma and Arial. This confirms an existing font fallback path, not complete RTL layout coverage. Verify that the selected fallback actually covers the Arabic catalog glyphs on the target Windows build.
 
 The existing `rtl.rs` handles script font fallbacks and bidi layout for its document-text helper. Verify the real UI call paths and test at least:
 
