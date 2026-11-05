@@ -679,3 +679,81 @@
 	Analog	تماثلي
 	Analog Delay	تأخير تماثلي
 	Analyze	تحليل
+	Analyze all imported media to search for visuals or audio	تحليل كل الوسائط المستوردة للبحث عن عناصر مرئية أو صوتية
+	Anamorphic	عدسة أنامورفية
+	Anamorphic 2:1 (2.0)	أنامورفي بنسبة 2:1 (2.0)
+	Anchor	مرساة
+	Anchor Point	نقطة الارتكاز
+	Anchor point	نقطة الارتكاز
+	Angle	الزاوية
+	Animate zoom, scrolling and menus	تحريك التكبير والتمرير والقوائم
+	Animated GIF	صورة GIF متحركة
+	Animation	الرسوم المتحركة
+	Anti-aliasing Quality	جودة تنعيم الحواف
+	Anti-flicker Filter	مرشح إزالة الوميض
+	Antialiasing for Best Quality	تنعيم الحواف للحصول على أفضل جودة
+	Any	أيّ
+	Appearance Mode	وضع المظهر
+	Appearance Settings…	إعدادات المظهر…
+	Application	التطبيق
+	Application shortcuts work whatever panel has focus	تعمل اختصارات التطبيق أيًّا كانت اللوحة النشطة
+	Apply	تطبيق
+	Apply Default Audio Transition	تطبيق انتقال الصوت الافتراضي
+	Apply Default Transitions	تطبيق الانتقالات الافتراضية
+	Apply Default Transitions to Selection (Shift+D)	تطبيق الانتقالات الافتراضية على التحديد (Shift+D)
+	Apply Default Video Transition	تطبيق انتقال الفيديو الافتراضي
+	Apply Guide Template	تطبيق قالب الإرشادات
+	Apply Match	تطبيق المطابقة
+	Apply a cut at each detected cut point	إضافة قطع عند كل نقطة قطع مكتشفة
+	Are you sure you want to discard your changes to '{file}'?	هل أنت متأكد من تجاهل تغييراتك على '{file}'؟
+	Aspect	نسبة الأبعاد
+	Assign {key} to {command}	تعيين {key} إلى {command}
+	Asymmetry	عدم التماثل
+	At Startup	عند بدء التشغيل
+	At Unnumbered Markers	عند العلامات غير المرقمة
+	At playback end, return to beginning when restarting playback	عند انتهاء التشغيل، ارجع إلى البداية عند إعادة تشغيله
+	Attack	الهجوم
+	Attempt to force hardware to document sample rate	محاولة فرض معدل أخذ العينات الموثّق على الجهاز
+	Audio Bitrate	معدل بت الصوت
+	Audio File Format:	تنسيق ملف الصوت:
+	Audio Format	تنسيق الصوت
+	Audio Names	أسماء الصوت
+	Audio Only	الصوت فقط
+	Audio Output	إخراج الصوت
+	Audio Playback	تشغيل الصوت
+	Audio Recording	تسجيل الصوت
+	Audio Sample Rate	معدل أخذ عينات الصوت
+	Audio Settings	إعدادات الصوت
+	Audio Source	مصدر الصوت
+	Audio Transition	انتقال صوتي
+	Audio Volume	مستوى صوت
+	Auto	تلقائي
+	Auto Detect	اكتشاف تلقائي
+	Auto Exposure	تعريض تلقائي
+	Auto Focus	تركيز تلقائي
+	Auto Gain	كسب تلقائي
+	Auto Level	مستوى تلقائي
+	Auto Normalize	تطبيع تلقائي
+	Auto Save	حفظ تلقائي
+	Auto Scroll	تمرير تلقائي
+	Automatic	آلي
+	Available	متاح
+	Average	متوسط
+	AV1	AV1
+	AIFF	AIFF
+	APV	APV
+	ASC CDL	ASC CDL
+	Apple ProRes	Apple ProRes
+	Apple ProRes 422	Apple ProRes 422
+	Apple ProRes 422 HQ	Apple ProRes 422 HQ
+	Apple ProRes 422 LT	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy	Apple ProRes 422 Proxy
+	Apple ProRes 4444	Apple ProRes 4444
+	Apple ProRes 4444 XQ	Apple ProRes 4444 XQ
+	Apple ProRes 4444 with Alpha	Apple ProRes 4444 مع قناة ألفا
+	Att	هجوم
+	Audio Channels	قنوات الصوت
+	Audio Device	جهاز الصوت
+	Audio Input	إدخال الصوت
+	Audio Monitor	مراقبة الصوت
+	Audio Track	مسار صوتي
