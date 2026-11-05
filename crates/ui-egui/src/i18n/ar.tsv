@@ -1197,3 +1197,137 @@
 	Guide Color	لون الدليل
 	Guide Settings	إعدادات الأدلة
 	Guides…	الأدلة…
+	HDR Graphics White (Nits)	أبيض رسومات HDR (نيت)
+	HDR Range	نطاق HDR
+	HDR Specular	الإبرازات اللامعة في HDR
+	HDR White	الأبيض في HDR
+	HLS Vectorscope + Histogram	منظار متجهات HLS + المدرج التكراري
+	HSL Secondary	تصحيح HSL الثانوي
+	Half Saturation	نصف التشبع
+	Hand Tool	أداة اليد
+	Handle Frames:	إطارات المقابض:
+	Hard	حاد
+	Hard Clip	قص حاد
+	Hard Light	ضوء قوي
+	Hard Limiter	محدد صارم
+	Hard Mix	مزج قوي
+	Hard Mono	أحادي قوي
+	Hard Sun	شمس حادة
+	Hardware decoding	فك الترميز عبر العتاد
+	Head	الرأس
+	Head Size	حجم الرأس
+	Head and Tail	البداية والنهاية
+	Heading	عنوان
+	Heart	قلب
+	Height	الارتفاع
+	Height:	الارتفاع:
+	Hex	سداسي عشري
+	Hex color	لون سداسي عشري
+	Hexagon	سداسي الأضلاع
+	Hide Back Face	إخفاء الوجه الخلفي
+	Hide FilmCraft	إخفاء FilmCraft
+	Hide Others	إخفاء النوافذ الأخرى
+	High	مرتفع
+	High Cutoff	حد القطع المرتفع
+	High Frequency Cut	قطع الترددات العالية
+	High Frequency Damping	تخميد الترددات العالية
+	High Pass	تمرير الترددات العالية
+	High Shelf	رف الترددات العالية
+	High Shelf Gain	كسب رف الترددات العالية
+	High Tone	نغمة عالية
+	Highlight	إبراز
+	Highlight Balance	توازن الإبرازات
+	Highlight Blue Balance	توازن الأزرق في الإبرازات
+	Highlight Brightness	سطوع الإبرازات
+	Highlight Color	لون الإبراز
+	Highlight Green Balance	توازن الأخضر في الإبرازات
+	Highlight Hue	درجة لون الإبراز
+	Highlight Level	مستوى الإبراز
+	Highlight Red Balance	توازن الأحمر في الإبرازات
+	Highlight Rolloff	تدرّج انخفاض الإبرازات
+	Highlight Softness	نعومة الإبراز
+	Highlight Threshold	عتبة الإبراز
+	Highlight Tint	صبغة الإبراز
+	Highlights	الإبرازات
+	Highlights Lightness	إضاءة الإبرازات
+	Highpass	تمرير الترددات العالية
+	Histogram	المدرج التكراري
+	Hold	تثبيت
+	Hold Filters	تثبيت المرشحات
+	Hold On	انتظار
+	Home	الرئيسية
+	Horizontal	أفقي
+	Horizontal Alignment	محاذاة أفقية
+	Horizontal Blocks	كتل أفقية
+	Horizontal Decentering	إزاحة أفقية عن المركز
+	Horizontal Displacement	إزاحة أفقية
+	Horizontal Flip	قلب أفقي
+	Horizontal Margin	هامش أفقي
+	Horizontal and Vertical	أفقي وعمودي
+	Hover Scrub	استعراض عند تمرير المؤشر
+	Hue Center	مركز درجة اللون
+	Hue Saturation Curves	منحنيات درجة اللون والتشبع
+	Hue Tolerance	تفاوت درجة اللون
+	Hue vs Hue	درجة اللون مقابل درجة اللون
+	Hue vs Luma	درجة اللون مقابل الإضاءة
+	Hue vs Sat	درجة اللون مقابل التشبع
+	Icon	أيقونة
+	Icon View	عرض الأيقونات
+	Ignore Alpha	تجاهل قناة ألفا
+	Ignore Audio	تجاهل الصوت
+	Ignore Hours	تجاهل الساعات
+	Ignore Options	تجاهل الخيارات
+	Ignore Video	تجاهل الفيديو
+	Image	صورة
+	Image Control	التحكم بالصورة
+	Image Overlay	تراكب الصورة
+	Image Sequence	تسلسل الصور
+	Immersive Video	فيديو غامر
+	Import as Image Sequence	استيراد كتسلسل صور
+	In Points	نقاط الدخول
+	In/Out Duration	مدة نقطتي الدخول والخروج
+	Include Alpha Channel	تضمين قناة ألفا
+	Include Preview Files	تضمين ملفات المعاينة
+	Include Proxies	تضمين الملفات الوسيطة
+	Incoming	الوارد
+	Increase Audio Tracks Height	زيادة ارتفاع مسارات الصوت
+	Increase Clip Volume	زيادة مستوى صوت المقطع
+	Increase Video Tracks Height	زيادة ارتفاع مسارات الفيديو
+	Ingest	إدخال الوسائط
+	Ingest Settings	إعدادات إدخال الوسائط
+	Initial Delay	التأخير الأولي
+	Inner	داخلي
+	Inner Radius	نصف القطر الداخلي
+	Input Boost	تعزيز الإدخال
+	Input LUT	جدول تحويل الإدخال LUT
+	Input:	الإدخال:
+	Insert Edit	إدراج تحرير
+	Inset	إزاحة إلى الداخل
+	Inside	الداخل
+	Inside Color	لون الداخل
+	Intensity	الشدة
+	Interface Language	لغة الواجهة
+	Interior Room Tone	الصوت المحيطي الداخلي
+	Internal Black Point	نقطة السواد الداخلية
+	Internal White Point	نقطة البياض الداخلية
+	Interpolation	الاستيفاء
+	Interpret Footage	تفسير اللقطات
+	Intersect	تقاطع
+	Intro Duration	مدة المقدمة
+	Inverse Falloff	تلاشي عكسي
+	Invert	عكس
+	Invert Alpha	عكس قناة ألفا
+	Invert Blur	عكس التمويه
+	Invert Fill	عكس التعبئة
+	Invert Gradient	عكس التدرّج
+	Invert Left	عكس اليسار
+	Invert Right	عكس اليمين
+	Inverted	معكوس
+	Iris	قزحية
+	Iris Box	قزحية مربعة
+	Iris Cross	قزحية متقاطعة
+	Iris Diamond	قزحية ماسية
+	Iris Radius	نصف قطر القزحية
+	Iris Rotation	دوران القزحية
+	Iris Round	قزحية دائرية
+	Iris Shape	شكل القزحية
