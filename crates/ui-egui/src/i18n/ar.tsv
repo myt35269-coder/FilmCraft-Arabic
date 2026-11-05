@@ -1499,3 +1499,140 @@
 	Duration	المدة
 	Duration:	المدة:
 	Duration: {tc}	المدة: {tc}
+	Edit Workspaces…	تحرير مساحات العمل…
+	Edit Workspaces	تحرير مساحات العمل
+	Export Markers as CSV…	تصدير العلامات بصيغة CSV…
+	General…	عام…
+	Match Frame	مطابقة الإطار
+	Media…	الوسائط…
+	Memory…	الذاكرة…
+	Metadata	البيانات الوصفية
+	Modify	تعديل
+	Motion Graphics Template…	قالب الرسومات المتحركة…
+	Multi-Camera	متعدد الكاميرات
+	New Layer	طبقة جديدة
+	Next Appearance Mode	وضع المظهر التالي
+	Next in Sequence	التالي في التسلسل
+	Next in Track	التالي في المسار
+	Offline File…	ملف غير متصل…
+	Open Recent	فتح الملفات الأخيرة
+	Optical Flow	التدفق البصري
+	Overwrite	استبدال
+	Plugins…	الإضافات…
+	Polygon	مضلع
+	Previous in Sequence	السابق في التسلسل
+	Previous in Track	السابق في المسار
+	Program	البرنامج
+	Progress	التقدم
+	Properties	الخصائص
+	Proxy	ملف وسيط
+	Quit FilmCraft	إنهاء FilmCraft
+	Recover Unsaved Changes…	استعادة التغييرات غير المحفوظة…
+	Rectangle	مستطيل
+	Remove Attributes…	إزالة السمات…
+	Remove Filler Words	إزالة كلمات الحشو
+	Remove Pauses	إزالة فترات الصمت
+	Remove Unused	إزالة العناصر غير المستخدمة
+	Replace Fonts in Projects…	استبدال الخطوط في المشاريع…
+	Report an Issue…	الإبلاغ عن مشكلة…
+	Restore Captions from Source Clip	استعادة الترجمات النصية من المقطع الأصلي
+	Reveal Log Files…	إظهار ملفات السجل…
+	Reverse Match Frame	مطابقة الإطار العكسي
+	Revert	الرجوع إلى النسخة المحفوظة
+	Revert Remix	التراجع عن إعادة المزج
+	Review	مراجعة
+	Ripple Delete Head Frame	حذف إطار البداية مع إغلاق الفجوة
+	Ripple Sequence Markers	تحريك علامات التسلسل مع التحرير
+	Safe Margins	هوامش الأمان
+	Save Changes to this Workspace	حفظ التغييرات في مساحة العمل هذه
+	Save Guides as Template…	حفظ الأدلة كقالب…
+	Save as New Workspace…	حفظ كمساحة عمل جديدة…
+	Save as Template…	حفظ كقالب…
+	Scene Edit Detection…	اكتشاف نقاط تحرير المشاهد…
+	Scratch Disks…	أقراص العمل المؤقتة…
+	Search Bin	حاوية البحث
+	Select All Matching	تحديد كل العناصر المطابقة
+	Select Next Graphic	تحديد الرسم التالي
+	Select Next Layer	تحديد الطبقة التالية
+	Select Previous Graphic	تحديد الرسم السابق
+	Select Previous Layer	تحديد الطبقة السابقة
+	Send Backward	إرسال إلى الخلف
+	Send to Back	إرسال إلى الخلفية
+	Speed/Duration…	السرعة/المدة…
+	Synchronize…	مزامنة…
+	System Compatibility Report…	تقرير توافق النظام…
+	Time Interpolation	استيفاء الزمن
+	Toggle Proxies	تبديل الملفات الوسيطة
+	Transcribe…	تفريغ الكلام إلى نص…
+	Transcript	التفريغ النصي
+	Update Metadata…	تحديث البيانات الوصفية…
+	Upgrade Caption to Graphic	تحويل الترجمة النصية إلى رسم
+	Upgrade to Source Graphic	تحويل إلى رسم مصدر
+	Vertical Text	نص عمودي
+	Video Options	خيارات الفيديو
+	Video and Audio Waveform Split	فصل موجتي الفيديو والصوت
+	Workspaces	مساحات العمل
+	Project Notes	ملاحظات المشروع
+	Recent	الأخيرة
+	Use file metadata	استخدام البيانات الوصفية للملف
+	Working Color Space	مساحة العمل اللونية
+	Wide gamut color (composite in BT.2020)	ألوان ذات نطاق واسع (تركيب باستخدام BT.2020)
+	Set Gain to:	ضبط الكسب على:
+	Normalize Max Peak to:	تطبيع أعلى ذروة إلى:
+	Normalize All Peaks to:	تطبيع جميع الذروات إلى:
+	Peak Amplitude: {peak}	سعة الذروة: {peak}
+	Placement	الموضع
+	Version {version}	الإصدار {version}
+	Source code on GitHub	الشفرة المصدرية على GitHub
+	Report an issue	الإبلاغ عن مشكلة
+	just now	الآن
+	{n} s ago	قبل {n} ث
+	{n} min ago	قبل {n} د
+	{n} h ago	قبل {n} س
+	Recover Unsaved Changes	استعادة التغييرات غير المحفوظة
+	FilmCraft was closed while “{name}” had unsaved changes.	أُغلق FilmCraft بينما كانت هناك تغييرات غير محفوظة في “{name}”.
+	FilmCraft quit unexpectedly while “{name}” had unsaved changes.	أُغلق FilmCraft بشكل غير متوقع بينما كانت هناك تغييرات غير محفوظة في “{name}”.
+	Recover unsaved changes from {when}?	هل تريد استعادة التغييرات غير المحفوظة من {when}؟
+	The project had not been saved yet.	لم يُحفظ المشروع بعد.
+	{n} sessions have unsaved changes:	توجد تغييرات غير محفوظة في {n} جلسات:
+	Yes	نعم
+	No	لا
+	Movies, audio and stills from disk	مقاطع الفيديو والصوت والصور الثابتة من القرص
+	Six procedural 1080p clips with sound	ستة مقاطع 1080p مُنشأة إجرائيًا مع الصوت
+	SMPTE HD bars with 1 kHz reference tone	أشرطة ألوان SMPTE HD مع نغمة مرجعية بتردد 1 kHz
+	Join us on Discord	انضم إلينا على Discord
+	OMF Export Settings	إعدادات تصدير OMF
+	OMF Title:	عنوان OMF:
+	Mixdown video	مزج الفيديو
+	Encapsulate	تضمين داخل حاوية
+	Separate Audio	فصل الصوت
+	Embed	تضمين
+	Separate Files	ملفات منفصلة
+	Link to Media	ربط بالوسائط
+	Sample Rate:	معدل أخذ العينات:
+	Rendering:	المعالجة:
+	Trim audio files	اقتطاع ملفات الصوت
+	Render audio clip effects	معالجة مؤثرات مقاطع الصوت
+	Exported {path}	تم تصدير {path}
+	Select a clip to view its metadata.	حدد مقطعًا لعرض بياناته الوصفية.
+	All markers are hidden by the colour filter.	جميع العلامات مخفية بسبب مرشح الألوان.
+	Type:	النوع:
+	UI:	الواجهة:
+	{fps} fps · {n} frames queued	{fps} إطارًا في الثانية · {n} إطارًا في قائمة الانتظار
+	Name:	الاسم:
+	Without keyframes	دون إطارات مفتاحية
+	Saved preset “{name}”	تم حفظ الإعداد المسبق “{name}”
+	Target Duration:	المدة المستهدفة:
+	Segments:	المقاطع:
+	Fewer · More	أقل · أكثر
+	Variations:	التنويعات:
+	Remixed to {seconds} s	أُعيد مزجه إلى {seconds} ثانية
+	Remove Row	إزالة صف
+	Send {n} Level	مستوى الإرسال {n}
+	Grid spacing:	تباعد الشبكة:
+	Search fields	البحث في الحقول
+	{n}. (empty)	{n}. (فارغ)
+	Restore	استعادة
+	Merge selected captions	دمج الترجمات النصية المحددة
+	No matching captions.	لا توجد ترجمات نصية مطابقة.
+	Speech-to-text turns the dialogue into editable text.	تحويل الكلام إلى نص يحوّل الحوار إلى نص قابل للتحرير.
