@@ -1756,3 +1756,103 @@
 	Field Options	خيارات الحقل
 	Motion	الحركة
 	Time Remapping	إعادة تعيين الزمن
+	Scale Attribute Times	تغيير مقياس أزمنة السمات
+	File Name:	اسم الملف:
+	Tape Name:	اسم الشريط:
+	Width:	العرض:
+	Subclip: {name}	مقطع فرعي: {name}
+	Start:	البداية:
+	End:	النهاية:
+	Restrict Trims To Subclip Boundaries	تقييد التقليص بحدود المقطع الفرعي
+	Reverse Field Dominance	عكس أولوية الحقول
+	Processing Options	خيارات المعالجة
+	None	بلا
+	Flicker Removal	إزالة الوميض
+	Save changes to “{project_name}” before closing?	هل تريد حفظ التغييرات على “{project_name}” قبل الإغلاق؟
+	{name} (copy)	{name} (نسخة)
+	Offline	غير متصل
+	Missing	مفقود
+	File Name	اسم الملف
+	File Path	مسار الملف
+	Status	الحالة
+	Match file properties:	مطابقة خصائص الملف:
+	File Extension	امتداد الملف
+	Relink others automatically	إعادة ربط الملفات الأخرى تلقائيًا
+	Search in:	البحث في:
+	Exact name matches only	الأسماء المطابقة تمامًا فقط
+	No candidates yet — Search a folder or Locate the file.	لا توجد نتائج بعد — ابحث في مجلد أو حدّد موقع الملف.
+	✔ same file	✔ الملف نفسه
+	✔ matches	✔ مطابق
+	✖ different file	✖ ملف مختلف
+	Offline All	جعل الكل غير متصل
+	Locate…	تحديد الموقع…
+	Linked {n} clip(s)	تم ربط {n} مقطعًا
+	Nothing found with that name.	لم يُعثر على شيء بهذا الاسم.
+	Make Offline	جعل الملف غير متصل
+	{n} clip(s) selected.	تم تحديد {n} مقطعًا.
+	Format and size	التنسيق والحجم
+	Sequences	التسلسلات
+	Options	الخيارات
+	Exclude Unused Clips	استبعاد المقاطع غير المستخدمة
+	Include Handles:	تضمين الهوامش:
+	Project Manager: writing {path}	مدير المشروع: جارٍ الكتابة إلى {path}
+	{name} (user)	{name} (مستخدم)
+	The selected clips have different audio types. Assign one type to edit them together.	للمقاطع المحددة أنواع صوت مختلفة. عيّن نوعًا واحدًا لتحريرها معًا.
+	Reduce Rumble	تقليل الاهتزازات الصوتية منخفضة التردد
+	Reduce Reverb	تقليل الصدى
+	Dynamics	الديناميكيات
+	EQ	معادل الصوت
+	Low Tone	نغمة منخفضة
+	Mix	المزج
+	Reverb	الصدى
+	Stereo Width	عرض الاستيريو
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	إعادة مزج الموسيقى لمدة مستهدفة غير متاحة بعد. قلّص المقطع وأضف تلاشيًا متداخلًا بدلًا من ذلك.
+	Pan	توزيع الصوت يمينًا ويسارًا
+	Not matched yet	لم تتم المطابقة بعد
+	Matches each of the {n} clips on its own.	يطابق كل مقطع من المقاطع {n} على حدة.
+	Untagged	بلا وسم
+	Sensitivity	الحساسية
+	Reduce By	مقدار التخفيض
+	Fades	التلاشي
+	Generate Keyframes	إنشاء إطارات مفتاحية
+	Master · {name}	الرئيسي · {name}
+	Temperature	درجة الحرارة
+	Tint	الصبغة
+	Shadows	الظلال
+	Whites	الأبيض
+	HDR	HDR
+	Look	المظهر
+	Look LUT	جدول تحويل المظهر (LUT)
+	Faded Film	فيلم باهت
+	Vibrance	حيوية الألوان
+	RGB Curves	منحنيات RGB
+	Luma vs Sat	الإضاءة مقابل التشبع
+	Sat vs Sat	التشبع مقابل التشبع
+	Midtones	الدرجات المتوسطة
+	Key	المفتاح
+	Saturation Min	الحد الأدنى للتشبع
+	Luma Min	الحد الأدنى للإضاءة
+	Luma Max	الحد الأقصى للإضاءة
+	Soften	تنعيم
+	Show Mask	إظهار القناع
+	Off	إيقاف
+	White/Black	أبيض/أسود
+	Refine	تحسين
+	Midpoint	نقطة المنتصف
+	Roundness	الاستدارة
+	Feather	تنعيم الحواف
+	LUT	LUT
+	Reference	مرجع
+	Face Detection (protect skin tones)	اكتشاف الوجه (لحماية درجات لون البشرة)
+	Free draw bezier	رسم منحنى بيزييه بحرية
+	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	السحب: تحريك · Alt+نقر: تنعيم/زاوية · Cmd+نقر: حذف
+	Track selected mask backward	تتبّع القناع المحدد للخلف
+	Track selected mask backward 1 frame	تتبّع القناع المحدد للخلف إطارًا واحدًا
+	Track selected mask forward 1 frame	تتبّع القناع المحدد للأمام إطارًا واحدًا
+	Track selected mask forward	تتبّع القناع المحدد للأمام
+	Stop tracking	إيقاف التتبّع
+	Tracking method: {method}	طريقة التتبّع: {method}
+	System Default	إعداد النظام الافتراضي
+	Font family	عائلة الخط
+	Label Colors	ألوان التسميات
+	FilmCraft keeps the rest of the RAM free for other applications.	يُبقي FilmCraft بقية ذاكرة RAM متاحة للتطبيقات الأخرى.
