@@ -757,3 +757,102 @@
 	Audio Input	إدخال الصوت
 	Audio Monitor	مراقبة الصوت
 	Audio Track	مسار صوتي
+	Background	الخلفية
+	Background Color	لون الخلفية
+	Background Corner Radius	نصف قطر زوايا الخلفية
+	Background Opacity	عتامة الخلفية
+	Background Size	حجم الخلفية
+	Background fill	تعبئة الخلفية
+	Balance	التوازن
+	Band 1	النطاق 1
+	Band 2	النطاق 2
+	Band 3	النطاق 3
+	Band 4	النطاق 4
+	Band 5	النطاق 5
+	Band Pass	تمرير نطاق ترددي
+	Band Slide	انزلاق النطاق
+	Band Stop	إيقاف النطاق
+	Band {n}	النطاق {n}
+	Bandpass	تمرير النطاق الترددي
+	Bar Color	لون الشريط
+	Barn Doors	مصراعان
+	Bars and Tone	أشرطة ونغمة
+	Baseline	خط الأساس
+	Baseline Shift	إزاحة خط الأساس
+	Basic	أساسي
+	Basic 3D	ثلاثي الأبعاد أساسي
+	Basic Correction	تصحيح أساسي
+	Bass	الجهير
+	Begin Text Editing for a Graphic Layer	بدء تحرير النص لطبقة رسومية
+	Begins With	يبدأ بـ
+	Behind	خلف
+	Bessel	بيسل
+	Bevel Alpha	تجسيم ألفا
+	Bevel join	وصلة مشطوفة
+	Bezier	بيزييه
+	Bin: {name}	الحاوية: {name}
+	Black	أسود
+	Black Point	نقطة الأسود
+	Blackmagic RAW	Blackmagic RAW
+	Blue Channel	القناة الزرقاء
+	Blur Radius	نصف قطر التمويه
+	Body	المتن
+	Bold	عريض
+	Border	حد
+	Border Color	لون الحد
+	Border Width	عرض الحد
+	Box Blur	تمويه صندوقي
+	Brightness	السطوع
+	Broadcast	بث
+	Broadcast Safe	آمن للبث
+	Browser	المتصفح
+	Build	إنشاء
+	Built-in	مدمج
+	Bypass	تجاوز
+	Bypass All	تجاوز الكل
+	Bypass Effects	تجاوز المؤثرات
+	Bypass color management	تجاوز إدارة الألوان
+	Bypass render cache	تجاوز ذاكرة التخزين المؤقت للتصيير
+	Byte	بايت
+	Bytes	بايتات
+	Cache	ذاكرة التخزين المؤقت
+	Cache Size	حجم ذاكرة التخزين المؤقت
+	Cache Settings	إعدادات ذاكرة التخزين المؤقت
+	Camera	الكاميرا
+	Camera Blur	تمويه الكاميرا
+	Camera Controls	عناصر التحكم بالكاميرا
+	Camera Raw	بيانات الكاميرا الخام
+	Canvas	لوحة العمل
+	Caption	تسمية توضيحية
+	Center	وسط
+	Channel Mixer	خلاط القنوات
+	Channel {n}	القناة {n}
+	Chroma	الصفاء اللوني
+	Chroma Key	مفتاح الصفاء اللوني
+	Chroma Keying	العزل بمفتاح الصفاء اللوني
+	Chroma Range	نطاق الصفاء اللوني
+	Circle	دائرة
+	Clip	مقطع
+	Clip Color	لون المقطع
+	Clip Duration	مدة المقطع
+	Clip Gain	كسب المقطع
+	Clip Speed	سرعة المقطع
+	Color Balance	توازن الألوان
+	Color Correction	تصحيح الألوان
+	Color Management	إدارة الألوان
+	Color Picker	منتقي الألوان
+	Color Space	فضاء الألوان
+	Color Temperature	درجة حرارة اللون
+	Color Wheels	عجلات الألوان
+	Column	عمود
+	Combine	دمج
+	Command	أمر
+	Compare	مقارنة
+	Composition	تكوين
+	Corner Radius	نصف قطر الزاوية
+	Crop	اقتصاص
+	Crop to Fill	اقتصاص لملء الإطار
+	Curve	منحنى
+	Custom	مخصص
+	Custom Color	لون مخصص
+	Custom Settings	إعدادات مخصصة
