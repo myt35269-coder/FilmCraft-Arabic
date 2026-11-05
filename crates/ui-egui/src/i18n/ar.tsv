@@ -611,3 +611,71 @@
 	All Categories	جميع الفئات
 	All Events	جميع الأحداث
 	All lines	جميع الأسطر
+	  (none)	(لا شيء)
+	 (removed from {list})	(أُزيل من {list})
+	 (unavailable)	(غير متاح)
+	 ({ch} output channels)	({ch} قنوات إخراج)
+	 and 	 و
+	 frames	 إطارات
+	 seconds	 ثوانٍ
+	 · {time} left	 · متبقٍ {time}
+	% of all commits	% من جميع عمليات الإيداع
+	+ Cmd	+ Cmd
+	+ Opt	+ Opt
+	105mm Prime	عدسة أساسية 105 مم
+	29.97 fps Drop-Frame	29.97 إطارًا/ث مع إسقاط الإطارات
+	29.97 fps Non Drop-Frame	29.97 إطارًا/ث دون إسقاط الإطارات
+	35mm Prime	عدسة أساسية 35 مم
+	3D Roll	تدوير ثلاثي الأبعاد
+	3D Rotate	استدارة ثلاثية الأبعاد
+	3D Spin	دوران ثلاثي الأبعاد
+	3D Spinback	دوران ثلاثي الأبعاد للخلف
+	4-Color Gradient	تدرّج بأربعة ألوان
+	5.1 Media	وسائط 5.1
+	5.1 Mixdown Type	نوع مزج الصوت 5.1
+	5.1 panner (drag the puck; double-click: front centre)	موزّع صوت 5.1 (اسحب المؤشر؛ انقر مرتين للوسط الأمامي)
+	50-300mm Zoom	تقريب 50–300 مم
+	59.94 fps Drop-Frame	59.94 إطارًا/ث مع إسقاط الإطارات
+	59.94 fps Non Drop-Frame	59.94 إطارًا/ث دون إسقاط الإطارات
+	A boxed label with a round pointer; move the label and the pointer follows.	تسمية داخل إطار بمؤشر دائري؛ حرّك التسمية وسيتبعها المؤشر.
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	محرر فيديو غير خطي مكتوب بلغة Rust الخالصة من الصفر. وهو جزء من عائلة ArtCraft.
+	A cut sequence with transitions, effects and music	تسلسل مونتاج يتضمن انتقالات ومؤثرات وموسيقى
+	A news-style line that crawls in from the right and leaves at the left.	سطر إخباري متحرك يدخل من اليمين ويخرج من اليسار.
+	A rounded tag that fits its text, with a status dot.	شارة مستديرة تتسع لنصها وبها نقطة حالة.
+	A title on a rounded card with a soft shadow.	عنوان على بطاقة مستديرة بظل ناعم.
+	AAF…	AAF…
+	AIFF 48 kHz 16-bit	AIFF ‏48 كيلوهرتز، 16 بت
+	AIFF, stereo 48 kHz 16-bit PCM	AIFF، صوت ستيريو PCM ‏48 كيلوهرتز، 16 بت
+	APV 422-10	APV 422-10
+	APV 422-12	APV 422-12
+	AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no software AV1 encoder yet.	يتطلب AV1 مُرمّزًا عتاديًا؛ لم يُعثر على مُرمّز في هذا الجهاز، ولا يتوفر في FilmCraft حتى الآن مُرمّز AV1 برمجي. 
+	Add tracks automatically when editing source clips onto the Timeline	إضافة المسارات تلقائيًا عند تحرير مقاطع المصدر على الخط الزمني
+	Additive Dissolve	مزج تداخلي إضافي
+	Additive Dissolve (Legacy)	مزج تداخلي إضافي (قديم)
+	All	الكل
+	Allow Duplicate Media During Project Import	السماح بتكرار الوسائط أثناء استيراد المشروع
+	Allow Selection tool to choose Roll and Ripple trims without modifier key	السماح لأداة التحديد باختيار قصّ التمرير والقصّ التموجي دون مفتاح مساعد
+	Allow current tool to change trim type of previously selected edit point	السماح للأداة الحالية بتغيير نوع القص لنقطة التحرير المحددة سابقًا
+	Allow duplicate media during project import	السماح بتكرار الوسائط أثناء استيراد المشروع
+	Alpha Adjust	ضبط ألفا
+	Alpha Blurriness	ضبابية ألفا
+	Alpha Channel	قناة ألفا
+	Alpha Glow	توهج ألفا
+	Always Deinterlace	إزالة التداخل دائمًا
+	Always import embedded CEA-708 closed captions with wide aspect.	استيراد التسميات التوضيحية المضمنة CEA-708 دائمًا بنسبة عرض عريضة.
+	Always override audio tags	تجاوز وسوم الصوت دائمًا
+	Ambience	الأجواء المحيطة
+	Ambience Intensity	شدة الإضاءة المحيطة
+	Ambience Light Color	لون الإضاءة المحيطة
+	Amount	الكمية
+	Amount of Noise	مقدار التشويش
+	Amount to Decolor	مقدار إزالة اللون
+	Amount to Tint	مقدار التلوين
+	Amplifier	مُضخّم
+	Amplify	تضخيم
+	Amplitude	السعة
+	Amplitude and Compression	السعة والضغط
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	فشل التشغيل السابق باستخدام إعدادات الرسومات الافتراضية. غالبًا ما يحل تحديث برنامج تشغيل الرسومات هذه المشكلة.
+	Analog	تماثلي
+	Analog Delay	تأخير تماثلي
+	Analyze	تحليل
