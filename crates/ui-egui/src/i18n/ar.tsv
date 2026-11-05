@@ -856,3 +856,94 @@
 	Custom	مخصص
 	Custom Color	لون مخصص
 	Custom Settings	إعدادات مخصصة
+	Audio Previews:	معاينات الصوت:
+	Audio Time Units	وحدات زمن الصوت
+	Audio Track Mixer menu	قائمة خالط مسارات الصوت
+	Audio Transition Default Duration	المدة الافتراضية لانتقال الصوت
+	Audio analysis:	تحليل الصوت:
+	Audio effects	مؤثرات صوتية
+	Audio on track {t}	الصوت على المسار {t}
+	Audio only	الصوت فقط
+	Audio output failed: playing without sound (check Settings > Audio Hardware)	تعذّر إخراج الصوت: التشغيل دون صوت (تحقق من الإعدادات > أجهزة الصوت)
+	Audio output is not responding: playing without sound (check Settings > Audio Hardware)	جهاز إخراج الصوت لا يستجيب: التشغيل دون صوت (تحقق من الإعدادات > أجهزة الصوت)
+	Author	المؤلف
+	Auto (system)	تلقائي (النظام)
+	Auto Align	محاذاة تلقائية
+	Auto Bezier	بيزيه تلقائي
+	Auto Gate	بوابة تلقائية
+	Auto Makeup	تعويض تلقائي للمستوى
+	Auto Reframe	إعادة تأطير تلقائية
+	Auto Save Now	حفظ الآن
+	Auto Save also saves the current project(s)	يحفظ الحفظ التلقائي المشروع الحالي أيضًا
+	Auto Tone Map Media (HDR and log into SDR)	تحويل النطاق اللوني للوسائط تلقائيًا (من HDR وLog إلى SDR)
+	Auto-Match	مطابقة تلقائية
+	Auto-Match Loudness	مطابقة مستوى الصوت تلقائيًا
+	Auto-saves go to: {dir}	تُحفظ النسخ التلقائية في: {dir}
+	Auto-tag audio types in the timeline	تصنيف أنواع الصوت تلقائيًا في المخطط الزمني
+	Auto-transcribe all imported clips	تفريغ نص جميع المقاطع المستوردة تلقائيًا
+	Auto-transcribe only clips in sequences	تفريغ نص المقاطع الموجودة في التسلسلات فقط تلقائيًا
+	Automatch Time	مطابقة الوقت تلقائيًا
+	Automate To Sequence	أتمتة إلى تسلسل
+	Automate to Sequence	أتمتة إلى تسلسل
+	Automatic Click Remover	إزالة النقرات تلقائيًا
+	Automatically Hide Dependent Clips	إخفاء المقاطع التابعة تلقائيًا
+	Automatically Save Every	الحفظ تلقائيًا كل
+	Automatically delete cache files older than	حذف ملفات ذاكرة التخزين المؤقت الأقدم من تلقائيًا
+	Automatically delete oldest cache files when cache exceeds	حذف أقدم ملفات ذاكرة التخزين المؤقت تلقائيًا عند تجاوزها
+	Automatically refresh growing files	تحديث الملفات المتزايدة تلقائيًا
+	Automatically resume playback for growing files in Source Monitor	استئناف تشغيل الملفات المتزايدة تلقائيًا في شاشة المصدر
+	Automatically save projects	حفظ المشاريع تلقائيًا
+	Automation Keyframe Optimization	تحسين الإطارات المفتاحية للأتمتة
+	Average Data Rate	متوسط معدل البيانات
+	Binary assets added	تمت إضافة الأصول الثنائية
+	Binary assets removed	تمت إزالة الأصول الثنائية
+	Bits per Sample:	بت لكل عينة:
+	Black & White	أبيض وأسود
+	Black Input Level	مستوى الإدخال الأسود
+	Black and white	أبيض وأسود
+	Black and white with crushed blacks and strong contrast	أبيض وأسود مع ظلال سوداء عميقة وتباين قوي
+	Blacks	درجات الأسود
+	Blend With Original	مزج مع الأصل
+	Blending Mode	وضع المزج
+	Block Height	ارتفاع الكتلة
+	Block Motion	حركة الكتلة
+	Block Size	حجم الكتلة
+	Block Width	عرض الكتلة
+	Blocks	كتل
+	Blue Blurriness	تمويه الأزرق
+	Blue Curve	منحنى الأزرق
+	Blue Offset	إزاحة الأزرق
+	Blue Power	قوة الأزرق
+	Blue Slope	ميل الأزرق
+	Blur & Sharpen	تمويه وحدّة
+	Blur Angle	زاوية التمويه
+	Blur Dimensions	أبعاد التمويه
+	Blur In	تلاشي ضبابي للداخل
+	Blur Layer	طبقة التمويه
+	Blur Length	طول التمويه
+	Blur Out	تلاشي ضبابي للخارج
+	Blurriness	مقدار التمويه
+	Boost Vibrance	تعزيز حيوية الألوان
+	Bottom Center	أسفل الوسط
+	Bottom Left	أسفل اليسار
+	Bottom Right	أسفل اليمين
+	Burn Captions Into Video	تضمين الترجمة داخل الفيديو
+	Burn Color	لون الاحتراق
+	Button Editor	محرر الأزرار
+	Calculate	حساب
+	Callouts	وسائل الإشارة التوضيحية
+	Camera Angle	زاوية الكاميرا
+	Camera Angle Metadata	بيانات زاوية الكاميرا الوصفية
+	Camera Names	أسماء الكاميرات
+	Camera Shake	اهتزاز الكاميرا
+	Camera {n} — {name}	الكاميرا {n} — {name}
+	Cancel Dynamic Trim	إلغاء التشذيب الديناميكي
+	Cancel Queued Export	إلغاء التصدير في قائمة الانتظار
+	Cancelled	تم الإلغاء
+	Cannot open {dir}: {e}	تعذّر فتح {dir}: {e}
+	Caption Export Settings	إعدادات تصدير الترجمة النصية
+	Caption track options	خيارات مسار الترجمة النصية
+	Capture Format:	تنسيق الالتقاط:
+	Captured View:	العرض الملتقط:
+	Case Sensitive	مطابقة حالة الأحرف
+	Center Align Text	محاذاة النص إلى الوسط
