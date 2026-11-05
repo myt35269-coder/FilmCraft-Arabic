@@ -1636,3 +1636,123 @@
 	Merge selected captions	دمج الترجمات النصية المحددة
 	No matching captions.	لا توجد ترجمات نصية مطابقة.
 	Speech-to-text turns the dialogue into editable text.	تحويل الكلام إلى نص يحوّل الحوار إلى نص قابل للتحرير.
+	Medium	متوسط
+	Purple	أرجواني
+	Red	أحمر
+	Remix	إعادة المزج
+	Remix Properties…	خصائص إعادة المزج…
+	Rose	وردي
+	Select	تحديد
+	Select All	تحديد الكل
+	Selection as FilmCraft Project…	التحديد كمشروع FilmCraft…
+	Selection…	التحديد…
+	Tan	أسمر فاتح
+	Teal	أزرق مخضر
+	Text	نص
+	Top	أعلى
+	Universal Counting Leader…	قائد العدّ الشامل…
+	Video In	مدخل الفيديو
+	Video Out	مخرج الفيديو
+	Violet	بنفسجي
+	Yellow	أصفر
+	Join the ArtCraft Discord (discord.gg/artcraft)	انضم إلى خادم ArtCraft على Discord (discord.gg/artcraft)
+	Standard	قياسي
+	Mono	أحادي
+	Stereo	ستيريو
+	Join the ArtCraft Discord	انضم إلى خادم ArtCraft على Discord
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT أو Apache-2.0. الخطوط: Inter وNoto Serif وJetBrains Mono (SIL OFL 1.1).
+	“{file}” already exists in “{folder}”. Do you want to replace it?	الملف “{file}” موجود بالفعل في “{folder}”. هل تريد استبداله؟
+	Replace	استبدال
+	Marker	علامة
+	{tc}  Chapter	{tc}  فصل
+	Type	النوع
+	Scale	المقياس
+	Remix Properties	خصائص إعادة المزج
+	Panner	موزّع الصوت
+	Rename	إعادة التسمية
+	Restore Original	استعادة الأصل
+	Save Arrangement	حفظ الترتيب
+	Graphics text search arrives with M10.1–M10.2	سيُضاف البحث عن نصوص الرسومات في الإصدارين M10.1–M10.2
+	Transcribe	تفريغ صوتي
+	Extract selected text	استخراج النص المحدد
+	Lift selected text	رفع النص المحدد
+	Remove filler words	إزالة كلمات الحشو
+	Speaker	المتحدث
+	Position	الموضع
+	Position: top	الموضع: أعلى
+	Position: middle	الموضع: وسط
+	Position: bottom	الموضع: أسفل
+	Out: {name}	نقطة الخروج: {name}
+	In: {name}	نقطة الدخول: {name}
+	Play Around Edit (Space loops, Shift+K once)	تشغيل حول نقطة التحرير (مسافة للتكرار، وShift+K للتشغيل مرة واحدة)
+	Trim Backward Many	تقليص للخلف بعدة إطارات
+	Trim Forward Many	تقليص للأمام بعدة إطارات
+	Recording voice-over…	جارٍ تسجيل التعليق الصوتي…
+	Voice-over recorded: {p}	تم تسجيل التعليق الصوتي: {p}
+	Voice-over recording stopped (nothing recorded)	توقف تسجيل التعليق الصوتي (لم يُسجّل شيء)
+	● Recording	● جارٍ التسجيل
+	Source:	المصدر:
+	Thr	العتبة
+	Ratio	النسبة
+	Rel	زمن التحرير
+	Limiter	محدد الذروة
+	Limiter Threshold	عتبة محدد الذروة
+	Limiter Release	زمن تحرير محدد الذروة
+	Threshold	العتبة
+	Release	زمن التحرير
+	Makeup	تعويض الكسب
+	Expander	موسّع النطاق
+	Multi-Camera Record	تسجيل متعدد الكاميرات
+	Multi-Camera Selection Top Down	تحديد الكاميرات المتعددة من الأعلى إلى الأسفل
+	Edit Cameras…	تحرير الكاميرات…
+	Mark In (I)	تحديد نقطة الدخول (I)
+	Mark Out (O)	تحديد نقطة الخروج (O)
+	Go to In (Shift+I)	الانتقال إلى نقطة الدخول (Shift+I)
+	Step Back 1 Frame (Left)	الرجوع إطارًا واحدًا (السهم الأيسر)
+	Play-Stop Toggle (Space)	تشغيل/إيقاف (مسافة)
+	Step Forward 1 Frame (Right)	التقدم إطارًا واحدًا (السهم الأيمن)
+	Go to Out (Shift+O)	الانتقال إلى نقطة الخروج (Shift+O)
+	Insert (,)	إدراج (,)
+	Overwrite (.)	استبدال (.)
+	Export Frame (Shift+E)	تصدير إطار (Shift+E)
+	Lift (;)	رفع (;)
+	Extract (')	استخراج (')
+	Export Frame: use Export mode (M6)	تصدير إطار: استخدم وضع التصدير (M6)
+	Multi-Camera Record on	تسجيل متعدد الكاميرات: تشغيل
+	Multi-Camera Record off	تسجيل متعدد الكاميرات: إيقاف
+	{first} - Merged	{first} - مدمج
+	{first} Multicam	{first} متعدد الكاميرات
+	Out Points	نقاط الخروج
+	{n} clip(s): {names}	عدد المقاطع: {n} — {names}
+	{n} clip(s) selected; the clip on the reference track stays put.	تم تحديد {n} مقطعًا؛ وسيبقى المقطع الموجود على المسار المرجعي في مكانه.
+	Synchronize Point	نقطة المزامنة
+	first marker	العلامة الأولى
+	Offset:	الإزاحة:
+	lowest (V1…)	الأدنى (V1…)
+	Enumerate Cameras	ترقيم الكاميرات
+	Synchronized {n} clip group(s)	تمت مزامنة {n} مجموعة من المقاطع
+	Merged clip created	تم إنشاء مقطع مدمج
+	Multi-camera source sequence with {n} camera(s)	تسلسل مصدر متعدد الكاميرات يضم {n} كاميرا
+	No multi-camera clip at the playhead	لا يوجد مقطع متعدد الكاميرات عند مؤشر التشغيل
+	Page {page} of {pages}	الصفحة {page} من {pages}
+	Previous page	الصفحة السابقة
+	Next page	الصفحة التالية
+	Multi-Camera Record On/Off (0)	تشغيل/إيقاف التسجيل متعدد الكاميرات (0)
+	Record	تسجيل
+	Edit Cameras	تحرير الكاميرات
+	Recorded {n} multi-camera cut(s)	تم تسجيل {n} قطع متعدد الكاميرات
+	Presets	إعدادات مسبقة
+	Parade ({kind})	عرض متوازٍ ({kind})
+	Waveform ({kind})	شكل الموجة ({kind})
+	Parade Type	نوع العرض المتوازي
+	Waveform Type	نوع شكل الموجة
+	Vectorscope Targets	أهداف منظار المتجهات
+	Signal Scale	مقياس الإشارة
+	Paste Attributes	لصق السمات
+	Remove Attributes	إزالة السمات
+	New Offline File	ملف جديد غير متصل
+	Make Subclip	إنشاء مقطع فرعي
+	Edit Subclip	تحرير المقطع الفرعي
+	Field Options	خيارات الحقل
+	Motion	الحركة
+	Time Remapping	إعادة تعيين الزمن
