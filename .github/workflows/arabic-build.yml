@@ -36,6 +36,13 @@ jobs:
         uses: dtolnay/rust-toolchain@1.95.0
         with:
           components: rustfmt
+      - name: Report untranslated Arabic interface strings
+        working-directory: filmcraft
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path ../dist | Out-Null
+          cargo xtask i18n-report 2>&1 | Tee-Object -FilePath ../dist/arabic-translation-report.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Rust formatting
         working-directory: filmcraft
         run: cargo fmt --all -- --check
@@ -62,10 +69,12 @@ jobs:
           This preview is not digitally signed and has not yet received full manual RTL/UI testing.
           '@ | Set-Content -Encoding utf8 dist/FilmCraft-Arabic/README.txt
           Compress-Archive -Path dist/FilmCraft-Arabic/* -DestinationPath dist/FilmCraft-Arabic-Windows-x64-preview.zip -Force
-      - name: Upload Windows preview artifact
+      - name: Upload Windows preview and translation report
         uses: actions/upload-artifact@v4
         with:
           name: FilmCraft-Arabic-Windows-x64-preview
-          path: dist/FilmCraft-Arabic-Windows-x64-preview.zip
+          path: |
+            dist/FilmCraft-Arabic-Windows-x64-preview.zip
+            dist/arabic-translation-report.txt
           if-no-files-found: error
           retention-days: 14
