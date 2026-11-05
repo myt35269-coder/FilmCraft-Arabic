@@ -1856,3 +1856,103 @@
 	Font family	عائلة الخط
 	Label Colors	ألوان التسميات
 	FilmCraft keeps the rest of the RAM free for other applications.	يُبقي FilmCraft بقية ذاكرة RAM متاحة للتطبيقات الأخرى.
+	not available in this session	غير متاح في هذه الجلسة
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	القناة اليسرى للبرنامج ← مخرج الجهاز {l}، واليمنى ← مخرج الجهاز {r}{dev}. تُحوّل المخارج التي تتجاوز قنوات الجهاز إلى القناتين 1 و2.
+	Recovery copy: {dir}	نسخة الاسترداد: {dir}
+	Last auto-save {a} · last recovery copy {j}	آخر حفظ تلقائي {a} · آخر نسخة استرداد {j}
+	Last auto-save {a}	آخر حفظ تلقائي {a}
+	Last recovery copy {j}	آخر نسخة استرداد {j}
+	Source · {name}	المصدر · {name}
+	Reset Parameter	إعادة تعيين المعلمة
+	Save Preset…	حفظ إعداد مسبق…
+	Edit…	تحرير…
+	Show graphs	إظهار الرسوم البيانية
+	Toggle animation	تبديل الحركة
+	Eyedropper (pick a color from the Program monitor)	قطّارة اللون (اختيار لون من شاشة المعاينة)
+	Eyedropper: no picture to sample	قطّارة اللون: لا توجد صورة لاختيار لون منها
+	Linear	خطي
+	Ease In	تسارع تدريجي
+	Ease Out	تباطؤ تدريجي
+	Select a clip to grade	حدد مقطعًا لتصحيح ألوانه
+	Select a clip to see its properties	حدد مقطعًا لعرض خصائصه
+	Rotation	الدوران
+	Level	المستوى
+	Speed {n}%	السرعة {n}%
+	Value	القيمة
+	Velocity	السرعة المتجهة
+	Select a graphic clip, or use the Type tool (T) on the Program monitor	حدد مقطع رسومات، أو استخدم أداة الكتابة (T) على شاشة المعاينة
+	New Text Layer	طبقة نص جديدة
+	New Text	نص جديد
+	New Rectangle	مستطيل جديد
+	New Ellipse	شكل بيضاوي جديد
+	Select a layer to edit its properties.	حدد طبقة لتحرير خصائصها.
+	Font	الخط
+	Font Style	نمط الخط
+	Font Size	حجم الخط
+	Left Align Text	محاذاة النص إلى اليسار
+	Right Align Text	محاذاة النص إلى اليمين
+	Justify	ضبط النص
+	Tracking	تباعد الأحرف
+	Leading	تباعد الأسطر
+	Text Box Width	عرض مربع النص
+	Style	النمط
+	Faux Bold	عريض اصطناعي
+	Faux Italic	مائل اصطناعي
+	Small Caps	أحرف كبيرة صغيرة
+	Underline	تسطير
+	Strikethrough	يتوسطه خط
+	OpenType	OpenType
+	Kerning	تقنين المسافات بين الأحرف
+	Ligatures	وصلات الحروف
+	Shape	الشكل
+	Size	الحجم
+	Polygon Sides	أضلاع المضلع
+	Fill	التعبئة
+	Stroke	الحد
+	Stroke 2	الحد 2
+	Shadow	الظل
+	Search templates	البحث في القوالب
+	Install…	تثبيت…
+	Install Motion Graphics Template (.fcgt)	تثبيت قالب رسومات متحركة (.fcgt)
+	No templates match.	لا توجد قوالب مطابقة.
+	{category} · My Template	{category} · قالبي
+	{n} editable properties	{n} خصائص قابلة للتحرير
+	Outro Duration	مدة الخاتمة
+	Roll	تمرير
+	Start Off Screen	البدء خارج الشاشة
+	End Off Screen	الانتهاء خارج الشاشة
+	Preroll	تمهيد قبل التشغيل
+	Postroll	امتداد بعد التشغيل
+	Video Frame	إطار الفيديو
+	Pin To	تثبيت إلى
+	Pinned Edges	الحواف المثبتة
+	FilmCraft Graphics Template	قالب رسومات FilmCraft
+	{n} Font	الخط {n}
+	{n} Size	الحجم {n}
+	{n} Color	اللون {n}
+	{n} Position	الموضع {n}
+	Show {n}	إظهار {n}
+	My Templates	قوالبي
+	Export As Motion Graphics Template	تصدير كقالب رسومات متحركة
+	Editable properties:	الخصائص القابلة للتحرير:
+	Saved as a FilmCraft graphics template (.fcgt) in your templates folder.	تم الحفظ كقالب رسومات FilmCraft (.fcgt) في مجلد القوالب.
+	Exported graphics template to {path}	تم تصدير قالب الرسومات إلى {path}
+	Replace Fonts in Projects	استبدال الخطوط في المشاريع
+	Fonts used in the project:	الخطوط المستخدمة في المشروع:
+	{f} (missing)	{f} (مفقود)
+	Replace:	استبدال:
+	Replaced {n} font uses	تم استبدال الخط في {n} موضعًا
+	Show/Hide Effects and Sends	إظهار/إخفاء المؤثرات والإرسالات
+	Show/Hide Tracks…	إظهار/إخفاء المسارات…
+	Meter Input(s) Only	قياس المدخلات فقط
+	Show/Hide Tracks	إظهار/إخفاء المسارات
+	Show All	إظهار الكل
+	Post-Fader	بعد خافت الصوت
+	Fill the slots above first	املأ الخانات أعلاه أولًا
+	pre 	قبل 
+	Pre-Fader	قبل خافت الصوت
+	Mute Send	كتم الإرسال
+	Remove Send	إزالة الإرسال
+	New Submix	مزج فرعي جديد
+	Pan / balance (drag; double-click: centre)	توزيع الصوت / الموازنة (اسحب؛ انقر نقرًا مزدوجًا للتمركز)
+	Solo safe	عزل آمن
