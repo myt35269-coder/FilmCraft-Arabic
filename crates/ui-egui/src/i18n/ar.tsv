@@ -1956,3 +1956,103 @@
 	New Submix	مزج فرعي جديد
 	Pan / balance (drag; double-click: centre)	توزيع الصوت / الموازنة (اسحب؛ انقر نقرًا مزدوجًا للتمركز)
 	Solo safe	عزل آمن
+	Enable track for recording	تمكين المسار للتسجيل
+	Volume (drag; double-click: 0 dB)	مستوى الصوت (اسحب؛ انقر نقرًا مزدوجًا لضبطه على 0 dB)
+	Go to In Point	الانتقال إلى نقطة الدخول
+	Go to Out Point	الانتقال إلى نقطة الخروج
+	Play In to Out	التشغيل من نقطة الدخول إلى نقطة الخروج
+	Record (voice-over on the record-enabled track)	تسجيل (التعليق الصوتي على المسار الممكّن للتسجيل)
+	Write keyframes	كتابة الإطارات المفتاحية
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.	حدث خطأ أثناء رسم النافذة. لا يزال مشروعك مفتوحًا؛ احفظه للاحتياط.
+	Go Back	رجوع
+	Go Forward	تقدم
+	Up One Level	الانتقال إلى المستوى الأعلى
+	File Types Displayed	أنواع الملفات المعروضة
+	List View	عرض القائمة
+	Thumbnail View	عرض الصور المصغرة
+	Open Ingest Settings	فتح إعدادات الاستيراد
+	{sel} of {total} items selected	تم تحديد {sel} من أصل {total} عنصرًا
+	{total} items	{total} عنصرًا
+	Favorites	المفضلة
+	Local Drives	محركات الأقراص المحلية
+	Network	الشبكة
+	Recent Directories	المجلدات الأخيرة
+	Remove from Favorites	إزالة من المفضلة
+	Open In Source Monitor	فتح في شاشة المصدر
+	Reveal in Finder	إظهار في مستكشف الملفات
+	Edit Columns…	تحرير الأعمدة…
+	New Media Browser Panel	لوحة متصفح وسائط جديدة
+	Refresh	تحديث
+	Edit Columns	تحرير الأعمدة
+	Generating waveform…	جارٍ إنشاء شكل الموجة…
+	Reference  {tc}	مرجع  {tc}
+	Set	تعيين
+	Set the reference to the playhead	تعيين المرجع عند مؤشر التشغيل
+	Reference: next frame	المرجع: الإطار التالي
+	Reference: previous frame	المرجع: الإطار السابق
+	RGBA Channels	قنوات RGBA
+	Save Guides as Template	حفظ الأدلة كقالب
+	Manage Guides	إدارة الأدلة
+	Orientation:	الاتجاه:
+	Vertical	عمودي
+	Position:	الموضع:
+	No saved guide templates.	لا توجد قوالب أدلة محفوظة.
+	Project: {name}	المشروع: {name}
+	Up one level	الانتقال مستوى واحدًا للأعلى
+	Video Usage: {vu}  Audio Usage: {au}	استخدام الفيديو: {vu}  استخدام الصوت: {au}
+	Freeform View	عرض حر
+	Sort Icons	ترتيب الأيقونات
+	New Item	عنصر جديد
+	New Bin	حاوية جديدة
+	Find	بحث
+	Select one clip (or a linked clip) in the Timeline, or one item in the Project panel, to rename	حدد مقطعًا واحدًا (أو مقطعًا مرتبطًا) في المخطط الزمني، أو عنصرًا واحدًا في لوحة المشروع، لإعادة تسميته
+	User Order	ترتيب المستخدم
+	Refresh Project	تحديث المشروع
+	Reveal Project in Finder…	إظهار المشروع في مستكشف الملفات…
+	New Bin From Selection	إنشاء حاوية جديدة من التحديد
+	New Search Bin	حاوية بحث جديدة
+	New Project Shortcut	اختصار مشروع جديد
+	List	قائمة
+	Freeform	حر
+	Preview Area	منطقة المعاينة
+	Thumbnails	صور مصغرة
+	Thumbnails show effects applied	تعرض الصور المصغرة المؤثرات المطبقة
+	Thumbnail controls for all pointing devices	عناصر التحكم بالصور المصغرة لجميع أجهزة التأشير
+	Refresh Sort Order	تحديث ترتيب الفرز
+	Metadata Display…	عرض البيانات الوصفية…
+	Save Current View Preset	حفظ إعداد العرض الحالي
+	Restore View Preset	استعادة إعداد العرض
+	Project View Preset {n}	إعداد عرض المشروع {n}
+	Freeform View Options…	خيارات العرض الحر…
+	Media missing	الوسائط مفقودة
+	Unreadable	يتعذر قراءته
+	Open in Source Monitor	فتح في شاشة المصدر
+	Open in Timeline	فتح في المخطط الزمني
+	New Sequence From Clip	إنشاء تسلسل جديد من المقطع
+	Set Poster Frame	تعيين إطار الملصق
+	Open in Place	فتح في الموضع نفسه
+	Open in New Tab	فتح في علامة تبويب جديدة
+	Open in New Window	فتح في نافذة جديدة
+	{n} items	{n} عناصر
+	Stack	تكديس
+	Unstack	إلغاء التكديس
+	Larger	أكبر
+	Smaller	أصغر
+	Reset to Grid	إعادة ضبط إلى الشبكة
+	Save Arrangement…	حفظ الترتيب…
+	Restore Arrangement	استعادة الترتيب
+	Open Demo Project	فتح المشروع التجريبي
+	Insert and overwrite sequences as nests or individual clips	إدراج التسلسلات واستبدالها كحاويات متداخلة أو كمقاطع منفردة
+	Snap in Timeline (S)	الالتقاط في المخطط الزمني (S)
+	Timeline Display Settings	إعدادات عرض المخطط الزمني
+	Show Video Thumbnails	إظهار الصور المصغرة للفيديو
+	Show Audio Waveform	إظهار شكل موجة الصوت
+	Expand All Tracks	توسيع جميع المسارات
+	Minimize All Tracks	تصغير جميع المسارات
+	Unrendered: should play back in real time	غير مُصيّر: يفترض تشغيله في الوقت الفعلي
+	Unrendered: render to play back in real time	غير مُصيّر: قم بتصييره لتشغيله في الوقت الفعلي
+	Rendered preview	معاينة مُصيّرة
+	✓ Enable	✓ تمكين
+	Unlink	إلغاء الارتباط
+	Place files dropped onto the Timeline directly on the Timeline	وضع الملفات التي تُسقط على المخطط الزمني مباشرةً عليه
+	{n} files	{n} ملفات
