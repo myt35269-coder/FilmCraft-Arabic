@@ -529,3 +529,85 @@
 	Balanced Voice	صوت متوازن
 	Channel	قناة
 	Include captions on import	تضمين الترجمة النصية عند الاستيراد
+	   Angle	   الزاوية
+	   Blur	   التمويه
+	   Corner Radius	   نصف قطر الزاوية
+	   Distance	   المسافة
+	   Opacity	   العتامة
+	   Size	   الحجم
+	   Template: {name}	   القالب: {name}
+	(Custom)	(مخصص)
+	(Default)	(افتراضي)
+	(RGB) Gamma	(RGB) غاما
+	(RGB) Input Black Level	(RGB) مستوى الأسود للإدخال
+	(RGB) Input White Level	(RGB) مستوى الأبيض للإدخال
+	(RGB) Output Black Level	(RGB) مستوى الأسود للإخراج
+	(RGB) Output White Level	(RGB) مستوى الأبيض للإخراج
+	(empty)	(فارغ)
+	(no audio)	(لا يوجد صوت)
+	(no clip selected)	(لم يتم تحديد مقطع)
+	(no sequence)	(لا يوجد تسلسل)
+	(no sequences)	(لا توجد تسلسلات)
+	0 fastest, 8 smallest	0 الأسرع، 8 الأصغر حجمًا
+	1 file	ملف واحد
+	1 frame ({seconds} s)	إطار واحد ({seconds} ث)
+	10 Bit Black Point	نقطة الأسود ‏10 بت
+	10 Bit White Point	نقطة الأبيض ‏10 بت
+	16 bit	16 بت
+	24 bit	24 بت
+	32 bit	32 بت
+	32 bit float	32 بت عائم
+	A file dialog is already open	يوجد مربع حوار للملفات مفتوح بالفعل
+	A range marker needs a positive duration	يجب أن تكون مدة علامة النطاق أكبر من صفر
+	AAC Audio	صوت AAC
+	AAC Audio 48 kHz 320 kbps	صوت AAC ‏48 كيلوهرتز، 320 كيلوبت/ث
+	AAF Export Settings	إعدادات تصدير AAF
+	Accent Color	لون التمييز
+	Accessible color contrast	تباين ألوان يسهل الوصول إليه
+	Action Safe Area	منطقة أمان الحركة
+	Action and Title Safe Areas	مناطق أمان الحركة والعناوين
+	Action-Safe Margin	هامش أمان الحركة
+	Action:	الإجراء:
+	Active	نشط
+	Active Monitor	الشاشة النشطة
+	Adaptive	تكيّفي
+	Adaptive ({bpp} bits per pixel)	تكيّفي ({bpp} بت لكل بكسل)
+	Add Custom Color	إضافة لون مخصص
+	Add Guide	إضافة دليل
+	Add Lumetri Color to clip	إضافة Lumetri Color إلى المقطع
+	Add Marker (M)	إضافة علامة (M)
+	Add Property…	إضافة خاصية…
+	Add Track	إضافة مسار
+	Add Tracks…	إضافة مسارات…
+	Add and apply	إضافة وتطبيق
+	Add another shortcut	إضافة اختصار آخر
+	Add captions	إضافة ترجمات نصية
+	Add color	إضافة لون
+	Add custom color	إضافة لون مخصص
+	Add custom color…	إضافة لون مخصص…
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	أضف وسائط إلى مشروعك. أفلِت الملفات في أي مكان داخل النافذة، أو اختر مصدرًا أدناه.
+	Add to Favorites	إضافة إلى المفضلة
+	Add to favorites	إضافة إلى المفضلة
+	Added to the export queue	أُضيف إلى قائمة انتظار التصدير
+	Additional Scale	مقياس إضافي
+	Adjust	ضبط
+	Adjust Gain by:	ضبط الكسب بمقدار:
+	Adjustments	عمليات الضبط
+	Advanced	متقدم
+	After {name}	بعد {name}
+	Aggressive	قوي
+	Align	محاذاة
+	Align Bottom	محاذاة إلى الأسفل
+	Align Center Horizontally	توسيط أفقي
+	Align Center Vertically	توسيط عمودي
+	Align Left	محاذاة إلى اليسار
+	Align Right	محاذاة إلى اليمين
+	Align Top	محاذاة إلى الأعلى
+	Align and Transform	محاذاة وتحويل
+	Align to Grid	محاذاة إلى الشبكة
+	Alignment	المحاذاة
+	All Cameras	جميع الكاميرات
+	All Caps	أحرف كبيرة
+	All Categories	جميع الفئات
+	All Events	جميع الأحداث
+	All lines	جميع الأسطر
