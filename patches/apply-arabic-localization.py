@@ -45,7 +45,26 @@ edit(p, '            Self::Tr => "Türkçe",\n        }\n    }\n\n    pub fn par
 edit(p, '            "tr" => Some(Self::Tr),\n            _ => None,', '            "tr" => Some(Self::Tr),\n            "ar" => Some(Self::Ar),\n            _ => None,')
 edit(p, '            ("tr", Language::Tr),\n        ];', '            ("tr", Language::Tr),\n            ("ar", Language::Ar),\n        ];')
 edit(p, "const PRIMARY: [(&str, Language); 17] = [", "const PRIMARY: [(&str, Language); 18] = [")
-edit(p, '            Self::Tr => "tr",\n        }\n    }\n\n    /// The language\\'s catalog', '            Self::Tr => "tr",\n            Self::Ar => "ar",\n        }\n    }\n\n    /// The language\\'s catalog')
+edit(p, """            Self::Tr => "tr",
+        }
+    }
+
+    pub fn name""", """            Self::Tr => "tr",
+            Self::Ar => "ar",
+        }
+    }
+
+    pub fn name""")
+edit(p, """            Self::Tr => "tr",
+        }
+    }
+
+    /// The language's catalog""", """            Self::Tr => "tr",
+            Self::Ar => "ar",
+        }
+    }
+
+    /// The language's catalog""")
 edit(p, '            Self::En => None,\n            Self::Ja => Some(JAPANESE', '            Self::En => None,\n            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(include_str!("i18n/ar.tsv")))),\n            Self::Ja => Some(JAPANESE')
 
 p = "crates/ui-egui/src/menus.rs"
