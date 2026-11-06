@@ -2056,3 +2056,87 @@
 	Unlink	إلغاء الارتباط
 	Place files dropped onto the Timeline directly on the Timeline	وضع الملفات التي تُسقط على المخطط الزمني مباشرةً عليه
 	{n} files	{n} ملفات
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)	تنسيق OP-Atom بأسلوب Avid: ملف صورة DNxHR HQ مع ملف PCM واحد لكل قناة بدقة 24 بت وتردد 48 كيلوهرتز (_A1، _A2…)
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	فك ترميز تجريبي بدقة تشغيل منخفضة (H.264: أسرع، مع تقليل التصفية لبعض الإطارات)
+	Drag an edge to change the clip's speed so it fills the new duration.	اسحب الحافة لتغيير سرعة المقطع حتى يملأ المدة الجديدة.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	اسحب نقطة التحرير للتقليص التتابعي؛ ستتحرك المقاطع اللاحقة لإبقاء الفجوة مغلقة.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	اسحب نقطة التحرير لإجراء قصّ متزامن: تتحرك نقطة خروج مقطع ونقطة دخول المقطع التالي معًا.
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	اسحب حافة مقطع الموسيقى لإعادة مزجه بالمدة الجديدة مع الحفاظ على توافق الإيقاع.
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	السحب: تحريك · Alt+نقر: تنعيم/زاوية · Ctrl+نقر: حذف
+	Dynamic Link	ارتباط ديناميكي
+	Dynamic Trim Stop	إيقاف التقليص الديناميكي
+	Dynamics Processing	معالجة الديناميكيات الصوتية
+	Early Reflections	الانعكاسات المبكرة
+	Ease In and Out	تدرّج الدخول والخروج
+	Echo Time (seconds)	زمن الصدى (بالثواني)
+	Edge Color	لون الحافة
+	Edge Feather	تنعيم الحافة
+	Edge Glow	توهج الحافة
+	Edge Sharpness	حدة الحافة
+	Edge Softness	نعومة الحافة
+	Edge Thickness	سُمك الحافة
+	Edge Thin	ترقيق الحافة
+	Edge Threshold	عتبة الحافة
+	Edge Type	نوع الحافة
+	Edge Width	عرض الحافة
+	Edit Caption Text	تحرير نص الترجمة
+	Edit Custom Color	تحرير لون مخصص
+	Edit Marker	تحرير العلامة
+	Edit Narration	تحرير التعليق الصوتي
+	Edit Offline File	تحرير الملف غير المتصل
+	Editing or removing a swatch leaves assigned colors unchanged.	لن يؤدي تحرير عينة لون أو إزالتها إلى تغيير الألوان المعيّنة مسبقًا.
+	Ellipse Tool	أداة الشكل البيضاوي
+	Elliptical	بيضاوي
+	Empty tracks	مسارات فارغة
+	Enable HSL Secondary	تفعيل تصحيح HSL الثانوي
+	Enable Mercury Transmit	تفعيل إرسال Mercury
+	Enable ProRes hardware accelerated encoding, if available	تفعيل ترميز ProRes المسرّع بالأجهزة، إذا كان متاحًا
+	Enable clip and XMP metadata linking	تفعيل ربط بيانات المقطع الوصفية ببيانات XMP
+	Enable developer mode	تفعيل وضع المطوّر
+	Enable hardware accelerated decoding (requires restart)	تفعيل فك الترميز المسرّع بالأجهزة (يتطلب إعادة التشغيل)
+	Enable language auto-detection	تفعيل الكشف التلقائي عن اللغة
+	Enable proxies	تفعيل ملفات البروكسي
+	Encoding {n}%	جارٍ الترميز {n}%
+	End Credits	شارات النهاية
+	End Credits – Roll	تمرير شارات النهاية
+	End Point	نقطة النهاية
+	End of Ramp	نهاية التدرّج
+	End: {tc}	النهاية: {tc}
+	Ends With	ينتهي بـ
+	Enter a positive duration within the supported speed range.	أدخل مدة موجبة ضمن نطاق السرعة المدعوم.
+	Enter a valid HH:MM:SS:FF timecode	أدخل رمزًا زمنيًا صالحًا بالتنسيق HH:MM:SS:FF
+	Enter a valid HTTP or HTTPS URL without credentials	أدخل رابط HTTP أو HTTPS صالحًا دون بيانات اعتماد.
+	Enter six hex digits, for example FF80C0.	أدخل ستة أرقام ست عشرية، مثل FF80C0.
+	Entire Source	المصدر بالكامل
+	Estimated file size: {size}	حجم الملف المقدّر: {size}
+	Evolution Options	خيارات التطور
+	Exciter Amount	مقدار المُحسِّن الصوتي
+	Exciter Mode	وضع المُحسِّن الصوتي
+	Exclusion	استثناء
+	Existing XMP files written by other applications are left unchanged.	ستظل ملفات XMP الموجودة، التي أنشأتها تطبيقات أخرى، دون تغيير.
+	Exponential Fade	تلاشي أُسّي
+	Export Audio	تصدير الصوت
+	Export Frame	تصدير الإطار
+	Export Options	خيارات التصدير
+	Export formats	تنسيقات التصدير
+	Export presets	إعدادات التصدير المسبقة
+	Export the labels to a preset file…	تصدير التسميات إلى ملف إعدادات مسبقة…
+	Exported to {path}	تم التصدير إلى {path}
+	Exported {path} as {format}, from its file extension	تم تصدير {path} بتنسيق {format} وفقًا لامتداد الملف
+	Exporting	جارٍ التصدير
+	Exporting {path}	جارٍ تصدير {path}
+	Extend Next Edit To Playhead	تمديد نقطة التحرير التالية إلى مؤشر التشغيل
+	Extend Previous Edit To Playhead	تمديد نقطة التحرير السابقة إلى مؤشر التشغيل
+	Extend Selected Edit to Playhead	تمديد نقطة التحرير المحددة إلى مؤشر التشغيل
+	Extend Selection Down	توسيع التحديد إلى الأسفل
+	Extend Selection Left	توسيع التحديد إلى اليسار
+	Extend Selection Right	توسيع التحديد إلى اليمين
+	Extend Selection Up	توسيع التحديد إلى الأعلى
+	Extended Dynamic Range Monitoring	مراقبة النطاق الديناميكي الموسّع
+	FLAC stores whole-number samples only	يخزّن FLAC عينات بأعداد صحيحة فقط
+	Fade In	تلاشي للداخل
+	Faded Matte	قناع باهت
+	Faded Print	طباعة باهتة
+	Falloff	التلاشي التدريجي
+	Far Away	بعيد جدًا
+	Faster Motion	حركة أسرع
