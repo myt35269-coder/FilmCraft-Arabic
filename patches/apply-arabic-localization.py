@@ -15,7 +15,6 @@ REQUIRED = [
     "crates/ui-egui/src/menus.rs",
     "crates/engine/src/settings/schema.rs",
     "crates/ui-egui/src/i18n/tests.rs",
-    "apps/filmcraft/src/native_menu.rs",
     "crates/ui-egui/src/i18n/ar.tsv",
 ]
 missing = [p for p in REQUIRED if not (ROOT / p).is_file()]
@@ -82,19 +81,6 @@ edit(p, '    assert_eq!(Language::En.tr("File"), "File");\n    assert_eq!(Langua
          '    assert_eq!(Language::En.tr("File"), "File");\n    assert_eq!(Language::Ar.bcp47(), "ar");\n    assert_eq!(Language::from_locales(&["ar-LY".to_string()]), Language::Ar);\n    assert_eq!(Language::from_locales(&["ar_EG.UTF-8".to_string()]), Language::Ar);\n    assert_eq!(Language::parse("xx"), None);')
 edit(p, '        (Language::PtBr, "Português (Brasil)"),',
          '        (Language::Ar, "العربية"),\n        (Language::PtBr, "Português (Brasil)"),')
-
-p = "apps/filmcraft/src/native_menu.rs"
-edit(p, '        } else if checked("app.language.turkish") {\n            filmcraft_ui_egui::i18n::Language::Tr\n        } else {',
-         '        } else if checked("app.language.turkish") {\n            filmcraft_ui_egui::i18n::Language::Tr\n        } else if checked("app.language.arabic") {\n            filmcraft_ui_egui::i18n::Language::Ar\n        } else {')
-
-edit(p, '            "app.language.turkish" => crate::i18n::Language::Tr,\n            _ => crate::i18n::Language::En,',
-         '            "app.language.turkish" => crate::i18n::Language::Tr,\n            "app.language.arabic" => crate::i18n::Language::Ar,\n            _ => crate::i18n::Language::En,')
-edit(p, '            "app.language.turkish" => it.checked = Some(app.ui.language == crate::i18n::Language::Tr),\n            _ => {}',
-         '            "app.language.turkish" => it.checked = Some(app.ui.language == crate::i18n::Language::Tr),\n            "app.language.arabic" => it.checked = Some(app.ui.language == crate::i18n::Language::Ar),\n            _ => {}')
-
-p = "apps/filmcraft/src/native_menu.rs"
-edit(p, '        } else if checked("app.language.turkish") {\n            filmcraft_ui_egui::i18n::Language::Tr\n        } else {',
-         '        } else if checked("app.language.turkish") {\n            filmcraft_ui_egui::i18n::Language::Tr\n        } else if checked("app.language.arabic") {\n            filmcraft_ui_egui::i18n::Language::Ar\n        } else {')
 
 for relative, content in staged.items():
     (ROOT / relative).write_text(content, encoding="utf-8", newline="\n")
