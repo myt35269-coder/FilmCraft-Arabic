@@ -2678,3 +2678,151 @@
 	Move Selection Page Down	نقل التحديد صفحة إلى الأسفل
 	Move Selection Page Up	نقل التحديد صفحة إلى الأعلى
 	Move Selection Right	نقل التحديد إلى اليمين
+	Move Selection Up	نقل التحديد إلى الأعلى
+	Move clips to the lowest track possible	نقل المقاطع إلى أدنى مسار ممكن
+	Movie	فيلم
+	Movie (audio and video)	فيلم (صوت وصورة)
+	Multi-Camera Record On/Off Toggle	تبديل تشغيل/إيقاف التسجيل متعدد الكاميرات
+	Multiband Compressor	ضاغط متعدد النطاقات
+	Multicam	متعدد الكاميرات
+	Multichannel Mono Media	وسائط أحادية متعددة القنوات
+	Multiplexer	مُجمِّع الإشارات
+	Multiply	ضرب
+	Multitap Delay	تأخير متعدد النقرات
+	Music	موسيقى
+	Mute input during timeline recording	كتم الإدخال أثناء التسجيل على المخطط الزمني
+	My Shortcuts	اختصاراتي
+	Name	الاسم
+	Name (A–Z)	الاسم (أ–ي)
+	Name Color	لون الاسم
+	Name Overlay	تراكب الاسم
+	Name Size	حجم الاسم
+	Name and role on a coloured slab that widens with the name.	الاسم والدور على لوحة ملونة يتسع عرضها مع طول الاسم.
+	Name over a thin rule that always matches the name's width.	الاسم فوق خط رفيع يطابق عرضه عرض الاسم دائمًا.
+	Narrow	ضيق
+	Navigate to End of Segment	الانتقال إلى نهاية المقطع
+	Navigate to Next Line	الانتقال إلى السطر التالي
+	Navigate to Next Word	الانتقال إلى الكلمة التالية
+	Navigate to Previous Line	الانتقال إلى السطر السابق
+	Navigate to Previous Word	الانتقال إلى الكلمة السابقة
+	Navigate to Start of Segment	الانتقال إلى بداية المقطع
+	Navigation	التنقل
+	Neon Color	لون نيون
+	Neon Wipe	مسح نيون
+	Neutral Mono	أحادي محايد
+	New Color Matte	إنشاء طبقة لون ثابت
+	New Sequence	تسلسل جديد
+	Next	التالي
+	Next Multi-Camera Page	صفحة الكاميرات المتعددة التالية
+	Next to original media files	بجانب ملفات الوسائط الأصلية
+	Next to the media	بجانب الوسائط
+	Night	ليل
+	Night Exterior	مشهد ليلي خارجي
+	No Motion	بلا حركة
+	No Scroll	بلا تمرير
+	No contributor data was built into this copy.	لم تُضمَّن بيانات المساهمين في هذه النسخة.
+	No export preset named `{name}`	لا يوجد إعداد تصدير مسبق باسم `{name}`
+	No markers	لا توجد علامات
+	No matching commands	لا توجد أوامر مطابقة
+	No matching markers	لا توجد علامات مطابقة
+	No matching text.	لا يوجد نص مطابق.
+	No model credits were built into this copy.	لم تُضمَّن اعتمادات النماذج في هذه النسخة.
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	لا توجد إضافات مثبتة. ستُطبّق التغييرات عند تشغيل FilmCraft في المرة القادمة.
+	No saved colors	لا توجد ألوان محفوظة
+	No sequence open	لا يوجد تسلسل مفتوح
+	No source clip open	لا يوجد مقطع مصدر مفتوح
+	No text graphics in this sequence. Add text with the Type tool.	لا توجد عناصر نصية في هذا التسلسل. أضف نصًا باستخدام أداة الكتابة.
+	Noise	ضوضاء
+	Noise & Grain	الضوضاء والتحبب
+	Noise (Legacy)	ضوضاء (قديم)
+	Noise Level	مستوى الضوضاء
+	Noise Reduction/Restoration	تقليل الضوضاء/استعادتها
+	Noise Type	نوع الضوضاء
+	Non-Additive Dissolve	تلاشي غير إضافي
+	Normal	عادي
+	Normalize Mix Track	توحيد مستوى مسار المزيج
+	Normalize Mix Track to:	توحيد مستوى مسار المزيج إلى:
+	Not supported by FilmCraft's encoders yet	غير مدعوم بعد بواسطة برامج الترميز في FilmCraft
+	Notch 1	مرشح رفض النطاق 1
+	Notch 2	مرشح رفض النطاق 2
+	Notch 3	مرشح رفض النطاق 3
+	Notch 4	مرشح رفض النطاق 4
+	Notch 5	مرشح رفض النطاق 5
+	Notch 6	مرشح رفض النطاق 6
+	Notch Filter	مرشح رفض النطاق
+	Notch Width	عرض نطاق الرفض
+	Notes	ملاحظات
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	ملاحظات هذا المشروع: المهام والتعليمات وأرقام الإطارات… تُحفظ مع المشروع.
+	Nothing is assigned to this key	لا يوجد إجراء معيّن لهذا المفتاح
+	Nudge Clip Selection Down	تحريك تحديد المقطع إلى الأسفل
+	Nudge Clip Selection Left Five Frames	تحريك تحديد المقطع إلى اليسار خمسة إطارات
+	Nudge Clip Selection Left One Frame	تحريك تحديد المقطع إلى اليسار إطارًا واحدًا
+	Nudge Clip Selection Right Five Frames	تحريك تحديد المقطع إلى اليمين خمسة إطارات
+	Nudge Clip Selection Right One Frame	تحريك تحديد المقطع إلى اليمين إطارًا واحدًا
+	Nudge Clip Selection Up	تحريك تحديد المقطع إلى الأعلى
+	Nudge Selected Object down by five	تحريك العنصر المحدد إلى الأسفل خمس وحدات
+	Nudge Selected Object down by one	تحريك العنصر المحدد إلى الأسفل وحدة واحدة
+	Nudge Selected Object to left by five	تحريك العنصر المحدد إلى اليسار خمس وحدات
+	Nudge Selected Object to left by one	تحريك العنصر المحدد إلى اليسار وحدة واحدة
+	Nudge Selected Object to right by five	تحريك العنصر المحدد إلى اليمين خمس وحدات
+	Nudge Selected Object to right by one	تحريك العنصر المحدد إلى اليمين وحدة واحدة
+	Nudge Selected Object up by five	تحريك العنصر المحدد إلى الأعلى خمس وحدات
+	Nudge Selected Object up by one	تحريك العنصر المحدد إلى الأعلى وحدة واحدة
+	Nudge Volume +1dB	رفع مستوى الصوت بمقدار 1 ديسيبل
+	Nudge Volume +3dB	رفع مستوى الصوت بمقدار 3 ديسيبل
+	Nudge Volume -1dB	خفض مستوى الصوت بمقدار 1 ديسيبل
+	Nudge Volume -3dB	خفض مستوى الصوت بمقدار 3 ديسيبل
+	Number Of Echoes	عدد مرات الصدى
+	Number of Channels:	عدد القنوات:
+	Number of Harmonics	عدد التوافقيات
+	Numbered BMP stills (24-bit)	صور BMP ثابتة مرقمة (24 بت)
+	Numbered DPX stills (10-bit RGB)	صور DPX ثابتة مرقمة (RGB ‏10 بت)
+	Numbered JPEG stills (quality 90)	صور JPEG ثابتة مرقمة (جودة 90)
+	Numbered OpenEXR stills (half float, linear, uncompressed)	صور OpenEXR ثابتة مرقمة (نصف دقة عائمة، خطية، غير مضغوطة)
+	Numbered PNG stills at the sequence's frame size	صور PNG ثابتة مرقمة بحجم إطارات التسلسل
+	Numbered TIFF stills (RGB, 8-bit)	صور TIFF ثابتة مرقمة (RGB، ‏8 بت)
+	Numbered Targa stills (24-bit, uncompressed)	صور Targa ثابتة مرقمة (24 بت، غير مضغوطة)
+	OMF…	OMF…
+	Obsolete	مهمل
+	Octagon	مثمن
+	Offset	إزاحة
+	Offset (Turbulence)	إزاحة (اضطراب)
+	Offset From	إزاحة من
+	Offset To	إزاحة إلى
+	Omni	شامل الاتجاهات
+	On	تشغيل
+	On Original Image	على الصورة الأصلية
+	On Transparent	على خلفية شفافة
+	Opacity 0 → 100 % over the first second	زيادة العتامة من 0 إلى 100% خلال الثانية الأولى
+	Opacity 100 → 0 % over the last second	خفض العتامة من 100 إلى 0% خلال الثانية الأخيرة
+	Open Air	هواء مفتوح
+	Open Bin	فتح الحاوية
+	Open Link	فتح الرابط
+	Open Most Recent	فتح الأحدث
+	Open Search	فتح البحث
+	Open a sequence to export	افتح تسلسلًا لتصديره
+	Open a sequence to search its graphics	افتح تسلسلًا للبحث عن عناصره الرسومية
+	Open in new window	فتح في نافذة جديدة
+	Open in place	فتح في المكان نفسه
+	Open new tab	فتح علامة تبويب جديدة
+	Open this address in your browser yourself:	افتح هذا العنوان بنفسك في متصفحك:
+	OpenEXR	OpenEXR
+	OpenEXR Sequence	تسلسل OpenEXR
+	OpenTimelineIO…	OpenTimelineIO…
+	Opened {url}	تم فتح {url}
+	Opens this address in your web browser	يفتح هذا العنوان في متصفح الويب
+	Opens up the shadows	يفتح الظلال
+	Order	الترتيب
+	Ordering:	الترتيب:
+	Orientation	الاتجاه
+	Out	خروج
+	Outer	خارجي
+	Outgoing	صادر
+	Output	الإخراج
+	Output Mapping	تعيين الإخراج
+	Outside	الخارج
+	Outside Color	لون الخارج
+	Overflow	تجاوز السعة
+	Overlay	تراكب
+	Overshoot	تجاوز
+	Overwrite Edit	استبدال التحرير
