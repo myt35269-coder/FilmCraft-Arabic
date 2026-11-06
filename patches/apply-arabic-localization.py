@@ -55,16 +55,6 @@ edit(p, """            Self::Tr => "tr",
     }
 
     pub fn name""")
-edit(p, """            Self::Tr => "tr",
-        }
-    }
-
-    /// The language's catalog""", """            Self::Tr => "tr",
-            Self::Ar => "ar",
-        }
-    }
-
-    /// The language's catalog""")
 edit(p, '            Self::En => None,\n            Self::Ja => Some(JAPANESE', '            Self::En => None,\n            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(include_str!("i18n/ar.tsv")))),\n            Self::Ja => Some(JAPANESE')
 
 p = "crates/ui-egui/src/menus.rs"
