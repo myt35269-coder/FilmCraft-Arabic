@@ -3034,3 +3034,203 @@
 	Rays	أشعة
 	Rays Only	الأشعة فقط
 	Razor Tool	أداة الشفرة
+	Read	قراءة
+	Ready	جاهز
+	Real name	الاسم الحقيقي
+	Rec. 2100	Rec. 2100
+	Rec. 601	Rec. 601
+	Rec. 709	Rec. 709
+	Recognize when different speakers are talking	التعرّف على المتحدثين المختلفين أثناء الكلام
+	Rectangle Tool	أداة المستطيل
+	Red Blurriness	تمويه الأحمر
+	Red Curve	منحنى الأحمر
+	Red Offset	إزاحة الأحمر
+	Red Power	قوة الأحمر
+	Red Slope	ميل الأحمر
+	Red-Blue	أحمر–أزرق
+	Red-Const	أحمر–ثابت
+	Red-Green	أحمر–أخضر
+	Red-Red	أحمر–أحمر
+	Reduce Axis	تقليل المحور
+	Reduce Interlace Flicker	تقليل وميض التشابك
+	Reflected	منعكس
+	Reflection Angle	زاوية الانعكاس
+	Reflection Center	مركز الانعكاس
+	Refraction	انكسار
+	Reframe Offset	إزاحة إعادة التأطير
+	Reframe Zoom	تقريب إعادة التأطير
+	Refresh growing Files Every	تحديث الملفات قيد الكتابة كل
+	Relaxed	هادئ
+	Release Time	زمن الارتخاء
+	Relief	تأثير بارز
+	Remaining	المتبقي
+	Remix Tool	أداة إعادة المزج
+	Remove Fringe	إزالة الهالة اللونية
+	Remove from favorites	إزالة من المفضلة
+	Remove saved color	إزالة اللون المحفوظ
+	Render Edit in Audition files to:	معالجة ملفات التحرير في Audition إلى:
+	Render at Maximum Depth	المعالجة بأقصى عمق
+	Render audio when rendering video	معالجة الصوت عند معالجة الفيديو
+	Renderer:	محرك المعالجة:
+	Repair	إصلاح
+	Repeat Edge Pixels	تكرار وحدات بكسل الحواف
+	Replace Color	استبدال اللون
+	Replace With Clip From Source Monitor	استبدال بالمقطع من شاشة المصدر
+	Replicate	تكرار
+	Reset Interface Zoom	إعادة ضبط تكبير الواجهة
+	Responsive Design - Position	تصميم متجاوب - الموضع
+	Responsive Design - Time	تصميم متجاوب - الزمن
+	Responsive Design – Time remaps the graphic's layer keyframes; clip effects like Opacity and Motion keep media time	تصميم متجاوب - الزمن يعيد توزيع الإطارات المفتاحية لطبقة الرسومات؛ أما تأثيرات المقطع مثل Opacity وMotion فتحافظ على زمن الوسائط.
+	Restore open sequences when opening projects	استعادة التسلسلات المفتوحة عند فتح المشاريع
+	Result	النتيجة
+	Retro	كلاسيكي
+	Reveal Nested Sequence	إظهار التسلسل المتداخل
+	Reveal Original Image	إظهار الصورة الأصلية
+	Reveal in Project	إظهار في المشروع
+	Reverb Amount	مقدار الصدى
+	Reverse	عكس
+	Reverse Speed	عكس السرعة
+	Reverse the order	عكس الترتيب
+	Revert to the preset's colors and names	استعادة ألوان الإعداد المسبق وأسمائه
+	Right - Left	يمين - يسار
+	Right - Right	يمين - يمين
+	Right align text	محاذاة النص إلى اليمين
+	Right channel to device output	إرسال القناة اليمنى إلى خرج الجهاز
+	Right to left	من اليمين إلى اليسار
+	Ripple Edit Tool	أداة التحرير التموجي
+	Ripple Edit, Shifting Trailing Clips	تحرير تموجي مع إزاحة المقاطع اللاحقة
+	Ripple Trim In	تشذيب تموجي لنقطة الدخول
+	Ripple Trim Next Edit to Playhead	تشذيب نقطة التحرير التالية تموجيًا حتى مؤشر التشغيل
+	Ripple Trim Out	تشذيب تموجي لنقطة الخروج
+	Ripple Trim Previous Edit to Playhead	تشذيب نقطة التحرير السابقة تموجيًا حتى مؤشر التشغيل
+	Ripple trim adds edits to keep both sides of trim in sync	يضيف التشذيب التموجي نقاط تحرير للحفاظ على تزامن جانبي القص.
+	Role	الدور
+	Roll (Z Axis)	دوران حول المحور Z
+	Roll Edit	تحرير متداخل
+	Rolling Edit Tool	أداة التحرير المتداخل
+	Room Size	حجم الغرفة
+	Rotation Amount	مقدار الدوران
+	Roughen	تخشين
+	Roughen Color	لون التخشين
+	Roughen Edges	تخشين الحواف
+	Round cap	نهاية مستديرة
+	Round join	وصلة مستديرة
+	Rounded Crop	اقتصاص بزوايا مستديرة
+	Rows	صفوف
+	Rule Color	لون الخط الفاصل
+	Russian	الروسية
+	Rusty	صدئ
+	Rusty Color	لون صدئ
+	SFX	مؤثرات صوتية (SFX)
+	Safe graphics mode: {mode}	وضع الرسومات الآمن: {mode}
+	Same as Project	مثل المشروع
+	Sample Rate	معدل أخذ العينات
+	Sample Size	حجم العينة
+	Saturation at 50 %	تشبع بنسبة 50%
+	Save .cfa and .pek media cache files next to original media files when possible	حفظ ملفات ذاكرة الوسائط المؤقتة .cfa و.pek بجانب ملفات الوسائط الأصلية متى أمكن.
+	Save as Template	حفظ كقالب
+	Save color	حفظ اللون
+	Save current settings as:	حفظ الإعدادات الحالية باسم:
+	Save preset as:	حفظ الإعداد المسبق باسم:
+	Saved template {path}	تم حفظ القالب {path}
+	Saves this session's log and shows it in your file manager.	يحفظ سجل هذه الجلسة ويعرضه في مدير الملفات.
+	Scale (Degrees)	القياس (بالدرجات)
+	Scale Amount	مقدار القياس
+	Scale From	القياس من
+	Scale Height	ارتفاع القياس
+	Scale Match	مطابقة القياس
+	Scale To	القياس إلى
+	Scale To Fill	تحجيم لملء الإطار
+	Scale To Fit	تحجيم لملاءمة الإطار
+	Scale Width	عرض القياس
+	Scale motion effects proportionally when changing frame size	تحجيم تأثيرات الحركة بشكل متناسب عند تغيير حجم الإطار
+	Scale to frame size	تحجيم إلى حجم الإطار
+	Scaling	التحجيم
+	Scan Lines	خطوط المسح
+	Scene	المشهد
+	Scene Edit Detection	اكتشاف نقاط تحرير المشهد
+	Scene Edit Detection: analysing in the background (see Progress)	اكتشاف نقاط تحرير المشهد: جارٍ التحليل في الخلفية (راجع التقدم)
+	Scene:	المشهد:
+	Scientific Filter	مرشح علمي
+	Scratch Disks	أقراص العمل المؤقتة
+	Scratch disk location for Captured Audio	موقع قرص العمل المؤقت للصوت الملتقط
+	Screen	الشاشة
+	Search commands or keys	البحث عن الأوامر أو المفاتيح
+	Search markers	البحث عن العلامات
+	Search name, notes, author	البحث بالاسم أو الملاحظات أو المؤلف
+	Search presets	البحث عن الإعدادات المسبقة
+	Search:	بحث:
+	Seconds	ثوانٍ
+	Segmentation Marker	علامة تقسيم
+	Segments	مقاطع
+	Select All Project Items	تحديد جميع عناصر المشروع
+	Select Camera 1	تحديد الكاميرا 1
+	Select Camera 2	تحديد الكاميرا 2
+	Select Camera 3	تحديد الكاميرا 3
+	Select Camera 4	تحديد الكاميرا 4
+	Select Camera 5	تحديد الكاميرا 5
+	Select Camera 6	تحديد الكاميرا 6
+	Select Camera 7	تحديد الكاميرا 7
+	Select Camera 8	تحديد الكاميرا 8
+	Select Camera 9	تحديد الكاميرا 9
+	Select Clip at Playhead	تحديد المقطع عند مؤشر التشغيل
+	Select Find Box	تحديد مربع البحث
+	Select Next Clip	تحديد المقطع التالي
+	Select Next Panel	تحديد اللوحة التالية
+	Select Previous Clip	تحديد المقطع السابق
+	Select Previous Panel	تحديد اللوحة السابقة
+	Select all	تحديد الكل
+	Select all visible markers	تحديد جميع العلامات الظاهرة
+	Select an item to preview it	حدد عنصرًا لمعاينته
+	Select to Next Line	تحديد حتى السطر التالي
+	Select to Next Word	تحديد حتى الكلمة التالية
+	Select to Previous Line	تحديد حتى السطر السابق
+	Select to Previous Word	تحديد حتى الكلمة السابقة
+	Select to Segment End	تحديد حتى نهاية المقطع
+	Select to Segment Start	تحديد حتى بداية المقطع
+	Selected: {command}	المحدد: {command}
+	Selection Order	ترتيب التحديد
+	Selection Tool	أداة التحديد
+	Semi-tones	أنصاف الدرجات اللونية
+	Send exports here with Send to Queue, then start the queue.	أرسل ملفات التصدير إلى هنا باستخدام «إرسال إلى قائمة الانتظار»، ثم ابدأ تشغيل القائمة.
+	Send to Queue	إرسال إلى قائمة الانتظار
+	Sensitivity:	الحساسية:
+	Sepia Tone	تأثير سيبيا
+	Sequence Name	اسم التسلسل
+	Sequence Settings	إعدادات التسلسل
+	Sequence Timecode	الرمز الزمني للتسلسل
+	Sequence name	اسم التسلسل
+	Sequence: {name}	التسلسل: {name}
+	Sequence: {settings}	التسلسل: {settings}
+	Sequentially	بالتتابع
+	Set Comparison Reference	تعيين مرجع المقارنة
+	Set Creative Look	تعيين المظهر الإبداعي
+	Set Input LUT	تعيين LUT الإدخال
+	Set Project Panel View	تعيين طريقة عرض لوحة المشروع
+	Set Transition Duration	تعيين مدة الانتقال
+	Set Work Area Bar In Point	تعيين نقطة الدخول لشريط منطقة العمل
+	Set Work Area Bar Out Point	تعيين نقطة الخروج لشريط منطقة العمل
+	Set as Default Transition	تعيين كمرحلة انتقال افتراضية
+	Set focus on the Timeline when performing Insert/Overwrite edits	نقل التركيز إلى الخط الزمني عند تنفيذ عمليات الإدراج أو الاستبدال
+	Set to frame size	ضبط الحجم ليتوافق مع الإطار
+	Setting	الإعداد
+	Shadow Angle	زاوية الظل
+	Shadow Balance	توازن الظلال
+	Shadow Blue Balance	توازن الأزرق في الظلال
+	Shadow Blur	تمويه الظل
+	Shadow Color	لون الظل
+	Shadow Distance	مسافة الظل
+	Shadow Green Balance	توازن الأخضر في الظلال
+	Shadow Hue	درجة لون الظل
+	Shadow Level	مستوى الظل
+	Shadow Only	الظل فقط
+	Shadow Opacity	عتامة الظل
+	Shadow Red Balance	توازن الأحمر في الظلال
+	Shadow Size	حجم الظل
+	Shadow Softness	نعومة الظل
+	Shadow Threshold	عتبة الظل
+	Shadow Tint	صبغة الظل
+	Shadows Lightness	سطوع الظلال
+	Shake	اهتزاز
+	Shape Dissolve	تلاشي الأشكال
+	Shape Flow	تدفق الشكل
