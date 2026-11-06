@@ -40,7 +40,7 @@ p = "crates/ui-egui/src/i18n.rs"
 edit(p, "    Tr,\n}\n\nstatic JAPANESE", "    Tr,\n    /// Arabic (RTL), persisted as ar.\n    Ar,\n}\n\nstatic ARABIC: OnceLock<Catalog> = OnceLock::new();\nstatic JAPANESE")
 edit(p, "pub const ALL: [Self; 17] = [", "pub const ALL: [Self; 18] = [")
 edit(p, "        Self::Bs,\n    ];", "        Self::Bs,\n        Self::Ar,\n    ];")
-edit(p, '            Self::Tr => "tr",\n        }\n    }\n\n    pub fn name', '            Self::Tr => "tr",\n            Self::Ar => "ar",\n        }\n    }\n\n    pub fn name')
+edit(p, "            Self::Tr => \"tr\",\n        }\n    }\n\n    /// The language's catalog", "            Self::Tr => \"tr\",\n            Self::Ar => \"ar\",\n        }\n    }\n\n    /// The language's catalog")
 edit(p, '            Self::Tr => "Türkçe",\n        }\n    }\n\n    pub fn parse', '            Self::Tr => "Türkçe",\n            Self::Ar => "العربية",\n        }\n    }\n\n    pub fn parse')
 edit(p, '            "tr" => Some(Self::Tr),\n            _ => None,', '            "tr" => Some(Self::Tr),\n            "ar" => Some(Self::Ar),\n            _ => None,')
 edit(p, '            ("tr", Language::Tr),\n        ];', '            ("tr", Language::Tr),\n            ("ar", Language::Ar),\n        ];')
