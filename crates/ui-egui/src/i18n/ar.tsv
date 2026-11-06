@@ -3434,3 +3434,203 @@
 	Stroke Length	طول الحد
 	Stroke Length (secs)	طول الحد (ثوانٍ)
 	Stroke Only	الحد فقط
+	Stroke Randomness	عشوائية الحد
+	Stroke Type	نوع الحد
+	Stroke Width	عرض الحد
+	Stroke line cap	شكل نهاية الحد
+	Stroke line join	شكل وصلة الحد
+	Studio Reverb	صدى استوديو
+	Stylize	إضفاء طابع فني
+	SubRip Subtitle (.srt)	ترجمة SubRip (.srt)
+	Subclip End	نهاية المقطع الفرعي
+	Subclip Start	بداية المقطع الفرعي
+	Subspace Warp	تشويه الفضاء الفرعي
+	Subtitle	ترجمة نصية
+	Subtract	طرح
+	Sum multichannel outputs to mono in Source Monitor	جمع مخرجات القنوات المتعددة وتحويلها إلى أحادي في شاشة المصدر
+	Summary	ملخص
+	Super Narrow	ضيق جدًا
+	Surface Gloss	لمعان السطح
+	Surface Material	مادة السطح
+	Surround Reverb	صدى محيطي
+	Swap	تبديل
+	Swap Channels	تبديل القنوات
+	Swivel	دوران محوري
+	Sync Voice-over Capture	مزامنة التقاط التعليق الصوتي
+	Sync with system	مزامنة مع النظام
+	Synthetic	اصطناعي
+	System Compatibility Report	تقرير توافق النظام
+	System Language	لغة النظام
+	System color picker unavailable: {error}	منتقي ألوان النظام غير متاح: {error}
+	TIFF	تنسيق TIFF
+	TIFF Sequence	تسلسل صور TIFF
+	TV Power	طاقة التلفاز
+	Table	جدول
+	Tag Color	لون الوسم
+	Tape	شريط
+	Tape Name	اسم الشريط
+	Tape/Tube	شريط/أنبوب
+	Targa	تنسيق Targa
+	Targa Sequence	تسلسل صور Targa
+	Target Aspect	نسبة أبعاد الهدف
+	Target Bitrate	معدل البت المستهدف
+	Target Color	اللون المستهدف
+	Target Field of View	مجال الرؤية المستهدف
+	Target Loudness	جهارة الصوت المستهدفة
+	Teal & Orange	أزرق مخضر وبرتقالي
+	Teal Shadows, Warm Skin	ظلال زرقاء مخضرة وبشرة دافئة
+	Technical	تقني
+	Telephone	هاتف
+	Teletext	نص تلفزيوني
+	Template Name:	اسم القالب:
+	Template Properties	خصائص القالب
+	Text (graphics and captions)	نص (رسومات وترجمات نصية)
+	Text Animator	محرّك النص
+	Text Box Height	ارتفاع مربع النص
+	Text Color	لون النص
+	Text Layer Type	نوع طبقة النص
+	Text Properties	خصائص النص
+	Text Styling	تنسيق النص
+	Text to Speech	تحويل النص إلى كلام
+	TextPanel	لوحة النص
+	The control server is disabled: FILMCRAFT_CONTROL_TOKEN must contain 64 random hex characters (see docs/control-protocol.md)	خادم التحكم معطّل: يجب أن يحتوي المتغير FILMCRAFT_CONTROL_TOKEN على 64 خانة سداسية عشرية عشوائية (راجع docs/control-protocol.md)
+	The default graphics are used from the next start.	سيتم استخدام الرسومات الافتراضية عند التشغيل التالي.
+	The language changed but could not be saved: {e}	تم تغيير اللغة، لكن تعذّر حفظها: {e}
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	تحتفظ ذاكرة الوسائط المؤقتة بمعاينات المعالجة للمشاريع غير المحفوظة وملفات أخرى يستطيع FilmCraft إعادة إنشائها. حذف هذه الملفات آمن دائمًا؛ إذ يعيد FilmCraft إنشاءها عند الحاجة.
+	The sequence has no caption track.	لا يحتوي التسلسل على مسار للترجمة النصية.
+	Thickness	السُمك
+	This clip does not match the sequence settings.	لا يتوافق هذا المقطع مع إعدادات التسلسل.
+	Three-Way Color Corrector	مصحح ألوان ثلاثي الاتجاهات
+	Thumbnail Size Next	زيادة حجم الصورة المصغّرة
+	Thumbnail Size Previous	تقليل حجم الصورة المصغّرة
+	Ticker – Crawl	شريط نصي متحرك
+	TikTok 1080×1920	TikTok ‏1080×1920
+	Tile Gradient	تدرّج تبليطي
+	Tilt	إمالة
+	Tilt (X Axis)	إمالة (المحور X)
+	Time	الوقت
+	Time and Pitch	الزمن ودرجة الصوت
+	Time is outside the supported range	الوقت خارج النطاق المدعوم
+	Timecode Conversion	تحويل الرمز الزمني
+	Timecode Overlay	تراكب الرمز الزمني
+	Timeline Mouse Scrolling	تمرير الخط الزمني باستخدام الفأرة
+	Timeline Playback Auto-Scrolling	التمرير التلقائي للخط الزمني أثناء التشغيل
+	Tint Color	لون الصبغة
+	Title	العنوان
+	Title Color	لون العنوان
+	Title Safe Area	منطقة أمان العنوان
+	Title Size	حجم العنوان
+	Title – Boxed	عنوان داخل إطار
+	Title – Centered	عنوان في المنتصف
+	Titles	العناوين
+	To	إلى
+	To {name}	إلى {name}
+	Toggle All Audio Targets	تبديل تحديد جميع أهداف الصوت
+	Toggle All Source Audio	تبديل صوت المصدر بالكامل
+	Toggle All Source Video	تبديل فيديو المصدر بالكامل
+	Toggle All Video Targets	تبديل تحديد جميع أهداف الفيديو
+	Toggle Audio During Scrubbing	تبديل تشغيل الصوت أثناء التنقل بين الإطارات
+	Toggle Full Screen	تبديل وضع ملء الشاشة
+	Toggle Mute for All Targeted Audio Tracks	تبديل كتم جميع مسارات الصوت المستهدفة
+	Toggle Solo for All Targeted Audio Tracks	تبديل العزل لجميع مسارات الصوت المستهدفة
+	Toggle Source/Program Monitor Focus	تبديل التركيز بين شاشتي المصدر والبرنامج
+	Toggle Target Audio 1	تبديل هدف الصوت 1
+	Toggle Target Audio 2	تبديل هدف الصوت 2
+	Toggle Target Audio 3	تبديل هدف الصوت 3
+	Toggle Target Audio 4	تبديل هدف الصوت 4
+	Toggle Target Audio 5	تبديل هدف الصوت 5
+	Toggle Target Audio 6	تبديل هدف الصوت 6
+	Toggle Target Audio 7	تبديل هدف الصوت 7
+	Toggle Target Audio 8	تبديل هدف الصوت 8
+	Toggle Target Video 1	تبديل هدف الفيديو 1
+	Toggle Target Video 2	تبديل هدف الفيديو 2
+	Toggle Target Video 3	تبديل هدف الفيديو 3
+	Toggle Target Video 4	تبديل هدف الفيديو 4
+	Toggle Target Video 5	تبديل هدف الفيديو 5
+	Toggle Target Video 6	تبديل هدف الفيديو 6
+	Toggle Target Video 7	تبديل هدف الفيديو 7
+	Toggle Target Video 8	تبديل هدف الفيديو 8
+	Toggle Track Output for All Targeted Video Tracks	تبديل إخراج جميع مسارات الفيديو المستهدفة
+	Toggle Trim Type	تبديل نوع التشذيب
+	Toggle View	تبديل العرض
+	Tolerance	سماحية
+	Tonal Range	النطاق النغمي
+	Tone	النغمة
+	Top Center	أعلى الوسط
+	Top Left	أعلى اليسار
+	Top Right	أعلى اليمين
+	Total Duration	المدة الإجمالية
+	Touch	لمس
+	Track Color	لون المسار
+	Track Matte Key	مفتاح قناع المسار
+	Track Select Backward Tool	أداة تحديد المسارات إلى الخلف
+	Track Select Forward Tool	أداة تحديد المسارات إلى الأمام
+	Track Selected Mask	قناع المسار المحدد
+	Transcode	تحويل الترميز
+	Transcribe Sequence	تفريغ صوت التسلسل إلى نص
+	Transcription	التفريغ النصي
+	Transcription preferences	تفضيلات التفريغ النصي
+	Transform	تحويل
+	Transformers	المحوّلات
+	Transience	الزوال
+	Transition Completion	اكتمال الانتقال
+	Transition Softness	نعومة الانتقال
+	Transitions	الانتقالات
+	Transparency	الشفافية
+	Transparency Grid	شبكة الشفافية
+	Trash	سلة المهملات
+	Travel Motion	حركة انتقالية
+	Treble	الترددات العالية
+	Triangle	مثلث
+	Trim	تشذيب
+	Trim In	تشذيب نقطة الدخول
+	Trim Next Edit to Playhead	تشذيب نقطة التحرير التالية حتى مؤشر التشغيل
+	Trim Out	تشذيب نقطة الخروج
+	Trim Previous Edit to Playhead	تشذيب نقطة التحرير السابقة حتى مؤشر التشغيل
+	Trimming	التشذيب
+	True Peak Limit	حد الذروة الحقيقية
+	Tube	أنبوب
+	Tube-modeled Compressor	ضاغط يحاكي خصائص الأنابيب
+	Tubular	أنبوبي
+	Turbulent	مضطرب
+	Turbulent Displace	إزاحة مضطربة
+	Turbulent Sharp	حاد مضطرب
+	Turbulent Smooth	ناعم مضطرب
+	Turbulent Smoother	تنعيم الاضطراب
+	Tweed	نسيج تويد
+	Twirl	التفاف لولبي
+	Twirl (Legacy)	التفاف لولبي (قديم)
+	Twirl Center	مركز الالتفاف
+	Twirl Radius	نصف قطر الالتفاف
+	Twist	التواء
+	Twist Smoother	تنعيم الالتواء
+	Type Tool	أداة الكتابة
+	Type a shortcut… (Esc cancels)	اكتب اختصارًا… (اضغط Esc للإلغاء)
+	Typewriter	آلة كاتبة
+	UI Scale	مقياس الواجهة
+	URL	عنوان URL
+	Ultra Key	المفتاح الفائق
+	Uncompressed (PCM)	غير مضغوط (PCM)
+	Undock Panel	فصل اللوحة عن النافذة
+	Uniform Scale	تحجيم موحّد
+	Uniform Spacing	تباعد موحّد
+	Unsharp Mask	قناع زيادة الحدة
+	Unstack Clips	إلغاء تكديس المقاطع
+	Update Metadata	تحديث البيانات الوصفية
+	Update it at least every	تحديثه مرة واحدة على الأقل كل
+	Update timeline dynamically during ripple edits.	تحديث الخط الزمني ديناميكيًا أثناء عمليات التحرير التموجي.
+	Upper First	الأحرف الكبيرة أولًا
+	Upper Frequency	التردد الأعلى
+	Upper Left	أعلى اليسار
+	Upper Right	أعلى اليمين
+	Use Color Noise	استخدام ضوضاء لونية
+	Use Default Graphics	استخدام الرسومات الافتراضية
+	Use Effect Shutter Angle	استخدام زاوية غالق التأثير
+	Use End Color	استخدام اللون النهائي
+	Use File	استخدام ملف
+	Use Glow Color	استخدام لون التوهج
+	Use Maximum Render Quality	استخدام أقصى جودة للمعالجة
+	Use Media Source	استخدام مصدر الوسائط
+	Use Tint Color	استخدام لون الصبغة
+	User	المستخدم
+	Username	اسم المستخدم
