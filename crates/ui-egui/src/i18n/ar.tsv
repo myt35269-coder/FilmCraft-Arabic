@@ -2852,3 +2852,185 @@
 	FLAC 48 kHz 24-bit	FLAC ‏48 kHz ‏24-bit
 	FLAC, stereo 48 kHz 24-bit, lossless	FLAC، ستيريو، ‏48 kHz ‏24-bit، بلا فقدان
 	Fast	سريع
+	Avid DNxHR	ترميز Avid DNxHR
+	Avid DNxHR HQ	Avid DNxHR عالي الجودة (HQ)
+	Avid DNxHR LB	Avid DNxHR منخفض معدل البت (LB)
+	Avid DNxHR SQ	Avid DNxHR بجودة قياسية (SQ)
+	Avid Log Exchange	تبادل سجل Avid
+	Avid Log Exchange…	تبادل سجل Avid…
+	BMP	تنسيق BMP
+	BMP Sequence	تسلسل صور BMP
+	Binauralizer - Ambisonics	محاكي الصوت ثنائي الأذن - Ambisonics
+	Blue-Blue	أزرق–أزرق
+	Blue-Const	أزرق–ثابت
+	Blue-Green	أزرق–أخضر
+	Blue-Red	أزرق–أحمر
+	British Stack	تأثير British Stack
+	Butterworth	مرشح Butterworth
+	CBR	معدل بت ثابت (CBR)
+	CEA-608	CEA-608
+	CEA-708	CEA-708
+	CRF (constant quality)	CRF (جودة ثابتة)
+	Cathedral	صدى الكاتدرائية
+	Cell Pattern	نمط الخلايا
+	Chaos	فوضى
+	Chebyshev	مرشح Chebyshev
+	Choke	تضييق
+	Clock Wipe	انتقال مسح دائري
+	Clock Wipe (Legacy)	انتقال مسح دائري (قديم)
+	Cross Displacement	إزاحة متقاطعة
+	Cross Dissolve (Legacy)	تلاشي متداخل (قديم)
+	Cross Processed	معالجة لونية متقاطعة
+	Cross Zoom	تقريب متداخل
+	Cross Zoom (Legacy)	تقريب متداخل (قديم)
+	Crossfade	تلاشي متداخل
+	Crossovers	مرشحات تقسيم الترددات
+	Crystallize	تأثير التبلور
+	Crystals	بلورات
+	Cube Spin	دوران المكعب
+	Curl Radius	نصف قطر الالتفاف
+	Curves	منحنيات
+	Cycle (in Revolutions)	الدورة (باللفات)
+	D1/DV NTSC (0.9091)	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)	D1/DV PAL (1.0940)
+	DPX	تنسيق DPX
+	DPX Sequence	تسلسل صور DPX
+	DVCPRO HD (1.5)	DVCPRO HD (1.5)
+	Export: no file chosen (agents: export.presets.export {path, names})	تصدير: لم يتم اختيار ملف (الوكلاء: export.presets.export ‏{path, names})
+	Export: no file chosen (agents: shortcuts.export {path})	تصدير: لم يتم اختيار ملف (الوكلاء: shortcuts.export ‏{path})
+	FCPXML…	ملف FCPXML…
+	FLAC	تنسيق FLAC
+	PNG	تنسيق PNG
+	PNG Sequence	تسلسل صور PNG
+	PNG or JPEG file	ملف PNG أو JPEG
+	Page Peel	انتقال تقشير الصفحة
+	Page Scroll	انتقال تمرير الصفحة
+	Page Turn	انتقال قلب الصفحة
+	Paint Bucket	أداة دلو التعبئة
+	Paint On Black	تأثير الرسم على خلفية سوداء
+	Paint On Original Image	تأثير الرسم على الصورة الأصلية
+	Paint On Transparent	تأثير الرسم على خلفية شفافة
+	Paint On White	تأثير الرسم على خلفية بيضاء
+	Paint Style	نمط الرسم
+	Paint Surface	سطح الرسم
+	Pan (Y Axis)	تحريك على المحور Y
+	Panel	لوحة
+	Panel Wipe	انتقال مسح اللوحة
+	Panel shortcuts override application shortcuts while that panel has focus	تتجاوز اختصارات اللوحة اختصارات التطبيق عندما تكون اللوحة موضع التركيز.
+	Panels	اللوحات
+	Panner - Ambisonics	موزّع مكاني للصوت - Ambisonics
+	Parade	عرض Parade
+	Parade (RGB)	عرض Parade (RGB)
+	Paragraph Text	نص فقرة
+	Parametric Equalizer	معادل صوت بارامتري
+	Passband Ripple	تموّج نطاق المرور
+	Path	مسار
+	Path Points	نقاط المسار
+	Path: {path}	المسار: {path}
+	Pause Media Encoder queue during playback	إيقاف قائمة انتظار Media Encoder مؤقتًا أثناء التشغيل
+	Peak Frequency	تردد الذروة
+	Peak Gain	كسب الذروة
+	Pedestal	مستوى الأساس
+	Pen Tool	أداة القلم
+	Pentagon	خماسي الأضلاع
+	Per line	لكل سطر
+	Percent Blur	التمويه بالنسبة المئوية
+	Perspective	منظور
+	Phase Difference	فرق الطور
+	Phaser	تأثير Phaser
+	Phone Call	مكالمة هاتفية
+	Phosphor	فوسفور
+	Phosphor Color	لون الفوسفور
+	Photocopy	تصوير ضوئي
+	Photocopy Color	لون التصوير الضوئي
+	PiP 35% Upper Right	صورة داخل صورة بنسبة 35% أعلى اليمين
+	Picture-in-picture: 35 % scale in the upper right	صورة داخل صورة: قياس 35% في أعلى اليمين
+	Pillow	وسادة
+	Pin All	تثبيت الكل
+	Pin Horizontal	تثبيت أفقي
+	Pin Light	ضوء التثبيت
+	Pin Vertical	تثبيت عمودي
+	Pinning	التثبيت
+	Pitch Shifter	مغيّر درجة الصوت
+	Placement:	الموضع:
+	Plate	لوحة
+	Plateau Wipe	انتقال مسح الهضبة
+	Plateaus	هضاب
+	Plates	ألواح
+	Play Around	تشغيل حول الموضع
+	Play In to Out with Preroll/Postroll	تشغيل من نقطة الدخول إلى نقطة الخروج مع تشغيل تمهيدي وختامي
+	Play Source	تشغيل المصدر
+	Play after rendering previews	التشغيل بعد معالجة المعاينات
+	Play audio while scrubbing in Source and Program Monitors	تشغيل الصوت أثناء التنقل بين الإطارات في شاشتي المصدر والبرنامج
+	Play from Playhead to Out Point	التشغيل من مؤشر التشغيل حتى نقطة الخروج
+	Play/Stop	تشغيل/إيقاف
+	Playback	التشغيل
+	Playhead position determines trim monitor loop playback	يحدد موضع مؤشر التشغيل تكرار التشغيل في شاشة التشذيب
+	Plugins	الإضافات
+	Podcast Voice	صوت البودكاست
+	Point Text	نص نقطي
+	Pointer Color	لون المؤشر
+	Points	النقاط
+	Policy	السياسة
+	Pop Motion	حركة منبثقة
+	Position & Rotation	الموضع والدوران
+	Position Amount	مقدار الموضع
+	Position, Scale & Rotation	الموضع والقياس والدوران
+	Position, Scale, Rotation	الموضع والقياس والدوران
+	Posterize	تقليل التدرجات اللونية
+	Posterize Time	تقليل تدرج الزمن
+	Pre-Delay	تأخير مسبق
+	Prefix	بادئة
+	Presence Lift	تعزيز الحضور الصوتي
+	Preserve Luminosity	الحفاظ على النصوع
+	Preserve Scale	الحفاظ على القياس
+	Preset	إعداد مسبق
+	Preset Manager	مدير الإعدادات المسبقة
+	Previous	السابق
+	Previous Multi-Camera Page	صفحة الكاميرات المتعددة السابقة
+	ProcAmp	معالج الإشارة (ProcAmp)
+	Profile	ملف التعريف
+	Progressive	تقدّمي
+	Project Auto Save:	الحفظ التلقائي للمشروع:
+	Project Colors	ألوان المشروع
+	Project saved to {path}	تم حفظ المشروع في {path}
+	ProjectPanel	لوحة المشروع
+	Projecting cap	نهاية بارزة
+	Projects	المشاريع
+	Protect Highlights	حماية المناطق الساطعة
+	Pull Motion	حركة سحب
+	Pulls highlights and whites down	يخفض المناطق الساطعة والدرجات البيضاء
+	Push	دفع
+	Push (Legacy)	دفع (قديم)
+	Q	Q
+	Quality	الجودة
+	Quality (CRF)	الجودة (CRF)
+	Queue ({n})	قائمة الانتظار ({n})
+	Quick Export: open a sequence first	التصدير السريع: افتح تسلسلًا أولًا
+	Quick Export: {path}	التصدير السريع: {path}
+	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)
+	RAM reserved for other applications	ذاكرة RAM المحجوزة للتطبيقات الأخرى
+	RGB	RGB
+	RGB Split	فصل قنوات RGB
+	RGB-White	RGB–أبيض
+	Radial	شعاعي
+	Radial Blur	تمويه شعاعي
+	Radial Ramp	تدرج شعاعي
+	Radial Wipe	انتقال مسح شعاعي
+	Radial Wipe (Legacy)	انتقال مسح شعاعي (قديم)
+	Radio Announcer	مذيع إذاعي
+	Radio Voice	صوت إذاعي
+	Radius	نصف القطر
+	Ramp	تدرّج
+	Ramp Shape	شكل التدرّج
+	Random	عشوائي
+	Random Seed	بذرة عشوائية
+	Range	النطاق
+	Range marker	علامة نطاق
+	Rate Stretch Tool	أداة تمديد السرعة
+	Ray	شعاع
+	Ray Color	لون الشعاع
+	Ray Length	طول الشعاع
+	Rays	أشعة
+	Rays Only	الأشعة فقط
+	Razor Tool	أداة الشفرة
