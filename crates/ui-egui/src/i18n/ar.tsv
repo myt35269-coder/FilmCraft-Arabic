@@ -3818,3 +3818,22 @@
 	{rate} fps Non Drop-Frame Timecode	رمز زمني دون إسقاط الإطارات بمعدل {rate} fps
 	{rate} fps Timecode	رمز زمني بمعدل {rate} fps
 	{rate} frames/second	{rate} إطار/ثانية
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالأجهزة: يستخدم الوضع التلقائي وحدة فك ترميز الفيديو في النظام (VideoToolbox على macOS وMedia Foundation على Windows وVA-API أو NVDEC لترميزَي H.264 وHEVC على Linux) للتدفقات التي تدعمها، ويستخدم FilmCraft وحدة فك الترميز الخاصة به فيما عدا ذلك أو عند تعذّر عمل الأجهزة. وتحتفظ الوسائط المفتوحة بالفعل بوحدة فك الترميز الحالية حتى إغلاقها وإعادة فتحها.
+	Lift Shadows	رفع الظلال
+	Point 1	النقطة 1
+	Point 1 Color	لون النقطة 1
+	Point 1 Latitude	خط عرض النقطة 1
+	Point 1 Longitude	خط طول النقطة 1
+	Point 2	النقطة 2
+	Point 2 Color	لون النقطة 2
+	Point 2 Latitude	خط عرض النقطة 2
+	Point 2 Longitude	خط طول النقطة 2
+	Point 3	النقطة 3
+	Point 3 Color	لون النقطة 3
+	Point 3 Latitude	خط عرض النقطة 3
+	Point 3 Longitude	خط طول النقطة 3
+	Point 4	النقطة 4
+	Point 5	النقطة 5
+	Point 6	النقطة 6
+	Point 7	النقطة 7
+	Point 8	النقطة 8
