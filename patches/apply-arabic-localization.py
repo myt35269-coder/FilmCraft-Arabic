@@ -68,14 +68,22 @@ edit(p, """            Self::Tr => "tr",
 edit(p, '            Self::En => None,\n            Self::Ja => Some(JAPANESE', '            Self::En => None,\n            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(include_str!("i18n/ar.tsv")))),\n            Self::Ja => Some(JAPANESE')
 
 p = "crates/ui-egui/src/menus.rs"
-edit(p, '    uic!("app.language.english", "English", ["Edit", "Language"], None),\n    // Alphabetical by the language\\'s own name after English; Cyrillic, then CJK names follow\n    // the Latin ones. Settings ▸ General ▸ Interface Language lists them the same way.',
-         '    uic!("app.language.english", "English", ["Edit", "Language"], None),\n    uic!("app.language.arabic", "العربية", ["Edit", "Language"], None),\n    // Arabic is listed after English; remaining names follow the existing Latin, Cyrillic and CJK order.\n    // Settings ▸ General ▸ Interface Language lists them the same way.')
+edit(p, """    uic!("app.language.english", "English", ["Edit", "Language"], None),
+    // Alphabetical by the language's own name after English; Cyrillic, then CJK names follow
+    // the Latin ones. Settings ▸ General ▸ Interface Language lists them the same way.""",
+         """    uic!("app.language.english", "English", ["Edit", "Language"], None),
+    uic!("app.language.arabic", "العربية", ["Edit", "Language"], None),
+    // Arabic is listed after English; remaining names follow the existing Latin, Cyrillic and CJK order.
+    // Settings ▸ General ▸ Interface Language lists them the same way.""")
 edit(p, '            | "app.language.turkish"\n    ) {', '            | "app.language.turkish"\n            | "app.language.arabic"\n    ) {')
 edit(p, '            "app.language.turkish" => crate::i18n::Language::Tr,\n            _ => crate::i18n::Language::En,', '            "app.language.turkish" => crate::i18n::Language::Tr,\n            "app.language.arabic" => crate::i18n::Language::Ar,\n            _ => crate::i18n::Language::En,')
 
 p = "crates/engine/src/settings/schema.rs"
-edit(p, '                    ("en", "English"),\n                    // Alphabetical by the language\\'s own name after English; Cyrillic, then',
-         '                    ("en", "English"),\n                    ("ar", "العربية"),\n                    // Arabic is listed after English; remaining names follow the existing Latin, Cyrillic and CJK order.')
+edit(p, """                    ("en", "English"),
+                    // Alphabetical by the language's own name after English; Cyrillic, then""",
+         """                    ("en", "English"),
+                    ("ar", "العربية"),
+                    // Arabic is listed after English; remaining names follow the existing Latin, Cyrillic and CJK order.""")
 
 p = "crates/ui-egui/src/i18n/tests.rs"
 edit(p, '        Language::En => None,\n        Language::Ja => Some(include_str!("ja.tsv")),',
