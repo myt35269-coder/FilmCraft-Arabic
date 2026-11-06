@@ -2193,3 +2193,112 @@
 	Find:	بحث:
 	First commit	الإيداع الأول
 	Flanger	تأثير فلانجر
+	Flare	وهج العدسة
+	Flare Brightness	سطوع وهج العدسة
+	Flare Center	مركز وهج العدسة
+	Flare Color	لون وهج العدسة
+	Flash	وميض
+	Flash Cue Marker	علامة إشارة الوميض
+	Flash Cue Point	نقطة إشارة الوميض
+	Flicker	وميض متقطع
+	Flickers	ومضات متقطعة
+	Flip Motion	قلب الحركة
+	Flip Over	اقلب
+	Float	عائم
+	Focus	تركيز
+	Focus Blur	ضبابية التركيز
+	Focus Point	نقطة التركيز
+	Focus Shape	شكل التركيز
+	Focus Size	حجم التركيز
+	Fold Motion	طيّ الحركة
+	Foldback	ارتداد صوتي
+	Folder	مجلد
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	لضبط معلمات إدارة الألوان، انتقل إلى علامة تبويب الإعدادات في لوحة Lumetri Color.
+	Format	التنسيق
+	Four Scopes (RGB, 8 bit)	أربعة مناظير (RGB، ‏8 بت)
+	Four Scopes (YUV, float, no clamp)	أربعة مناظير (YUV، فاصلة عائمة، دون تقييد)
+	Fractal Influence	تأثير النمط الكسيري
+	Fractal Type	نوع النمط الكسيري
+	Frame	إطار
+	Frame Color	لون الإطار
+	Frame Count	عدد الإطارات
+	Frame Layout	تخطيط الإطارات
+	Frame Rate	معدل الإطارات
+	Frame Size	حجم الإطار
+	Frame Width	عرض الإطار
+	Frame cache for monitors and thumbnails	ذاكرة تخزين مؤقت للإطارات الخاصة بالشاشات المصغرة والصور المصغرة
+	Frames	إطارات
+	Frames per Still:	عدد الإطارات لكل صورة ثابتة:
+	Framing	تأطير
+	French	الفرنسية
+	Frequency	التردد
+	Frequency Bands	نطاقات التردد
+	Frequency Range	نطاق التردد
+	Frequency Response	استجابة التردد
+	From Current Frame	من الإطار الحالي
+	From In to Out	من نقطة الدخول إلى نقطة الخروج
+	From Source	من المصدر
+	Full Screen	ملء الشاشة
+	Full Screen Playback	تشغيل بملء الشاشة
+	Full resolution	الدقة الكاملة
+	Gain (dB)	الكسب (ديسيبل)
+	Gaussian Noise	ضوضاء غاوسية
+	Generate Captions	إنشاء الترجمة النصية
+	Generate Proxies	إنشاء ملفات البروكسي
+	Generate Thumbnail	إنشاء صورة مصغرة
+	Ghosting	أثر شبحي
+	Glow Intensity	شدة التوهج
+	Glow Threshold	عتبة التوهج
+	Go to Start	الانتقال إلى البداية
+	Green Screen	الشاشة الخضراء
+	H.264	H.264
+	H.265 (HEVC)	H.265 (HEVC)
+	Half resolution	نصف الدقة
+	Hardware Acceleration	تسريع الأجهزة
+	Hardware Decoder	وحدة فك الترميز بالأجهزة
+	Hardware Encoder	وحدة الترميز بالأجهزة
+	Hide All	إخفاء الكل
+	High Quality	جودة عالية
+	High Pass Filter	مرشح الترددات العالية
+	Hue/Saturation	درجة اللون/التشبع
+	I-frame	إطار I
+	Import Audio	استيراد الصوت
+	Import Captions	استيراد الترجمة النصية
+	Import Media	استيراد الوسائط
+	Import Project	استيراد مشروع
+	Input Gain	كسب الإدخال
+	Invert Colors	عكس الألوان
+	Invert Selection	عكس التحديد
+	J-Cut	قص J
+	Join Clips	دمج المقاطع
+	Key Color	لون المفتاح
+	Keyframe	إطار مفتاحي
+	Keyframe Interpolation	استيفاء الإطارات المفتاحية
+	Keyframes	إطارات مفتاحية
+	L-Cut	قص L
+	LUT Intensity	شدة LUT
+	LUT Size	حجم LUT
+	Large	كبير
+	Layer	طبقة
+	Layout	التخطيط
+	Left Channel	القناة اليسرى
+	Lens Distortion	تشوه العدسة
+	Lens Flare	وهج العدسة
+	Levels	المستويات
+	Light Leak	تسرّب ضوئي
+	Lightness	الإضاءة
+	Limit	حد
+	Linear Dodge	إضافة خطية
+	Linear Wipe	مسح خطي
+	Link Clips	ربط المقاطع
+	Load Preset	تحميل إعداد مسبق
+	Local	محلي
+	Lock	قفل
+	Lock Track	قفل المسار
+	Log	لوغاريتمي
+	Loop Playback	تشغيل متكرر
+	Low Pass	تمرير الترددات المنخفضة
+	Low Pass Filter	مرشح الترددات المنخفضة
+	Lower Third	عنوان الثلث السفلي
+	Luma	الإضاءة
+	Luminance	السطوع
