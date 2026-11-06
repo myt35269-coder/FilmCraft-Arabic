@@ -2302,3 +2302,183 @@
 	Lower Third	عنوان الثلث السفلي
 	Luma	الإضاءة
 	Luminance	السطوع
+	From	من
+	From East	من الشرق
+	From North	من الشمال
+	From South	من الجنوب
+	From West	من الغرب
+	From the Left	من اليسار
+	From the Right	من اليمين
+	Front + LFE	أمامي + قناة المؤثرات منخفضة التردد
+	Front + Rear	أمامي + خلفي
+	Front + Rear + LFE	أمامي + خلفي + قناة المؤثرات منخفضة التردد
+	Front Only	أمامي فقط
+	Fuzz	تشويش
+	GB	غيغابايت
+	Gaussian Blur from 0 to 60 over the last second	تمويه غاوسي يتدرج من 0 إلى 60 خلال الثانية الأخيرة
+	Gaussian Blur from 60 to 0 over the first second	تمويه غاوسي يتدرج من 60 إلى 0 خلال الثانية الأولى
+	General	عام
+	Generate Ducking Keyframes	إنشاء إطارات مفتاحية لخفض مستوى الصوت تلقائيًا
+	Generate Timecode	إنشاء الرمز الزمني
+	Generate waveforms and conform audio using multithreading	إنشاء الموجات الصوتية ومواءمة الصوت باستخدام تعدد مؤشرات الترابط
+	Generate waveforms automatically during import	إنشاء الموجات الصوتية تلقائيًا أثناء الاستيراد
+	German	الألمانية
+	Ghosts	أشباح
+	Glass	زجاج
+	Glint	بريق
+	Glitch	خلل بصري
+	Glow Brightness	سطوع التوهج
+	Glow Only	التوهج فقط
+	Glow Saturation	تشبع التوهج
+	Glow Width	عرض التوهج
+	Go to Next Edit Point	الانتقال إلى نقطة التحرير التالية
+	Go to Next Edit Point on Any Track	الانتقال إلى نقطة التحرير التالية في أي مسار
+	Go to Previous Edit Point	الانتقال إلى نقطة التحرير السابقة
+	Go to Previous Edit Point on Any Track	الانتقال إلى نقطة التحرير السابقة في أي مسار
+	Go to Selected Clip End	الانتقال إلى نهاية المقطع المحدد
+	Go to Selected Clip Start	الانتقال إلى بداية المقطع المحدد
+	Go to Sequence End	الانتقال إلى نهاية التسلسل
+	Go to Sequence Start	الانتقال إلى بداية التسلسل
+	Golden Dusk	غسق ذهبي
+	Golden Hour	الساعة الذهبية
+	Good	جيد
+	Grab bag	مجموعة متنوعة
+	Gradient Angle	زاوية التدرج
+	Gradient End	نهاية التدرج
+	Gradient Layer	طبقة التدرج
+	Gradient Placement	موضع التدرج
+	Gradient Scatter	تبعثر التدرج
+	Gradient Shape	شكل التدرج
+	Gradient Start	بداية التدرج
+	Gradient Wipe	مسح بالتدرج
+	Gradient Wipe (Legacy)	مسح بالتدرج (قديم)
+	Graphic Equalizer (10 Bands)	معادل صوت رسومي (10 نطاقات)
+	Graphic Equalizer (20 Bands)	معادل صوت رسومي (20 نطاقًا)
+	Graphic Equalizer (30 Bands)	معادل صوت رسومي (30 نطاقًا)
+	Graphics problem: switched to software compositing	مشكلة في الرسوميات: تم التبديل إلى التركيب البرمجي
+	Green Blurriness	ضبابية الأخضر
+	Green Curve	منحنى الأخضر
+	Green Offset	إزاحة الأخضر
+	Green Power	قوة الأخضر
+	Green Slope	ميل الأخضر
+	Green-Blue	أخضر-أزرق
+	Green-Const	أخضر-ثابت
+	Green-Green	أخضر-أخضر
+	Green-Red	أخضر-أحمر
+	Grow	تكبير
+	Growing Files	ملفات قيد النمو
+	Grunge	ملمس خشن
+	Grunge & Distort	ملمس خشن وتشويه
+	GuitarSuite	مجموعة أدوات الغيتار
+	H.264 1920×1080 for video sharing sites, VBR 1 pass, 16 Mbps	H.264 ‏1920×1080 لمواقع مشاركة الفيديو، معدل بت متغير بتمريرة واحدة، 16 ميغابت/ث
+	H.264 1920×1080, VBR 1 pass, 20 Mbps target, AAC 320 kbps	H.264 ‏1920×1080، معدل بت متغير بتمريرة واحدة، هدف 20 ميغابت/ث، صوت AAC ‏320 كيلوبت/ث
+	H.264 1920×1080, VBR 2 pass, 18 Mbps	H.264 ‏1920×1080، معدل بت متغير بتمريرتين، 18 ميغابت/ث
+	H.264 3840×2160 for video sharing sites, VBR 1 pass, 45 Mbps	H.264 ‏3840×2160 لمواقع مشاركة الفيديو، معدل بت متغير بتمريرة واحدة، 45 ميغابت/ث
+	H.264 3840×2160, VBR 1 pass, 60 Mbps target, AAC 320 kbps	H.264 ‏3840×2160، معدل بت متغير بتمريرة واحدة، هدف 60 ميغابت/ث، صوت AAC ‏320 كيلوبت/ث
+	H.264 3840×2160, VBR 2 pass, 50 Mbps	H.264 ‏3840×2160، معدل بت متغير بتمريرتين، 50 ميغابت/ث
+	H.264 9:16 portrait for short-form social video, scaled to fill, 12 Mbps	H.264 عمودي 9:16 للفيديوهات القصيرة على المنصات الاجتماعية، مع التحجيم لملء الإطار، 12 ميغابت/ث
+	H.264 9:16 portrait, scaled to fill, VBR 1 pass, 10 Mbps, loudness normalized to −14 LUFS	H.264 عمودي 9:16، مع التحجيم لملء الإطار، معدل بت متغير بتمريرة واحدة، 10 ميغابت/ث، وتوحيد جهارة الصوت إلى ‎−14 LUFS
+	H.264 9:16 portrait, scaled to fill, VBR 1 pass, 12 Mbps, loudness normalized to −14 LUFS	H.264 عمودي 9:16، مع التحجيم لملء الإطار، معدل بت متغير بتمريرة واحدة، 12 ميغابت/ث، وتوحيد جهارة الصوت إلى ‎−14 LUFS
+	H.264 9:16 portrait, scaled to fill, VBR 1 pass, 8 Mbps, loudness normalized to −14 LUFS	H.264 عمودي 9:16، مع التحجيم لملء الإطار، معدل بت متغير بتمريرة واحدة، 8 ميغابت/ث، وتوحيد جهارة الصوت إلى ‎−14 LUFS
+	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 بحجم الإطار ومعدله الخاصين بالتسلسل؛ 0.05 بت لكل بكسل
+	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 بحجم الإطار ومعدله الخاصين بالتسلسل؛ 0.1 بت لكل بكسل
+	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 بحجم الإطار ومعدله الخاصين بالتسلسل؛ يتكيف معدل البت مع حجم الإطار (0.2 بت لكل بكسل)
+	HD Anamorphic 1080 (1.333)	HD أنامورفي 1080 (1.333)
+	Hardware (AV1 has no software encoder)	ترميز بالأجهزة (لا يتوفر لـ AV1 مرمّز برمجي)
+	Hardware (H.265 has no software encoder)	ترميز بالأجهزة (لا يتوفر لـ H.265 مرمّز برمجي)
+	High Quality 1080p HD	جودة عالية HD ‏1080p
+	High Quality 2160p 4K	جودة عالية 4K ‏2160p
+	High contrast with held highlights and deep shadows	تباين مرتفع مع إبرازات محفوظة وظلال عميقة
+	Hindi	الهندية
+	Hindi digits	الأرقام الهندية
+	Horizontal 16:9	أفقي 16:9
+	I/O Buffer Size	حجم مخزن الإدخال/الإخراج المؤقت
+	Import a preset file…	استيراد ملف إعدادات مسبقة…
+	Import numbered stills as image sequences	استيراد الصور الثابتة المرقمة كسلاسل صور
+	Import: no file chosen (agents: export.presets.import {path})	الاستيراد: لم يتم اختيار ملف (للوكلاء: export.presets.import {path})
+	Import: no file chosen (agents: shortcuts.import {path})	الاستيراد: لم يتم اختيار ملف (للوكلاء: shortcuts.import {path})
+	Imported “{name}”	تم استيراد «{name}»
+	Impulse	استجابة نبضية
+	In	دخول
+	In a Room	في غرفة
+	In the Media Cache	في ذاكرة تخزين الوسائط المؤقتة
+	In the project	في المشروع
+	Increase Clip Volume Many	زيادة مستوى صوت المقطع بدرجة كبيرة
+	Increase Font Size by Five Units	زيادة حجم الخط خمس وحدات
+	Increase Font Size by One Unit	زيادة حجم الخط وحدة واحدة
+	Increase Leading by Five Units	زيادة تباعد الأسطر خمس وحدات
+	Increase Leading by One Unit	زيادة تباعد الأسطر وحدة واحدة
+	Indeterminate Media Timebase	قاعدة زمنية غير محددة للوسائط
+	Instagram Reels 1080×1920	ريلز إنستغرام 1080×1920
+	Inter	خط Inter
+	Italian	الإيطالية
+	JPEG	JPEG
+	JPEG Sequence	تسلسل صور JPEG
+	Japanese	اليابانية
+	JetBrains Mono	خط JetBrains Mono
+	Join Through Edits	دمج المقاطع عبر نقاط التحرير
+	Kaleidoscope	مشهد كاليدوسكوب
+	Keep Existing Settings	الاحتفاظ بالإعدادات الحالية
+	Keep a recovery copy of unsaved changes	الاحتفاظ بنسخة استرداد من التغييرات غير المحفوظة
+	Keep:	الاحتفاظ بـ:
+	Key Frame Distance	المسافة بين الإطارات المفتاحية
+	Key Out Brights	استبعاد المناطق الساطعة
+	Key:	مفتاح:
+	Keyboard Shortcuts	اختصارات لوحة المفاتيح
+	Keyboard: US	لوحة مفاتيح أمريكية
+	Keyboard: US (macOS)	لوحة مفاتيح أمريكية (macOS)
+	Keying	استخراج المفتاح اللوني
+	Korean	الكورية
+	Label Color Presets	إعدادات ألوان التسميات المسبقة
+	Label Defaults	الإعدادات الافتراضية للتسميات
+	Label speakers	تسمية المتحدثين
+	Labels	التسميات
+	Language:	اللغة:
+	Large Hall	قاعة كبيرة
+	Large Trim Offset	إزاحة تقليص كبيرة
+	Large Volume Adjustment	ضبط كبير لمستوى الصوت
+	Large blocks resolving to the picture over the first second	كتل كبيرة تتلاشى لتكشف الصورة خلال الثانية الأولى
+	Large centred title, accent rule and subtitle.	عنوان كبير في المنتصف، وخط تمييز، وعنوان فرعي.
+	Last commit	آخر إيداع
+	Latch	تثبيت
+	Layer Name	اسم الطبقة
+	Layers	الطبقات
+	Leave Color	الإبقاء على اللون
+	Left - Left	يسار - يسار
+	Left - Right	يسار - يمين
+	Left align text	محاذاة النص إلى اليسار
+	Left channel to device output	إرسال القناة اليسرى إلى مخرج الجهاز
+	Left to Right	من اليسار إلى اليمين
+	Left to right	من اليسار إلى اليمين
+	Legacy	قديم
+	Legal Range Squeeze	ضغط النطاق القانوني
+	Length	الطول
+	Lens Blur	تمويه العدسة
+	Lens Type	نوع العدسة
+	Level 1	المستوى 1
+	Level 2	المستوى 2
+	Level 3	المستوى 3
+	Level 4	المستوى 4
+	Lifted blacks, softer contrast, muted colour	سواد مرفوع وتباين أكثر نعومة وألوان هادئة
+	Light 1	ضوء 1
+	Light 2	ضوء 2
+	Light 3	ضوء 3
+	Light 4	ضوء 4
+	Light 5	ضوء 5
+	Light Angle	زاوية الضوء
+	Light Color	لون الضوء
+	Light Intensity	شدة الضوء
+	Light Leaks	تسرّبات ضوئية
+	Light Sweep	مسح ضوئي مضيء
+	Light Theme	المظهر الفاتح
+	Light Type	نوع الضوء
+	Lighten	تفتيح
+	Lighter Color	اللون الأفتح
+	Lighting Effects	تأثيرات الإضاءة
+	Lightning	برق
+	Lights & Blurs	الإضاءات والتمويهات
+	Lights & Glows	الإضاءات والتوهجات
+	Line Thickness	سُمك الخط
+	Line delta	فرق الخط
+	Linear Burn	حرق خطي
+	Linear Dodge (Add)	إضافة خطية
