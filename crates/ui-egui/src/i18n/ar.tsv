@@ -2482,3 +2482,199 @@
 	Line delta	فرق الخط
 	Linear Burn	حرق خطي
 	Linear Dodge (Add)	إضافة خطية
+	Linear Gradient	تدرج خطي
+	Linear Light	ضوء خطي
+	Linear Ramp	تدرج خطي
+	Linear Wipe (Legacy)	مسح خطي (قديم)
+	Linear keyframe thinning	تقليل الإطارات المفتاحية الخطي
+	Linear to Log	من خطي إلى لوغاريتمي
+	Lines +/−	الأسطر المضافة/المحذوفة
+	Lines added	الأسطر المضافة
+	Lines deleted	الأسطر المحذوفة
+	Liquid Distortion	تشويه سائل
+	Loaded “{name}”	تم تحميل «{name}»
+	Local Projects	المشروعات المحلية
+	Location	الموقع
+	Log Note	تسجيل ملاحظة
+	Log Note:	تسجيل ملاحظة:
+	Log to Linear	من لوغاريتمي إلى خطي
+	Log to Log	من لوغاريتمي إلى لوغاريتمي
+	Logo Cutout	قص الشعار
+	Long Shadow	ظل طويل
+	Look-Ahead Time	زمن الاستباق
+	Looks for a newer FilmCraft release and offers to update.	يتحقق من توفر إصدار أحدث من FilmCraft ويعرض عليك التحديث.
+	Loop marked range	تكرار النطاق المحدد
+	Looping GIF, 640×360 at 15 fps	صورة GIF متكررة، 640×360 بمعدل 15 إطارًا/ثانية
+	Loudness	جهارة الصوت
+	Loudness Maximizer	تعظيم جهارة الصوت
+	Loudness Meter	مقياس جهارة الصوت
+	Loudness Normalization	توحيد جهارة الصوت
+	Louver	شرائح
+	Low	منخفض
+	Low Frequency Cut	قطع الترددات المنخفضة
+	Low Shelf	رف الترددات المنخفضة
+	Low Shelf Gain	كسب رف الترددات المنخفضة
+	Lower First	الأدنى أولًا
+	Lower Left	أسفل اليسار
+	Lower Right	أسفل اليمين
+	Lower Third – Rule	خط الثلث السفلي
+	Lower Third – Slab	لوحة الثلث السفلي
+	Lower Thirds	عناوين الثلث السفلي
+	Lowpass	تمرير الترددات المنخفضة
+	Luma Curve	منحنى الإضاءة
+	Luma Fade	تلاشي الإضاءة
+	Luma Key	مفتاح الإضاءة
+	Luma Min / Max	الحد الأدنى/الأقصى للإضاءة
+	Luma Source	مصدر الإضاءة
+	Luma and Chroma	الإضاءة واللون
+	Lumetri	Lumetri
+	Lumetri Presets	إعدادات Lumetri المسبقة
+	Luminance Threshold	عتبة الإضاءة
+	Luminosity	السطوع
+	MB	ميغابايت
+	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	صوت MPEG-4 ‏(.m4a)، ستيريو 48 كيلوهرتز AAC-LC بمعدل 320 كيلوبت/ث
+	MXF OP-Atom	MXF OP-Atom
+	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
+	MXF OP1a	MXF OP1a
+	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ
+	MXF OP1a H.264	MXF OP1a H.264
+	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ
+	MXF OP1a, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM, start timecode	MXF OP1a، ‏DNxHR HQ (8 بت 4:2:2)، صوت PCM ‏24 بت و48 كيلوهرتز، مع رمز زمني للبداية
+	MXF OP1a, H.264 High long GOP (0.3 bits per pixel), 24-bit 48 kHz PCM	MXF OP1a، ‏H.264 High long GOP ‏(0.3 بت لكل بكسل)، صوت PCM ‏24 بت و48 كيلوهرتز
+	MXF OP1a, ProRes 422 HQ, 24-bit 48 kHz PCM, start timecode	MXF OP1a، ‏ProRes 422 HQ، صوت PCM ‏24 بت و48 كيلوهرتز، مع رمز زمني للبداية
+	MXF export writes integer PCM only	تصدير MXF يكتب صوت PCM بأعداد صحيحة فقط
+	Magenta	أرجواني
+	Magnify	تكبير
+	Magnify (Legacy)	تكبير (قديم)
+	Main	أساسي
+	Main (8-bit)	أساسي (8 بت)
+	Main (8-bit; Main 10 for HDR sequences)	أساسي (8 بت؛ Main 10 لتسلسلات HDR)
+	Main 10 (10-bit, HDR)	Main 10 ‏(10 بت، HDR)
+	Maintain pitch while shuttling	الحفاظ على طبقة الصوت أثناء التنقل السريع
+	Major Radius	نصف القطر الأكبر
+	Male	ذكر
+	Manage Colors	إدارة الألوان
+	Manage Colors…	إدارة الألوان…
+	Mango	مانجو
+	Map Black To	تعيين الأسود إلى
+	Map White To	تعيين الأبيض إلى
+	Maps full-range levels into 16–235 (video range) with a luma curve	يحوّل مستويات النطاق الكامل إلى 16–235 (نطاق الفيديو) باستخدام منحنى الإضاءة
+	Mark In (Hover Scrub)	تحديد نقطة الدخول (معاينة عند المرور)
+	Mark Out (Hover Scrub)	تحديد نقطة الخروج (معاينة عند المرور)
+	Marker changed or was removed. Reopen it to continue.	تم تغيير العلامة أو إزالتها. أعد فتحها للمتابعة.
+	Marker owner is unavailable	مالك العلامة غير متاح
+	Mask Only	القناع فقط
+	Masks	أقنعة
+	Master Amplitude	السعة الرئيسية
+	Mastering	الإتقان الصوتي
+	Match Playhead	مطابقة مؤشر التشغيل
+	Match Source	مطابقة المصدر
+	Match Source ({seq_sr} Hz)	مطابقة المصدر ({seq_sr} هرتز)
+	Match Source – Adaptive High Bitrate	مطابقة المصدر – معدل بت مرتفع متكيف
+	Match Source – Adaptive Low Bitrate	مطابقة المصدر – معدل بت منخفض متكيف
+	Match Source – Adaptive Medium Bitrate	مطابقة المصدر – معدل بت متوسط متكيف
+	Match frame sets in point	مطابقة نقطة الدخول لمجموعات الإطارات
+	Match {n} of {total}	مطابقة {n} من {total}
+	Match:	مطابقة:
+	Matches	تطابقات
+	Matte	قناع
+	Matte Alpha	ألفا القناع
+	Matte Cleanup	تنظيف القناع
+	Matte Generation	إنشاء القناع
+	Matte Luma	إضاءة القناع
+	Maximize or Restore Active Frame	تكبير الإطار النشط أو استعادته
+	Maximize or Restore Frame Under Cursor	تكبير الإطار أسفل المؤشر أو استعادته
+	Maximum	الحد الأقصى
+	Maximum Amplitude	السعة القصوى
+	Maximum Bit Depth	أقصى عمق بت
+	Maximum Bitrate	أقصى معدل بت
+	Maximum Block Size	أقصى حجم للكتلة
+	Maximum Blur	أقصى تمويه
+	Maximum Project Versions	أقصى عدد لإصدارات المشروع
+	Maximum Reduction	أقصى خفض
+	Maximum Render Quality	أقصى جودة تصيير
+	Maximum Scale	أقصى مقياس
+	Media Analysis	تحليل الوسائط
+	Media Analysis & Transcription	تحليل الوسائط والتفريغ النصي
+	Media Browser Settings	إعدادات مستعرض الوسائط
+	Media Cache	ذاكرة تخزين الوسائط المؤقتة
+	Media Cache Database	قاعدة بيانات ذاكرة الوسائط المؤقتة
+	Media Cache Files	ملفات ذاكرة الوسائط المؤقتة
+	Media Cache Management	إدارة ذاكرة الوسائط المؤقتة
+	Media Duration	مدة الوسائط
+	Media End	نهاية الوسائط
+	Media File	ملف الوسائط
+	Media Name:	اسم الوسائط:
+	Media Time	زمن الوسائط
+	Media Timecode	الرمز الزمني للوسائط
+	Media Type	نوع الوسائط
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	سيتم تخزين تحليلات الوسائط والتفريغات النصية مؤقتًا في مجلد ذاكرة الوسائط. لن تكون هناك حاجة إلى إعادة التحليل إذا استُوردت الوسائط إلى مشروع آخر على هذا الكمبيوتر.
+	MediaBrowser	مستعرض الوسائط
+	MediaCache	ذاكرة الوسائط المؤقتة
+	Median	الوسيط
+	Medium Room	غرفة متوسطة
+	Memory	الذاكرة
+	Merge Captions	دمج الترجمات النصية
+	Merged PRs	طلبات السحب المدمجة
+	Metadata & Timecode Burn-in	إظهار البيانات الوصفية والرمز الزمني داخل الصورة
+	Method	الطريقة
+	Method:	الطريقة:
+	Metrics Kerning	تقارب الأحرف وفق المقاييس
+	Mid	متوسط
+	Mid Point	نقطة المنتصف
+	Midtone Balance	توازن الدرجات اللونية المتوسطة
+	Midtone Blue Balance	توازن الأزرق في الدرجات المتوسطة
+	Midtone Green Balance	توازن الأخضر في الدرجات المتوسطة
+	Midtone Hue	درجة لون الدرجات المتوسطة
+	Midtone Level	مستوى الدرجات المتوسطة
+	Midtone Red Balance	توازن الأحمر في الدرجات المتوسطة
+	Midtones Lightness	سطوع الدرجات المتوسطة
+	Milliseconds	مللي ثانية
+	Minimum	الحد الأدنى
+	Minimum time	الحد الأدنى للوقت
+	Minimum time interval thinning	تقليل الفواصل الزمنية الدنيا
+	Minor Radius	نصف القطر الأصغر
+	Mirror	مرآة
+	Mirror Alternate	انعكاس متناوب
+	Missing font replacement	استبدال الخط المفقود
+	Miter join	وصلة مشطوفة
+	Miter limit	حد الشطف
+	Mixed Crystals	بلورات مختلطة
+	Mixer	المازج
+	Mode	الوضع
+	Model	النموذج
+	Models	النماذج
+	Modern High Gain	كسب مرتفع حديث
+	Modifier held / selected	المُعدِّل مضغوط/محدد
+	Modifiers	المُعدِّلات
+	Modulation	تضمين
+	Modulation Rate	معدل التضمين
+	Mono Media	وسائط أحادية
+	Monochrome	أحادي اللون
+	Monochrome toned cyan-blue	أحادي اللون بدرجات سماوي-أزرق
+	Monochrome toned warm brown	أحادي اللون بدرجات بني دافئ
+	Monoscopic	أحادي الرؤية
+	Monospace only	أحادي المسافة فقط
+	More colour in the less saturated areas	ألوان أكثر في المناطق الأقل تشبعًا
+	More presets…	المزيد من الإعدادات المسبقة…
+	More transport controls	المزيد من عناصر التحكم في التشغيل
+	Morph Cut	قص التحويل
+	Mosaic	فسيفساء
+	Mosaic (Legacy)	فسيفساء (قديم)
+	Mosaic In	فسيفساء للداخل
+	Motion Blur	ضبابية الحركة
+	Motion Camera	كاميرا الحركة
+	Motion Preset	إعداد حركة مسبق
+	Motion Tween	استيفاء الحركة
+	Move	تحريك
+	Move All Audio Targets Down	نقل جميع أهداف الصوت إلى الأسفل
+	Move All Audio Targets Up	نقل جميع أهداف الصوت إلى الأعلى
+	Move All Video Targets Down	نقل جميع أهداف الفيديو إلى الأسفل
+	Move All Video Targets Up	نقل جميع أهداف الفيديو إلى الأعلى
+	Move Selection Down	نقل التحديد إلى الأسفل
+	Move Selection End	نقل نهاية التحديد
+	Move Selection Home	نقل بداية التحديد
+	Move Selection Left	نقل التحديد إلى اليسار
+	Move Selection Page Down	نقل التحديد صفحة إلى الأسفل
+	Move Selection Page Up	نقل التحديد صفحة إلى الأعلى
+	Move Selection Right	نقل التحديد إلى اليمين
