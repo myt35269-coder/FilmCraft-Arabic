@@ -1,0 +1,254 @@
+name: Check upstream FilmCraft release
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: auto-translate
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    if: github.repository == 'myt35269-coder/FilmCraft-Arabic'
+    runs-on: windows-latest
+    outputs:
+      update_available: ${{ steps.upstream.outputs.update_available }}
+      tag: ${{ steps.upstream.outputs.tag }}
+      sha: ${{ steps.upstream.outputs.sha }}
+      previous_version: ${{ steps.upstream.outputs.previous_version }}
+      version: ${{ steps.upstream.outputs.version }}
+    steps:
+      - name: Check out localization project
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check latest stable FilmCraft release
+        id: upstream
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const workflow = fs.readFileSync('.github/workflows/arabic-build.yml', 'utf8');
+            const pinned = workflow.match(/^\s+ref:\s*([0-9a-f]{40})\s*$/m);
+            if (!pinned) {
+              core.setFailed('Could not find the pinned upstream commit in arabic-build.yml.');
+              return;
+            }
+
+            const release = await github.rest.repos.getLatestRelease({
+              owner: 'storytold',
+              repo: 'filmcraft',
+            });
+            const tag = release.data.tag_name;
+            if (!/^v\d+\.\d+\.\d+$/.test(tag)) {
+              core.setFailed(`Unexpected upstream stable release tag: ${tag}`);
+              return;
+            }
+
+            const source = await github.rest.repos.getCommit({
+              owner: 'storytold',
+              repo: 'filmcraft',
+              ref: tag,
+            });
+            const sha = source.data.sha;
+            const note = fs.readdirSync('.')
+              .filter(name => /^PATCH-v?\d+\.\d+\.\d+\.md$/.test(name))
+              .map(name => ({ name, match: name.match(/^PATCH-v?(\d+\.\d+\.\d+)\.md$/) }))
+              .find(item => item && fs.readFileSync(item.name, 'utf8').startsWith('# FilmCraft '));
+            if (!note) {
+              core.setFailed('Could not find the current FilmCraft integration notes.');
+              return;
+            }
+
+            const previousVersion = note.match[1];
+            const version = tag.slice(1);
+            core.setOutput('tag', tag);
+            core.setOutput('sha', sha);
+            core.setOutput('previous_version', previousVersion);
+            core.setOutput('version', version);
+            core.setOutput('update_available', String(sha !== pinned[1]));
+            core.info(sha === pinned[1]
+              ? `FilmCraft ${tag} is already pinned; no update is needed.`
+              : `New upstream release ${tag} (${sha}) found.`);
+
+      - name: Check out latest FilmCraft source
+        if: steps.upstream.outputs.update_available == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: storytold/filmcraft
+          ref: ${{ steps.upstream.outputs.tag }}
+          path: filmcraft
+          persist-credentials: false
+
+      - name: Apply Arabic catalog and integration
+        if: steps.upstream.outputs.update_available == 'true'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path filmcraft/patches | Out-Null
+          Copy-Item crates/ui-egui/src/i18n/ar.tsv filmcraft/crates/ui-egui/src/i18n/ar.tsv -Force
+          Copy-Item patches/apply-arabic-localization.py filmcraft/patches/apply-arabic-localization.py -Force
+          python filmcraft/patches/apply-arabic-localization.py
+
+      - name: Install Rust toolchain
+        if: steps.upstream.outputs.update_available == 'true'
+        uses: dtolnay/rust-toolchain@1.95.0
+        with:
+          components: rustfmt
+
+      - name: Report untranslated Arabic strings
+        if: steps.upstream.outputs.update_available == 'true'
+        working-directory: filmcraft
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path ../dist | Out-Null
+          cargo xtask i18n-report 2>&1 | Tee-Object -FilePath ../dist/arabic-translation-report.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Check Rust formatting
+        if: steps.upstream.outputs.update_available == 'true'
+        working-directory: filmcraft
+        run: cargo fmt --all -- --check
+
+      - name: Test UI localization
+        if: steps.upstream.outputs.update_available == 'true'
+        working-directory: filmcraft
+        run: cargo test --locked -p filmcraft-ui-egui --lib
+
+      - name: Check workspace
+        if: steps.upstream.outputs.update_available == 'true'
+        working-directory: filmcraft
+        run: cargo check --locked --workspace
+
+      - name: Build Windows preview
+        if: steps.upstream.outputs.update_available == 'true'
+        working-directory: filmcraft
+        run: cargo build --locked --release -p filmcraft
+
+      - name: Package preview
+        if: steps.upstream.outputs.update_available == 'true'
+        shell: pwsh
+        env:
+          UPSTREAM_TAG: ${{ steps.upstream.outputs.tag }}
+        run: |
+          New-Item -ItemType Directory -Force -Path dist/FilmCraft-Arabic | Out-Null
+          Copy-Item filmcraft/target/release/filmcraft.exe dist/FilmCraft-Arabic/FilmCraft-Arabic.exe
+          @"
+          FilmCraft Arabic Preview ($env:UPSTREAM_TAG, Windows x64)
+
+          This isolated preview does not replace or modify an existing FilmCraft installation.
+          The Arabic catalog may be incomplete. See the accompanying untranslated-string report.
+          This preview is not digitally signed and requires manual RTL/UI testing.
+          "@ | Set-Content -Encoding utf8 dist/FilmCraft-Arabic/README.txt
+          Compress-Archive -Path dist/FilmCraft-Arabic/* -DestinationPath dist/FilmCraft-Arabic-Windows-x64-preview.zip -Force
+
+      - name: Upload preview and translation report
+        if: steps.upstream.outputs.update_available == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: FilmCraft-Arabic-${{ steps.upstream.outputs.tag }}-Windows-x64-preview
+          path: |
+            dist/FilmCraft-Arabic-Windows-x64-preview.zip
+            dist/arabic-translation-report.txt
+          if-no-files-found: error
+          retention-days: 14
+
+  propose-update:
+    needs: preview
+    if: needs.preview.outputs.update_available == 'true' && github.repository == 'myt35269-coder/FilmCraft-Arabic'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Check out localization project
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Update upstream pin and release notes
+        env:
+          UPSTREAM_TAG: ${{ needs.preview.outputs.tag }}
+          UPSTREAM_SHA: ${{ needs.preview.outputs.sha }}
+          PREVIOUS_VERSION: ${{ needs.preview.outputs.previous_version }}
+          VERSION: ${{ needs.preview.outputs.version }}
+        shell: pwsh
+        run: |
+          if ($env:UPSTREAM_TAG -notmatch '^v\d+\.\d+\.\d+$' -or
+              $env:UPSTREAM_SHA -notmatch '^[0-9a-f]{40}$' -or
+              $env:PREVIOUS_VERSION -notmatch '^\d+\.\d+\.\d+$' -or
+              $env:VERSION -notmatch '^\d+\.\d+\.\d+$') {
+            throw 'Unexpected upstream release metadata; refusing to edit repository files.'
+          }
+
+          $workflowPath = '.github/workflows/arabic-build.yml'
+          $workflow = Get-Content $workflowPath -Raw
+          $previousShaMatch = [regex]::Match($workflow, '(?m)^\s+ref:\s*([0-9a-f]{40})\s*$')
+          if (-not $previousShaMatch.Success) {
+            throw 'Could not find the previous pinned upstream commit.'
+          }
+          $previousSha = $previousShaMatch.Groups[1].Value
+          $workflow = [regex]::Replace(
+            $workflow,
+            '(?m)^(\s+ref:\s*)[0-9a-f]{40}(\s*)$',
+            { param($match) $match.Groups[1].Value + $env:UPSTREAM_SHA + $match.Groups[2].Value },
+            1
+          )
+          if ($workflow -notmatch [regex]::Escape($env:UPSTREAM_SHA)) {
+            throw 'Could not update the pinned upstream commit.'
+          }
+          $workflow = $workflow.Replace($env:PREVIOUS_VERSION, $env:VERSION)
+          Set-Content -Path $workflowPath -Value $workflow -Encoding utf8
+
+          $oldNotes = "PATCH-$($env:PREVIOUS_VERSION).md"
+          $newNotes = "PATCH-$($env:VERSION).md"
+          if (-not (Test-Path $oldNotes)) {
+            throw "Could not find current integration notes: $oldNotes"
+          }
+          if (Test-Path $newNotes) {
+            throw "Release notes already exist: $newNotes"
+          }
+
+          $readme = Get-Content 'README.md' -Raw
+          Set-Content 'README.md' ($readme.Replace($env:PREVIOUS_VERSION, $env:VERSION)) -Encoding utf8
+
+          $integration = Get-Content 'UPSTREAM-INTEGRATION.md' -Raw
+          $integration = $integration.Replace("v$($env:PREVIOUS_VERSION)", $env:UPSTREAM_TAG)
+          $integration = $integration.Replace($env:PREVIOUS_VERSION, $env:VERSION)
+          $integration = $integration.Replace($previousSha, $env:UPSTREAM_SHA)
+          Set-Content 'UPSTREAM-INTEGRATION.md' $integration -Encoding utf8
+
+          $notes = Get-Content $oldNotes -Raw
+          $notes = $notes.Replace($env:PREVIOUS_VERSION, $env:VERSION)
+          $notes = $notes.Replace($previousSha, $env:UPSTREAM_SHA)
+          Set-Content $newNotes $notes -Encoding utf8
+          Remove-Item $oldNotes
+
+          $historicalNotes = Get-Content 'PATCH-0.17.0.md' -Raw
+          $historicalNotes = $historicalNotes.Replace($oldNotes, $newNotes)
+          Set-Content 'PATCH-0.17.0.md' $historicalNotes -Encoding utf8
+
+          $patcher = Get-Content 'patches/apply-arabic-localization.py' -Raw
+          $patcher = $patcher.Replace("v$($env:PREVIOUS_VERSION)", $env:UPSTREAM_TAG)
+          $patcher = $patcher.Replace($env:PREVIOUS_VERSION, $env:VERSION)
+          Set-Content 'patches/apply-arabic-localization.py' $patcher -Encoding utf8
+
+      - name: Create update pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/filmcraft-latest
+          delete-branch: true
+          commit-message: "Update Arabic integration for FilmCraft ${{ needs.preview.outputs.tag }}"
+          title: "Update Arabic integration for FilmCraft ${{ needs.preview.outputs.tag }}"
+          body: |
+            The daily upstream check found FilmCraft ${{ needs.preview.outputs.tag }}.
+
+            The Arabic integration patch applied successfully, and the UI tests, workspace check, and Windows preview build passed before this update was proposed. Review the preview artifact and untranslated-string report in the triggering workflow run before merging.
+
+            The catalog remains incremental; untranslated strings and full manual RTL verification are still outstanding.
