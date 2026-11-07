@@ -3,13 +3,11 @@ name: Arabic localization build
 on:
   workflow_dispatch:
   push:
-    branches: [arabic-localization]
     paths:
       - 'crates/ui-egui/src/i18n/ar.tsv'
       - 'patches/**'
       - '.github/workflows/arabic-build.yml'
-      - 'PATCH-0.17.1.md'
-      - 'PATCH-0.17.0.md'
+      - 'PATCH-0.18.0.md'
 
 permissions:
   contents: read
@@ -24,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: storytold/filmcraft
-          ref: 2fe0d0460da86621fd8b193dcc0a61f790106200
+          ref: 015d5b3ea37e1202a529e6245d3cc021c8c16ffd
           path: filmcraft
       - name: Apply Arabic integration
         shell: pwsh
@@ -64,7 +62,7 @@ jobs:
           @'
           FilmCraft Arabic Preview (Windows x64)
 
-          This is an isolated preview build of FilmCraft 0.17.1 with the Arabic interface catalog.
+          This is an isolated preview build of FilmCraft 0.18.0 with the Arabic interface catalog.
           It does not replace or modify an existing FilmCraft installation.
           Extract the ZIP and run FilmCraft-Arabic.exe.
           This preview is not digitally signed and has not yet received full manual RTL/UI testing on Windows.
