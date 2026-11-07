@@ -33,6 +33,8 @@ The upstream repository identifies its source license as **MIT OR Apache-2.0**. 
 
 The workflow runs the upstream i18n report, Rust formatting check, UI library tests, workspace compile check and Windows release build against the pinned source. All checks must pass before treating the preview as build-verified.
 
+The `auto-translate.yml` workflow checks the latest stable upstream release daily. If its commit differs from the currently pinned release, it checks out that source, applies the current Arabic catalog and patch, runs the same checks, and uploads an isolated preview plus untranslated-string report. After a successful build, it opens a pull request to update the pinned commit and release notes; it never merges that update automatically. If upstream changes make the integration anchors incompatible, the workflow fails without proposing an unverified update. Enable **Settings → Actions → General → Allow GitHub Actions to create and approve pull requests** for the update PR to be created.
+
 ## Safety and release gate
 
 Do not modify the installed FilmCraft application or any existing user projects during development. Do not install or replace any application binary until the compatible source revision builds successfully, the localization and RTL checks pass, and the user explicitly approves installation.
