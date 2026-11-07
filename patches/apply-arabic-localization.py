@@ -66,6 +66,7 @@ edit(p, """    uic!("app.language.english", "English", ["Edit", "Language"], Non
     // Settings ▸ General ▸ Interface Language lists them the same way.""")
 edit(p, '            | "app.language.turkish"\n    ) {', '            | "app.language.turkish"\n            | "app.language.arabic"\n    ) {')
 edit(p, '            "app.language.turkish" => crate::i18n::Language::Tr,\n            _ => crate::i18n::Language::En,', '            "app.language.turkish" => crate::i18n::Language::Tr,\n            "app.language.arabic" => crate::i18n::Language::Ar,\n            _ => crate::i18n::Language::En,')
+edit(p, '            "app.language.turkish" => it.checked = Some(app.ui.language == crate::i18n::Language::Tr),\n            _ => {}', '            "app.language.turkish" => it.checked = Some(app.ui.language == crate::i18n::Language::Tr),\n            "app.language.arabic" => it.checked = Some(app.ui.language == crate::i18n::Language::Ar),\n            _ => {}')
 
 p = "crates/engine/src/settings/schema.rs"
 edit(p, """                    ("en", "English"),
