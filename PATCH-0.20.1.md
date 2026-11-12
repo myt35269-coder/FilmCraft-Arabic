@@ -1,10 +1,10 @@
-# FilmCraft 0.18.0 — Arabic localization integration
+# FilmCraft 0.20.1 — Arabic localization integration
 
-Pinned upstream source: `storytold/filmcraft` tag `v0.18.0`, commit `015d5b3ea37e1202a529e6245d3cc021c8c16ffd`.
+Pinned upstream source: `storytold/filmcraft` tag `v0.20.1`, commit `cedf0c9bd060eb06a977d532402be2097c9ebe42`.
 
 ## Scope
 
-This project adds Arabic (`ar`) as an interface language to an isolated build of FilmCraft 0.18.0. It does not modify an installed application or user project.
+This project adds Arabic (`ar`) as an interface language to an isolated build of FilmCraft 0.20.1. It does not modify an installed application or user project.
 
 ## Source integration
 
@@ -15,7 +15,7 @@ This project adds Arabic (`ar`) as an interface language to an isolated build of
 - `crates/engine/src/settings/schema.rs`: interface-language setting choice.
 - `crates/ui-egui/src/i18n/tests.rs`: Arabic catalog and language-selection tests.
 
-The script was applied successfully to a clean v0.18.0 checkout. The release adds the H.264 High10 profile to the dynamic UI strings; its label is included in the Arabic catalog.
+The integration script's anchor preflight applied successfully to a clean v0.20.1 checkout. Complete the listed checks before considering the build verified.
 
 ## Arabic and RTL
 

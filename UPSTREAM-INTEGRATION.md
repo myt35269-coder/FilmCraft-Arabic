@@ -4,20 +4,20 @@
 
 This repository is an Arabic localization work area, not a complete FilmCraft source checkout. Its GitHub Actions workflow checks out the pinned upstream source, applies the integration script and Arabic catalog, then builds an isolated preview.
 
-The upstream project is [storytold/filmcraft](https://github.com/storytold/filmcraft). The active target is official release [v0.18.0](https://github.com/storytold/filmcraft/releases/tag/v0.18.0), pinned to commit `015d5b3ea37e1202a529e6245d3cc021c8c16ffd` in `.github/workflows/arabic-build.yml`.
+The upstream project is [storytold/filmcraft](https://github.com/storytold/filmcraft). The active target is official release [v0.20.1](https://github.com/storytold/filmcraft/releases/tag/v0.20.1), pinned to commit `cedf0c9bd060eb06a977d532402be2097c9ebe42` in `.github/workflows/arabic-build.yml`.
 
 ## Localization work
 
 The catalog is `crates/ui-egui/src/i18n/ar.tsv`. It remains an incremental translation draft; untranslated strings may continue to fall back to English.
 
-The integration script checks exact anchors before writing and updates these v0.18.0 files:
+The integration script checks exact anchors before writing and updates these v0.20.1 files:
 
 - `crates/ui-egui/src/i18n.rs`: Arabic language registration, locale resolution and catalog loading.
 - `crates/ui-egui/src/menus.rs`: language menu command and selection.
 - `crates/engine/src/settings/schema.rs`: interface-language setting choice.
 - `crates/ui-egui/src/i18n/tests.rs`: Arabic catalog and language-selection tests.
 
-The script was applied successfully to a clean v0.18.0 checkout. This release adds the H.264 High10 profile to the dynamic UI strings; its label is included in the Arabic catalog.
+The script's exact-anchor preflight was applied successfully to a clean v0.20.1 checkout. Run the checks below before treating the integration as build-verified.
 
 ## Translation and RTL status
 
