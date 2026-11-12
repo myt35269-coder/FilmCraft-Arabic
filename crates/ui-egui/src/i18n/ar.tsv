@@ -1684,7 +1684,7 @@
 	Position: bottom	الموضع: أسفل
 	Out: {name}	نقطة الخروج: {name}
 	In: {name}	نقطة الدخول: {name}
-	Play Around Edit (Space loops, Shift+K once)	تشغيل حول نقطة التحرير (مسافة للتكرار، وShift+K للتشغيل مرة واحدة)
+	Play Around Edit (Space loops, Shift+K once)	تشغيل حول نقطة التحرير (مفتاح Space للتكرار، وShift+K للتشغيل مرة واحدة)
 	Trim Backward Many	تقليص للخلف بعدة إطارات
 	Trim Forward Many	تقليص للأمام بعدة إطارات
 	Recording voice-over…	جارٍ تسجيل التعليق الصوتي…
