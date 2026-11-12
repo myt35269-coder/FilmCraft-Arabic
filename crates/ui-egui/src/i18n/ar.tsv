@@ -3850,3 +3850,40 @@
 	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM	QuickTime، ترميز ProRes 4444 (4:4:4)، صوت PCM ‏24-bit 48 kHz
 	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM	QuickTime، ترميز ProRes 4444 XQ (4:4:4)، صوت PCM ‏24-bit 48 kHz
 	Portuguese	البرتغالية
+
+# FilmCraft v0.20.1: complete active interface strings
+	10-bit color	ألوان 10 بت
+	Add Color Grading to clip	إضافة تدرّج الألوان إلى المقطع
+	Add media to your project. Drop files or folders anywhere in the window, or choose a source below.	أضف الوسائط إلى مشروعك. أفلت الملفات أو المجلدات في أي موضع من النافذة، أو اختر مصدرًا أدناه.
+	All Intra	ترميز مستقل لكل إطار
+	Caption Track	مسار الترجمة النصية
+	Color Grading Presets	إعدادات مسبقة لتدرّج الألوان
+	Cube LUT	LUT بصيغة Cube
+	Enable External Video Output	تمكين إخراج الفيديو إلى شاشة خارجية
+	Every frame a keyframe (edit-friendly, larger files)	استخدام كل إطار كإطار مفتاحي (أسهل في التحرير، لكن الملفات أكبر)
+	Export .cube…	تصدير .cube…
+	Exported {path}; not in the LUT: {effects}	تم تصدير {path}؛ غير موجود في LUT: {effects}
+	For color management parameters, go to the Settings tab in the Color Grading panel.	لضبط معلمات إدارة الألوان، انتقل إلى علامة التبويب «الإعدادات» في لوحة «تدرّج الألوان».
+	From preset file:	من ملف الإعداد المسبق:
+	Full Screen Program Monitor	شاشة معاينة البرنامج بملء الشاشة
+	H.264 High 10 (10-bit 4:2:0) at the sequence's size, constant quality CRF 16, AAC 320 kbps; a 10-bit master	H.264 High 10 (10-bit 4:2:0) بأبعاد التسلسل، بجودة ثابتة CRF 16، وAAC بمعدل 320 kbps؛ ملف رئيسي بعمق 10 بت
+	H.264 High 10 Intra	H.264 High 10 Intra
+	H.264 High 10 Intra (10-bit 4:2:0, every frame a keyframe), CRF 12, AAC 320 kbps; an edit-friendly intermediate	H.264 High 10 Intra (10-bit 4:2:0، كل إطار مشفّر كإطار مفتاحي)، CRF 12، AAC بمعدل 320 kbps؛ ملف وسيط مناسب للتحرير
+	H.264 High 10 Master	H.264 High 10 Master
+	Imported {n} preset(s)	تم استيراد {n} من الإعدادات المسبقة
+	Imported {n} preset(s); not imported: {error}	تم استيراد {n} من الإعدادات المسبقة؛ تعذّر استيراد: {error}
+	Imported {n} preset(s); {skipped} skipped	تم استيراد {n} من الإعدادات المسبقة؛ تم تخطي {skipped}
+	Imported {n} preset(s); {warnings} with unsupported parameters	تم استيراد {n} من الإعدادات المسبقة؛ تتضمن {warnings} منها معلمات غير مدعومة
+	MP3	MP3
+	MP3 48 kHz 320 kbps	MP3 48 kHz 320 kbps
+	MPEG audio (.mp3), joint stereo 48 kHz at 320 kbps	صوت MPEG (.mp3)، ستيريو مشترك (Joint Stereo) بتردد 48 kHz ومعدل 320 kbps
+	Maintain Audio Pitch	الحفاظ على طبقة الصوت
+	No presets folder: the app has no data directory	لا يوجد مجلد للإعدادات المسبقة: لا يحتوي التطبيق على مجلد بيانات
+	Open Presets Folder	فتح مجلد الإعدادات المسبقة
+	Preset library is up to date	مكتبة الإعدادات المسبقة محدّثة
+	Preset library updated	تم تحديث مكتبة الإعدادات المسبقة
+	Preset library updated: {imported} loaded, {removed} removed	تم تحديث مكتبة الإعدادات المسبقة: تم تحميل {imported} وإزالة {removed}
+	Scan Presets Folder	فحص مجلد الإعدادات المسبقة
+	This preference is not available yet.	هذا الإعداد غير متاح بعد.
+	Ticked attributes are removed from the selected clips.	تُزال السمات المحددة بعلامة اختيار من المقاطع المحددة.
+	Time Format	تنسيق الوقت
