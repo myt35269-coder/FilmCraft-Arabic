@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply Arabic interface localization to a FilmCraft v0.18.0 source checkout.
+"""Apply Arabic interface localization to a FilmCraft v0.20.1 source checkout.
 
 Run from the FilmCraft repository root:
     python patches/apply-arabic-localization.py
@@ -19,7 +19,7 @@ REQUIRED = [
 ]
 missing = [p for p in REQUIRED if not (ROOT / p).is_file()]
 if missing:
-    raise SystemExit("v0.18.0 source checkout is incomplete: " + ", ".join(missing))
+    raise SystemExit("v0.20.1 source checkout is incomplete: " + ", ".join(missing))
 
 staged = {}
 
@@ -86,7 +86,7 @@ edit(p, '        (Language::PtBr, "Português (Brasil)"),',
 for relative, content in staged.items():
     (ROOT / relative).write_text(content, encoding="utf-8", newline="\n")
 
-print(f"Applied Arabic integration to {len(staged)} FilmCraft v0.18.0 source files.")
+print(f"Applied Arabic integration to {len(staged)} FilmCraft v0.20.1 source files.")
 print("The upstream source includes Arabic/Hebrew bidi shaping and script fallback fonts in rtl.rs.")
 print("Run cargo fmt, i18n tests, workspace check, and the Windows release build next.")
 print("The installed FilmCraft application was not modified.")

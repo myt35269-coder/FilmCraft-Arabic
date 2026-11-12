@@ -252,8 +252,6 @@
 	Refresh Changed Media	تحديث الوسائط التي تغيّرت
 	Linked Selection	تحديد مترابط
 	Lock Guides	قفل الأدلة
-	Lumetri Color	ألوان Lumetri
-	Lumetri Scopes	نطاقات Lumetri
 	Magnification	التكبير
 	Make Offline…	جعل الملف غير متصل…
 	Make Subclip…	إنشاء مقطع فرعي…
@@ -574,7 +572,7 @@
 	Adaptive ({bpp} bits per pixel)	تكيّفي ({bpp} بت لكل بكسل)
 	Add Custom Color	إضافة لون مخصص
 	Add Guide	إضافة دليل
-	Add Lumetri Color to clip	إضافة Lumetri Color إلى المقطع
+	Add Lumetri Color to clip	إضافة تصحيح الألوان إلى المقطع
 	Add Marker (M)	إضافة علامة (M)
 	Add Property…	إضافة خاصية…
 	Add Track	إضافة مسار
@@ -839,6 +837,7 @@
 	Clip Speed	سرعة المقطع
 	Color Balance	توازن الألوان
 	Color Correction	تصحيح الألوان
+	Color Grading	تدرّج الألوان
 	Color Management	إدارة الألوان
 	Color Picker	منتقي الألوان
 	Color Space	فضاء الألوان
@@ -2214,7 +2213,7 @@
 	Fold Motion	طيّ الحركة
 	Foldback	ارتداد صوتي
 	Folder	مجلد
-	For color management parameters, go to the Settings tab in the Lumetri Color panel.	لضبط معلمات إدارة الألوان، انتقل إلى علامة تبويب الإعدادات في لوحة Lumetri Color.
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	لضبط معلمات إدارة الألوان، انتقل إلى علامة تبويب الإعدادات في لوحة تصحيح الألوان.
 	Format	التنسيق
 	Four Scopes (RGB, 8 bit)	أربعة مناظير (RGB، ‏8 بت)
 	Four Scopes (YUV, float, no clamp)	أربعة مناظير (YUV، فاصلة عائمة، دون تقييد)
@@ -2528,8 +2527,7 @@
 	Luma Min / Max	الحد الأدنى/الأقصى للإضاءة
 	Luma Source	مصدر الإضاءة
 	Luma and Chroma	الإضاءة واللون
-	Lumetri	Lumetri
-	Lumetri Presets	إعدادات Lumetri المسبقة
+	Lumetri Presets	الإعدادات المسبقة لتصحيح الألوان
 	Luminance Threshold	عتبة الإضاءة
 	Luminosity	السطوع
 	MB	ميغابايت
@@ -3694,6 +3692,7 @@
 	Video Out Point	نقطة خروج الفيديو
 	Video Previews:	معاينات الفيديو:
 	Video Rendering and Playback	معالجة الفيديو وتشغيله
+	Video Scopes	مناظير الفيديو
 	Video Transition Default Duration	المدة الافتراضية لانتقال الفيديو
 	Video Transitions	انتقالات الفيديو
 	Video Usage	استخدام الفيديو
